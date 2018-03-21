@@ -1,0 +1,263 @@
+body {
+  background-color: #f7f6f6!important;
+  font-size: 62.5%;
+}
+#header1 {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+#header1 .bj {
+  width: 100%;
+  height: 345px;
+  position: absolute;
+  top: 105px;
+}
+#header1 .wrap {
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+}
+#header1 .wrap > div {
+  float: left;
+  width: 600px;
+  padding: 50px 0 0 0;
+}
+#header1 .wrap .header-left .left-top {
+  overflow: hidden;
+}
+#header1 .wrap .header-left .left-top .head {
+  float: left;
+  width: 180px;
+}
+#header1 .wrap .header-left .left-top .top-right {
+  float: left;
+  margin-left: 30px;
+}
+#header1 .wrap .header-left .left-top .top-right .perName {
+  color: #535566;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0px;
+  display: block;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade {
+  overflow: hidden;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade > span {
+  color: #535566;
+  float: left;
+  font-size: 14px;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade .line {
+  float: left;
+  background-color: #6b6d72;
+  width: 260px;
+  height: 2px;
+  position: relative;
+  top: 8px;
+  margin: 0 6px;
+  margin-bottom: 40px;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade .line .line-ing {
+  width: 26%;
+  height: 2px;
+  background-color: #55c891;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade .line span.cir {
+  width: 7px;
+  height: 7px;
+  display: block;
+  background-color: #6b6d72;
+  border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  position: absolute;
+  top: -3px;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade .line span.cir-sel {
+  background-color: #55c891;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade .line .cir2 {
+  left: 32%;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade .line .cir3 {
+  left: 65%;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade .line .cir4 {
+  left: 98%;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade .line .dName {
+  color: #6b6d72;
+  font-size: 10.5px;
+  position: absolute;
+  top: 6px;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade .line .d2 {
+  left: 30%;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade .line .d3 {
+  left: 63%;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade .line .d4 {
+  left: 90%;
+}
+#header1 .wrap .header-left .left-top .top-right .perGrade .line div.d-sel {
+  color: #55c891;
+}
+#header1 .wrap .header-left .left-top .top-right .perInte {
+  font-size: 17px;
+  color: #32364c;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+#header1 .wrap .header-left .left-top .top-right .edit {
+  font-size: 18px;
+  padding: 10px 6px;
+  width: 30%;
+  text-align: center;
+  background-color: #e5e5e5;
+  color: #55c891;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+#header1 .wrap .header-left .left-bottom {
+  margin-top: 30px;
+}
+#header1 .wrap .header-left .left-bottom .bottom-list1 {
+  overflow: hidden;
+}
+#header1 .wrap .header-left .left-bottom .bottom-list1 > div {
+  float: left;
+}
+#header1 .wrap .header-left .left-bottom .bottom-list1 div {
+  margin-right: 40px;
+  color: #b2b2b2;
+}
+#header1 .wrap .header-left .left-bottom .bottom-list1 div img {
+  display: inline;
+  margin-right: 5px;
+}
+#header1 .wrap .header-left .left-bottom .bottom-list2 {
+  color: #b2b2b2;
+  margin-top: 20px;
+  font-size: 15.77px;
+}
+#header1 .wrap .header-left .left-bottom .bottom-list2 img {
+  display: inline;
+}
+#header1 .wrap .header-left .left-bottom .bottom-list3 a {
+  display: inline-block;
+  font-size: 15.77px;
+  border: 1px solid #55c891;
+  color: #55c891;
+  padding: 5px 12px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 40px 20px 40px 0;
+}
+#header1 .wrap .tab1 {
+  width: 100%;
+  padding: 0;
+}
+#header1 .wrap .tab1 a {
+  display: inline-block;
+  font-size: 22px;
+  color: black;
+  margin: 0 250px;
+}
+#header1 .wrap .tab1 a.sel {
+  border-bottom: 4px solid #55c891;
+  padding: 9px 8px;
+}
+#content {
+  width: 1200px;
+  margin: auto;
+}
+#content #shoucang .sc-list1 {
+  font-size: 18px;
+  margin: 50px 0;
+}
+#content #shoucang .sc-list1 div {
+  padding: 7px 13px;
+  border: 1px solid #55c891;
+  text-align: center;
+}
+#content #shoucang .sc-list1 div.sel {
+  background-color: #55c891;
+}
+#content #shoucang .sc-list2 .list2-col {
+  position: relative;
+}
+#content #shoucang .sc-list2 .list2-img {
+  width: 100%;
+}
+#content #shoucang .sc-list2 .list2-wrap {
+  background-color: #fff;
+  padding: 1px;
+}
+#content #shoucang .sc-list2 .list2-wrap .list2-name {
+  display: block;
+  font-size: 25.26px;
+  margin: 10px 10px;
+}
+#content #shoucang .sc-list2 .list2-wrap .list2-bottom {
+  font-size: 17.49px;
+  padding: 0 10px;
+}
+#content #shoucang .sc-list2 .list2-wrap .list2-bottom div {
+  display: inline-block;
+}
+#content #shoucang .sc-list2 .list2-wrap .list2-bottom img {
+  display: inline;
+}
+#content #shoucang .sc-list2 .list2-wrap .list2-bottom .l2-bt-right {
+  float: right;
+}
+#content #shoucang .sc-list2 .cebian {
+  position: absolute;
+  top: 60px;
+  left: -3px;
+}
+#content #shoucang .sc-list2 .cebian span {
+  display: block;
+  margin: -53px 0 0 9px;
+  font-size: 23.32px;
+}
+#content #shoucang .sc-list2 .topRight {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 18px;
+  padding: 4px 13px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #55c891;
+}
+#content #shoucang .sc-list3 .list3-col .list3-wrap span {
+  text-align: center;
+  display: block;
+}
+#content #shoucang .sc-list3 .list3-col .list3-wrap .list3-title {
+  font-size: 19.85px;
+  color: #626262;
+  font-weight: bold;
+  padding: 14px 13px;
+}
+#content #shoucang .sc-list3 .list3-col .list3-wrap .list3-cont {
+  font-size: 15.85px;
+  color: #939292;
+  padding: 0 9px;
+}
+#content #shoucang .sc-list3 .list3-col .topRight {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 18px;
+  padding: 4px 13px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #55c891;
+}
