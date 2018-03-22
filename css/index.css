@@ -1,0 +1,349 @@
+.banner {
+  width: 100%;
+  height: 945px;
+  position: relative;
+  overflow: hidden; }
+  .banner video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%; }
+
+@media (max-width: 1660px) {
+  .banner {
+    height: 760px; } }
+.nsSearch {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 45%; }
+  .nsSearch .ns1 {
+    width: 100%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.28); }
+    .nsSearch .ns1 p {
+      margin-bottom: 0px;
+      color: #2f4037;
+      line-height: 60px;
+      font-size: 24px; }
+    .nsSearch .ns1 a {
+      margin-bottom: 0px;
+      color: #2f4037;
+      line-height: 60px;
+      font-size: 24px; }
+    .nsSearch .ns1 .ns12 a {
+      font-size: 20px;
+      line-height: 40px; }
+    .nsSearch .ns1 .ns12 {
+      border-left: 1px solid #565656;
+      height: 40px;
+      margin: 10px 0;
+      overflow: hidden; }
+  .nsSearch .ns2 {
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.37); }
+    .nsSearch .ns2 p {
+      margin-bottom: 0px;
+      color: white;
+      line-height: 60px;
+      font-size: 24px; }
+    .nsSearch .ns2 input {
+      font-size: 24px;
+      color: white;
+      height: 40px;
+      border: 0;
+      background-color: transparent;
+      margin: 10px 0;
+      width: 100%; }
+    .nsSearch .ns2 .ns22 {
+      font-size: 20px; }
+    .nsSearch .ns2 input::-moz-placeholder {
+      color: white; }
+    .nsSearch .ns2 input::-ms-input-placeholder {
+      color: white; }
+    .nsSearch .ns2 input::-webkit-input-placeholder {
+      color: white; }
+  .nsSearch .col-md-2 p {
+    background: url(../img/index02.png) no-repeat left center;
+    text-indent: 46px;
+    background-size: 42px;
+    float: right;
+    margin-right: 5px; }
+  .nsSearch .col-md-2 p::after {
+    content: "";
+    clear: right; }
+  .nsSearch .ns2 .col-md-2 p {
+    background: url(../img/index03.png) no-repeat left center;
+    background-size: 28px;
+    text-indent: 40px; }
+
+#mainTop {
+  width: 100%;
+  position: relative; }
+  #mainTop > img {
+    width: 100%; }
+  #mainTop .mtTop {
+    position: absolute;
+    top: 4.8%;
+    left: 0;
+    width: 100%; }
+    #mainTop .mtTop img {
+      width: 100%; }
+    #mainTop .mtTop .blackTitle {
+      margin-top: 0; }
+  #mainTop .mtrt {
+    margin-top: 1.65%; }
+
+.rd {
+  position: relative; }
+  .rd .rdLeft {
+    width: 50%;
+    position: relative; }
+    .rd .rdLeft > img {
+      width: 100%; }
+    .rd .rdLeft > a {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      font-size: 28px;
+      line-height: 48px;
+      color: #ffffff; }
+      .rd .rdLeft > a > div {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -80px;
+        width: 100%; }
+        .rd .rdLeft > a > div p {
+          border-top: 1px solid rgba(255, 255, 255, 0.5);
+          border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+          width: 410px;
+          margin: 0 auto;
+          padding: 31px 0;
+          text-align: center; }
+    .rd .rdLeft > a:hover {
+      background-color: rgba(0, 0, 0, 0.2); }
+  .rd .rdRight {
+    position: absolute;
+    top: 0;
+    left: 52.5%;
+    width: 47.5%;
+    height: 100%; }
+    .rd .rdRight .rdChild {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 48.25%; }
+      .rd .rdRight .rdChild > img {
+        width: 100%; }
+      .rd .rdRight .rdChild > a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        font-size: 14px;
+        color: #ffffff;
+        text-align: center; }
+        .rd .rdRight .rdChild > a div {
+          position: relative;
+          top: 50%;
+          left: 0%;
+          margin-top: -36px; }
+          .rd .rdRight .rdChild > a div p {
+            width: 188px;
+            margin: 0 auto;
+            line-height: 24px; }
+      .rd .rdRight .rdChild > a:hover {
+        background-color: rgba(0, 0, 0, 0.2); }
+    .rd .rdRight .rdChild:nth-child(2) {
+      right: 0;
+      left: auto; }
+    .rd .rdRight .rdChild:nth-child(3) {
+      bottom: 0;
+      top: auto; }
+    .rd .rdRight .rdChild:nth-child(4) {
+      right: 0;
+      left: auto;
+      bottom: 0;
+      top: auto; }
+
+.mtBottom {
+  position: absolute;
+  left: 0;
+  bottom: 3.5%;
+  width: 100%; }
+  .mtBottom .row {
+    position: relative; }
+    .mtBottom .row .swiper-button-next, .mtBottom .row .swiper-button-prev {
+      position: absolute;
+      top: 50%;
+      width: 64px;
+      height: 64px;
+      margin-top: -32px;
+      z-index: 10;
+      cursor: pointer;
+      cursor: -ms-pointer;
+      -moz-background-size: 64px 64px;
+      -webkit-background-size: 64px 64px;
+      background-size: 64px 64px;
+      background-position: center;
+      background-repeat: no-repeat; }
+    .mtBottom .row .swiper-button-next {
+      background-image: url(../img/index10.png);
+      right: -90px; }
+    .mtBottom .row .swiper-button-prev {
+      background-image: url(../img/index11.png);
+      left: -90px; }
+
+.mddImg {
+  position: relative; }
+  .mddImg > img {
+    width: 100%; }
+  .mddImg > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white; }
+    .mddImg > div ul {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      margin-top: -100px;
+      left: 0; }
+    .mddImg > div ul li:nth-child(1) {
+      font-size: 36px; }
+    .mddImg > div ul li:nth-child(2) {
+      font-size: 24px; }
+    .mddImg > div a {
+      width: 116px;
+      height: 46px;
+      font-size: 18px;
+      margin: 0 auto;
+      margin-top: 69px;
+      line-height: 42px;
+      border-radius: 5px;
+      border: 2px solid white;
+      display: block;
+      background: transparent;
+      color: white; }
+
+.mddImg:hover > div {
+  color: #55c891; }
+.mddImg:hover a {
+  background-color: #55c891;
+  border-color: #55c891; }
+
+#mainBottom {
+  width: 100%;
+  background: url(../img/index15.png) no-repeat left bottom;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  padding-bottom: 200px; }
+  #mainBottom .mbTitle {
+    width: 100%;
+    color: #121212;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 70px;
+    position: relative; }
+  #mainBottom .mbTitle::before, #mainBottom .mbTitle::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 32%;
+    top: 50%;
+    margin-top: -3px;
+    height: 6px;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0; }
+  #mainBottom .mbTitle::after {
+    left: auto;
+    right: 0; }
+  #mainBottom .mbList {
+    font-size: 18px;
+    line-height: 58px; }
+    #mainBottom .mbList a {
+      display: block;
+      width: 100%;
+      color: #121212;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap; }
+      #mainBottom .mbList a i {
+        color: #55c891;
+        font-weight: bold; }
+    #mainBottom .mbList a:hover {
+      color: #55c891; }
+
+@media (max-width: 1440px) {
+  .nsSearch .ns1 p {
+    font-size: 18px; }
+
+  .nsSearch .ns2 .col-md-2 p {
+    font-size: 18px; }
+
+  .nsSearch .ns1 .ns12 a {
+    font-size: 15px; }
+
+  .nsSearch .ns2 input {
+    font-size: 18px; }
+
+  .blackTitle ul li:nth-child(1) {
+    font-size: 36px; }
+
+  .blackTitle ul li:nth-child(2) {
+    width: 45px; }
+
+  .blackTitle ul li:nth-child(3) {
+    font-size: 14px; }
+
+  .mddImg > div ul li:nth-child(1) {
+    font-size: 27px; }
+
+  .mddImg > div ul li:nth-child(2) {
+    font-size: 18px; }
+
+  .mddImg > div ul {
+    margin-top: -86px; }
+
+  #mainBottom .mbTitle {
+    font-size: 24px; }
+
+  .rd .rdLeft > a {
+    font-size: 21px;
+    line-height: 36px; }
+
+  .rd .rdLeft > a > div {
+    margin-top: -67px; }
+
+  .mtBottom .row .swiper-button-next, .mtBottom .row .swiper-button-prev {
+    width: 48px;
+    height: 48px;
+    -moz-background-size: 48px 48px;
+    -webkit-background-size: 48px 48px;
+    background-size: 48px 48px; }
+
+  .mtBottom .row .swiper-button-prev {
+    left: -60px; }
+
+  .mtBottom .row .swiper-button-next {
+    right: -60px; }
+
+  .mddImg > div a {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 38px; } }
+
+/*# sourceMappingURL=index.css.map */
