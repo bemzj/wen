@@ -100,7 +100,7 @@ html {
 	tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
-html {
+html,body {
 	height: 100%;
 	width: 100%;
 	font-family: "微软雅黑", "Microsoft YaHei", 'Heiti SC', "宋体", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo;
