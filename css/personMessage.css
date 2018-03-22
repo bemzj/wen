@@ -6,7 +6,6 @@ body {
   background-color: #ebeef5;
   padding: 0;
   border: 1px solid #dddfe3;
-  height: 60%;
 }
 #con-wrap .row .con-left .left-list1 {
   padding: 20px 0 0 0;
@@ -109,6 +108,7 @@ body {
   color: #9fa2ac;
   font-size: 14px;
   padding: 13px 20px;
+  cursor: pointer;
 }
 #con-wrap .row .con-left .left-list2 li span {
   float: right;
@@ -146,6 +146,9 @@ body {
 #con-wrap .row .con-right .right-list2 .container .list2-db div.sel {
   background-color: #dcdcdc;
 }
+#con-wrap .row .con-right .right-list3 {
+  display: none;
+}
 #con-wrap .row .con-right .right-list3 div .list3-cont {
   width: 60%;
   float: right;
@@ -177,6 +180,7 @@ body {
   width: 100%;
   border: 1px solid #d5d5d5;
   padding: 8px 5px;
+  margin-bottom: 45px;
 }
 #con-wrap .row .con-right .right-list3 div .list3-cont .suc {
   width: 50%;
@@ -186,5 +190,194 @@ body {
   text-align: center;
   color: #fff;
   float: right;
-  margin: 100px 50px;
+  margin: 30px 50px;
+}
+#con-wrap .row .con-right .right-list6 {
+  display: none;
+}
+#con-wrap .row .con-right .right-list6 div .list3-cont {
+  width: 60%;
+  float: right;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  position: relative;
+}
+#con-wrap .row .con-right .right-list6 div .list3-cont .cont-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+#con-wrap .row .con-right .right-list6 div .list3-cont .cont-list2 {
+  border: 1px solid #d5d5d5;
+  padding: 8px 5px;
+  margin-bottom: 45px;
+}
+#con-wrap .row .con-right .right-list6 div .list3-cont .cont-list2 input {
+  border: 0;
+  font-size: 14px;
+  font-weight: 100;
+}
+#con-wrap .row .con-right .right-list6 div .list3-cont .cont-list2 div {
+  float: right;
+  border: 1px solid #d5d5d5;
+  font-size: 14px;
+  padding: 0 10px;
+}
+#con-wrap .row .con-right .right-list6 div .list3-cont .cont-list4 input {
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  padding: 8px 5px;
+  margin-bottom: 45px;
+}
+#con-wrap .row .con-right .right-list6 div .list3-cont .suc {
+  width: 50%;
+  font-size: 24px;
+  padding: 5px 30px;
+  background-color: #55c891;
+  text-align: center;
+  color: #fff;
+  float: right;
+  margin: 30px 50px;
+}
+#con-wrap .row .con-right .right-list4 .layui-form .layui-form-label {
+  padding: 9px 0px;
+}
+#con-wrap .row .con-right .right-list4 .layui-form .list4-d2 {
+  width: 300px;
+  height: 270px;
+  text-align: center;
+  margin-left: 80px;
+}
+#con-wrap .row .con-right .right-list4 .layui-form .list4-d2 div {
+  width: 100%;
+  height: 70%;
+  position: relative;
+}
+#con-wrap .row .con-right .right-list4 .layui-form .list4-d2 div img {
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  left: 50%;
+  margin-left: -40px;
+}
+#con-wrap .row .con-right .right-list4 .layui-form .list4-d2 span {
+  display: block;
+}
+#con-wrap .row .con-right .right-list4 .layui-form .list4-d3 .layui-form-item {
+  width: 500px;
+}
+#con-wrap .row .con-right .right-list4 .layui-form .list4-d5 .layui-form-item {
+  width: 250px;
+}
+#con-wrap .row .con-right .right-list5 {
+  display: none;
+}
+#con-wrap .row .con-right .right-list5 .list5-d1 {
+  text-align: center;
+  margin: 30px 0 50px 15px;
+  cursor: pointer;
+}
+#con-wrap .row .con-right .right-list5 .list5-d1 div {
+  background-color: #eeeeee;
+  padding: 5px 0;
+  font-size: 18px;
+  border: 1px solid #e0e0e0;
+}
+#con-wrap .row .con-right .right-list5 .list5-d1 div.sel {
+  background-color: #e5e5e5;
+}
+#con-wrap .row .con-right .right-list5 .chinese {
+  display: block;
+}
+#con-wrap .row .con-right .right-list5 .chinese .layui-form input {
+  display: block;
+  margin-left: 15px;
+  width: 315px;
+  padding: 7px 10px;
+  margin-bottom: 35px;
+  font-size: 14px;
+}
+#con-wrap .row .con-right .right-list5 .chinese .layui-form .form-list3 {
+  position: relative;
+  width: 315px;
+}
+#con-wrap .row .con-right .right-list5 .chinese .layui-form .form-list3 div.list3-btn {
+  position: absolute;
+  right: -15px;
+  top: 0;
+  padding: 7px;
+  background-color: #55c891;
+  cursor: pointer;
+  color: #fff;
+}
+#con-wrap .row .con-right .right-list5 .chinese .layui-form .form-list4 div button {
+  width: 100px;
+  height: 40px;
+  font-size: 24px;
+  background-color: #55c891;
+}
+#con-wrap .row .con-right .right-list5 .other {
+  display: none;
+}
+#con-wrap .row .con-right .right-list5 .other .layui-form input {
+  display: block;
+  margin-left: 15px;
+  width: 315px;
+  padding: 7px 10px;
+  margin-bottom: 35px;
+  font-size: 14px;
+}
+#con-wrap .row .con-right .right-list5 .other .layui-form .form-list1 {
+  color: #2b2b2b;
+  margin: 5px 0 10px 15px;
+}
+#con-wrap .row .con-right .right-list5 .other .layui-form .form-list3 {
+  position: relative;
+  width: 315px;
+}
+#con-wrap .row .con-right .right-list5 .other .layui-form .form-list3 div.list3-btn {
+  position: absolute;
+  right: -15px;
+  top: 0;
+  padding: 7px;
+  background-color: #55c891;
+  cursor: pointer;
+  color: #fff;
+}
+#con-wrap .row .con-right .right-list5 .other .layui-form .form-list4 div button {
+  width: 100px;
+  height: 40px;
+  font-size: 24px;
+  background-color: #55c891;
+}
+#con-wrap .row .con-right .right-list5 .other .layui-form .form-list5 {
+  width: 300px;
+  height: 270px;
+  text-align: center;
+  margin-left: 15px;
+  background-color: #f5f5f5;
+}
+#con-wrap .row .con-right .right-list5 .other .layui-form .form-list5 > div {
+  width: 100%;
+  height: 70%;
+  position: relative;
+  cursor: pointer;
+}
+#con-wrap .row .con-right .right-list5 .other .layui-form .form-list5 > div img {
+  position: absolute;
+  top: 65%;
+  margin-top: -50px;
+  left: 50%;
+  margin-left: -40px;
+}
+#con-wrap .row .con-right .right-list5 .other .layui-form .form-list5 span {
+  display: block;
+}
+#con-wrap .row .con-right .right-list5 .other .layui-form .form-list4 div {
+  margin: 30px 0 0 30px;
+}
+#con-wrap .row .con-right .right-list5 .other .layui-form .form-list4 div button {
+  width: 125px;
+  height: 40px;
+  font-size: 24px;
+  background-color: #55c891;
 }
