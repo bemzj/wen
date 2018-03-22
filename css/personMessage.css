@@ -18,6 +18,7 @@
 #con-wrap .row .con-right .right-list2 .container .list2-db div {
   text-align: center;
   padding: 10px;
+  cursor: pointer;
 }
 #con-wrap .row .con-right .right-list2 .container .list2-db div.sel {
   background-color: #dcdcdc;

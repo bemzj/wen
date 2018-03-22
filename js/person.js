@@ -1,32 +1,32 @@
+var btns = $('#list2-db div');
+var clients = $('.ziliao,.shouji,.mima,.shimin')
+console.log(clients)
 $(function () {
     var hl = $('.con-left').outerHeight(true);
     var hr = $('.con-right').outerHeight(true);
     if(hl>hr){
-        hr=hl;
-        $('.con-right').css({"height":hr})
+        $('.con-right').css({"height":hl})
     }else{
-        hl=hr
-        $('.con-left').css({"height":hl})
+        $('.con-left').css({"height":hr})
     }
-    if($('#con-wrap').height()<700){
-        $('#con-wrap').css({"height":700})
-    }
-    // $('#chinese').click(function () {
-    //     $(this).addClass("sel")
-    //     $("#other").removeClass("sel")
-    // })
-    var btns = $(".list5-d1 div")
-    var wraps = $(".chinese,.other")
-    var cliens = $(".con-left,.con-right")
-    console.log(wraps)
-    for(let i = 0;i<btns.length;i++){
-            btns.eq(i).click(function () {
-                for(let j = 0;j<btns.length;j++){
-                    btns.eq(j).removeClass("sel");
-                    wraps.eq(j).hide();
-                }
-                $(this).addClass('sel')
-                wraps.eq(i).show()
-            })
+    $('#list2-db').find('div').click(function () {
+        var hl = $('.con-left').outerHeight(true);
+        var hr = $('.con-right').outerHeight(true);
+        if(hl>hr){
+            $('.con-right').css({"height":hl})
+        }else{
+            $('.con-left').css({"height":hr})
         }
+        $(this).addClass('sel');
+        $(this).siblings('div').removeClass('sel');
+        var index = $(this).index();
+        $('.ry').hide();
+        clients.eq(index).show()
+    })
+    $('.add-del').click(function () {
+        $('#del').show()
+    })
+    $('#canc').click(function () {
+        $('#del').hide()
+    })
 })

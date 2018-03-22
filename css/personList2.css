@@ -23,6 +23,87 @@
 #con-wrap .row .con-right .right-list2 .container .list2-db div.sel {
   background-color: #dcdcdc;
 }
+#con-wrap .row .con-right .list2-lan {
+  display: none;
+}
+#con-wrap .row .con-right .list2-lan1 {
+  display: none;
+}
+#con-wrap .row .con-right .list2-lan2 {
+  display: block;
+}
+#con-wrap .row .con-right .right-newAdd {
+  display: none;
+  position: relative;
+}
+#con-wrap .row .con-right .right-newAdd > div {
+  margin: 20px 0;
+  font-size: 14px;
+}
+#con-wrap .row .con-right .right-newAdd > div span {
+  display: inline-block;
+  width: 75px;
+  text-align: right;
+  margin-right: 10px;
+}
+#con-wrap .row .con-right .right-newAdd > div input {
+  padding: 8px 15px;
+  width: 500px;
+}
+#con-wrap .row .con-right .right-newAdd .add-btn {
+  position: absolute;
+  left: 30%;
+  padding: 0 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#con-wrap .row .con-right .right-newAdd .fp-bottom {
+  margin-top: 125px;
+}
+#con-wrap .row .con-right .right-newAdd .fp-bottom .fp-title {
+  font-size: 16px;
+  color: #55c891;
+  font-weight: bold;
+}
+#con-wrap .row .con-right .right-newAdd .fp-bottom .fp-b1 div {
+  color: #4c4c4c;
+  font-size: 14px;
+  font-weight: bold;
+}
+#con-wrap .row .con-right .right-newAdd .fp-bottom .fp-b1 ul li {
+  list-style-type: disc;
+  color: #808080;
+  margin: 10px 0 10px 20px;
+  font-size: 12px;
+}
+#con-wrap .row .con-right .right-newFapiao {
+  display: block;
+}
+#con-wrap .row .con-right .right-newFapiao .fp-list1 {
+  width: 310px;
+  background-color: #f5f5f5;
+}
+#con-wrap .row .con-right .right-newFapiao .fp-list1 > div {
+  display: inline-block;
+  padding: 15px 20px;
+  width: 100px;
+  text-align: center;
+}
+#con-wrap .row .con-right .right-newFapiao .fp-list1 div.sel {
+  border-top: 3px solid #55c891;
+  background-color: #fff;
+}
+#con-wrap .row .con-right .right-newFapiao .qiye {
+  display: none;
+}
+#con-wrap .row .con-right .right-newFapiao .qiye div {
+  margin: 20px 0;
+}
+#con-wrap .row .con-right .right-newFapiao .geren {
+  display: block;
+}
 #con-wrap .row .con-right .right-list4 .addressTab {
   margin-bottom: 20px;
   border: 1px dashed #dedede;
@@ -82,7 +163,7 @@
   display: none;
 }
 #con-wrap .row .con-right .renyuan {
-  display: block;
+  display: none;
 }
 #con-wrap .row .con-right .fapiao {
   display: none;
