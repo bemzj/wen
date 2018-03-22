@@ -1,6 +1,8 @@
 body {
   font-size: 62.5%;
-  font-family: "microsoft yahei"; }
+  font-family: "microsoft yahei";
+  overflow-x: hidden;
+  -ms-overflow-x: hidden; }
 
 header {
   width: 100%;
@@ -169,6 +171,8 @@ header {
       .footMiddle .fm3 .floatl a {
         color: #535566;
         text-align: center; }
+      .footMiddle .fm3 .floatl a:hover {
+        color: #55c891; }
 
 .footBottm {
   width: 100%;
@@ -181,7 +185,7 @@ header {
 #rightPop {
   position: absolute;
   top: 0;
-  right: 0;
+  right: -496px;
   width: 496px;
   height: 100%;
   background: rgba(28, 30, 40, 0.9);
@@ -191,6 +195,8 @@ header {
     top: 25px;
     right: 25px;
     display: block; }
+    #rightPop .popClose > img {
+      width: 100%; }
   #rightPop .rpBox {
     width: 100%;
     position: absolute;
@@ -207,6 +213,8 @@ header {
         height: 129px;
         border-radius: 50%;
         margin: 0 auto; }
+        #rightPop .rpBox ul li:nth-child(1) .rpHead > img {
+          width: 100%; }
     #rightPop .rpBox ul li {
       margin-bottom: 20px; }
       #rightPop .rpBox ul li p {
@@ -374,119 +382,149 @@ header {
 #rightPop .forget, #rightPop .login {
   margin-top: -332px; }
 
-#rightPop .perMessage ul li.moreFuns {
-  width: 66%;
-  margin: 0 auto;
-  border-bottom: 1px solid #3e3f45;
-  border-top: 1px solid #3e3f45; }
-  #rightPop .perMessage ul li.moreFuns div:nth-child(1) {
-    margin-top: 10px; }
-  #rightPop .perMessage ul li.moreFuns div:nth-last-child(1) {
-    margin-bottom: 10px; }
-  #rightPop .perMessage ul li.moreFuns ul li {
-    display: inline-block;
-    margin-bottom: 0px !important; }
-    #rightPop .perMessage ul li.moreFuns ul li a {
-      font-size: 22px;
-      color: #c8c9ca;
-      line-height: 40px !important; }
-#rightPop .perMessage ul li.phoneCheck {
-  margin-top: 60px;
-  margin-bottom: 40px; }
-  #rightPop .perMessage ul li.phoneCheck ul li {
-    display: inline-block;
-    margin-bottom: 0px !important; }
-    #rightPop .perMessage ul li.phoneCheck ul li p {
-      position: relative;
-      font-size: 24px !important;
-      color: #55c891;
-      line-height: 40px !important; }
-    #rightPop .perMessage ul li.phoneCheck ul li p::after {
-      position: absolute;
-      bottom: 0px;
-      content: "";
-      left: 0;
-      width: 100%;
-      border: 1px solid #55c891; }
-#rightPop .perMessage ul li.rpExist {
-  width: 32%;
-  height: 45px; }
-#rightPop .perMessage ul li.rpGrade {
-  margin-bottom: 30px !important; }
-  #rightPop .perMessage ul li.rpGrade .rpgOut {
-    position: relative;
+#rightPop .perMessage {
+  margin-top: -383px; }
+  #rightPop .perMessage ul li.moreFuns {
+    width: 66%;
     margin: 0 auto;
-    width: 264px;
-    height: 2px;
-    background: #6b6d72; }
-    #rightPop .perMessage ul li.rpGrade .rpgOut span {
-      position: absolute;
-      top: 50%;
-      margin-top: -7px;
-      color: #939498;
-      font-size: 14px;
-      line-height: 14px;
-      display: inline-block; }
-    #rightPop .perMessage ul li.rpGrade .rpgOut span:nth-child(1) {
-      right: 270px; }
-    #rightPop .perMessage ul li.rpGrade .rpgOut span:nth-child(2) {
-      left: 270px; }
-    #rightPop .perMessage ul li.rpGrade .rpgOut > div.cir {
-      width: 8px;
-      height: 8px;
-      position: absolute;
-      left: 0;
-      top: 50%;
-      border-radius: 50%;
-      margin-top: -4px;
-      background: #6b6d72; }
-      #rightPop .perMessage ul li.rpGrade .rpgOut > div.cir p {
+    border-bottom: 1px solid #3e3f45;
+    border-top: 1px solid #3e3f45; }
+    #rightPop .perMessage ul li.moreFuns div:nth-child(1) {
+      margin-top: 10px; }
+    #rightPop .perMessage ul li.moreFuns div:nth-last-child(1) {
+      margin-bottom: 10px; }
+    #rightPop .perMessage ul li.moreFuns ul li {
+      display: inline-block;
+      margin-bottom: 0px !important; }
+      #rightPop .perMessage ul li.moreFuns ul li a {
+        font-size: 22px;
+        color: #c8c9ca;
+        line-height: 40px !important; }
+  #rightPop .perMessage ul li.phoneCheck {
+    margin-top: 60px;
+    margin-bottom: 40px; }
+    #rightPop .perMessage ul li.phoneCheck ul li {
+      display: inline-block;
+      margin-bottom: 0px !important; }
+      #rightPop .perMessage ul li.phoneCheck ul li p {
+        position: relative;
+        font-size: 24px !important;
+        color: #55c891;
+        line-height: 40px !important; }
+      #rightPop .perMessage ul li.phoneCheck ul li p::after {
         position: absolute;
-        top: 16px;
-        color: #939498 !important;
-        font-size: 14px !important;
-        width: 32px;
-        z-index: 10;
-        left: 0; }
-    #rightPop .perMessage ul li.rpGrade .rpgOut > div:nth-child(4) {
-      left: 85px; }
-      #rightPop .perMessage ul li.rpGrade .rpgOut > div:nth-child(4) p {
-        margin-left: -16px;
-        left: 50%; }
-    #rightPop .perMessage ul li.rpGrade .rpgOut > div:nth-child(5) {
-      left: 172px; }
-      #rightPop .perMessage ul li.rpGrade .rpgOut > div:nth-child(5) p {
-        margin-left: -16px;
-        left: 50%; }
-    #rightPop .perMessage ul li.rpGrade .rpgOut > div:nth-child(6) {
-      right: 0px;
-      left: auto; }
-      #rightPop .perMessage ul li.rpGrade .rpgOut > div:nth-child(6) p {
-        right: 0;
+        bottom: 0px;
+        content: "";
+        left: 0;
+        width: 100%;
+        border: 1px solid #55c891; }
+  #rightPop .perMessage ul li.rpExist {
+    width: 32%;
+    height: 45px;
+    margin-bottom: 40px; }
+  #rightPop .perMessage ul li.rpGrade {
+    margin-bottom: 30px !important; }
+    #rightPop .perMessage ul li.rpGrade .rpgOut {
+      position: relative;
+      margin: 0 auto;
+      width: 264px;
+      height: 2px;
+      background: #6b6d72; }
+      #rightPop .perMessage ul li.rpGrade .rpgOut span {
+        position: absolute;
+        top: 50%;
+        margin-top: -7px;
+        color: #939498;
+        font-size: 14px;
+        line-height: 14px;
+        display: inline-block; }
+      #rightPop .perMessage ul li.rpGrade .rpgOut span:nth-child(1) {
+        right: 270px; }
+      #rightPop .perMessage ul li.rpGrade .rpgOut span:nth-child(2) {
+        left: 270px; }
+      #rightPop .perMessage ul li.rpGrade .rpgOut > div.cir {
+        width: 8px;
+        height: 8px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        border-radius: 50%;
+        margin-top: -4px;
+        background: #6b6d72; }
+        #rightPop .perMessage ul li.rpGrade .rpgOut > div.cir p {
+          position: absolute;
+          top: 16px;
+          color: #939498 !important;
+          font-size: 14px !important;
+          width: 32px;
+          z-index: 10;
+          left: 0; }
+      #rightPop .perMessage ul li.rpGrade .rpgOut > div:nth-child(4) {
+        left: 85px; }
+        #rightPop .perMessage ul li.rpGrade .rpgOut > div:nth-child(4) p {
+          margin-left: -16px;
+          left: 50%; }
+      #rightPop .perMessage ul li.rpGrade .rpgOut > div:nth-child(5) {
+        left: 172px; }
+        #rightPop .perMessage ul li.rpGrade .rpgOut > div:nth-child(5) p {
+          margin-left: -16px;
+          left: 50%; }
+      #rightPop .perMessage ul li.rpGrade .rpgOut > div:nth-child(6) {
+        right: 0px;
         left: auto; }
-    #rightPop .perMessage ul li.rpGrade .rpgOut > div.circleHas {
-      background-color: #55c891; }
-      #rightPop .perMessage ul li.rpGrade .rpgOut > div.circleHas p {
-        color: #aaaaac !important; }
-    #rightPop .perMessage ul li.rpGrade .rpgOut .gradeHas {
-      color: #55c891; }
-    #rightPop .perMessage ul li.rpGrade .rpgOut .rpgIn {
-      width: 65px;
-      height: 100%;
-      background-color: #55c891; }
-#rightPop .perMessage .rpScore ul li {
-  display: inline-block;
-  margin: 12px 0 0 !important; }
-  #rightPop .perMessage .rpScore ul li p {
-    color: #55c891;
-    font-size: 17px !important;
-    border: 1px solid #55c891;
-    border-radius: 5px; }
-    #rightPop .perMessage .rpScore ul li p span {
-      display: block;
-      padding: 6px 8px !important; }
+        #rightPop .perMessage ul li.rpGrade .rpgOut > div:nth-child(6) p {
+          right: 0;
+          left: auto; }
+      #rightPop .perMessage ul li.rpGrade .rpgOut > div.circleHas {
+        background-color: #55c891; }
+        #rightPop .perMessage ul li.rpGrade .rpgOut > div.circleHas p {
+          color: #aaaaac !important; }
+      #rightPop .perMessage ul li.rpGrade .rpgOut .gradeHas {
+        color: #55c891; }
+      #rightPop .perMessage ul li.rpGrade .rpgOut .rpgIn {
+        width: 65px;
+        height: 100%;
+        background-color: #55c891; }
+  #rightPop .perMessage .rpScore ul li {
+    display: inline-block;
+    margin: 12px 0 0 !important; }
+    #rightPop .perMessage .rpScore ul li p {
+      color: #55c891;
+      font-size: 17px !important;
+      border: 1px solid #55c891;
+      border-radius: 5px; }
+      #rightPop .perMessage .rpScore ul li p span {
+        display: block;
+        padding: 6px 8px !important; }
+  #rightPop .perMessage ul li.elseLogin {
+    margin-bottom: 0px; }
+    #rightPop .perMessage ul li.elseLogin ul li {
+      margin-bottom: 0px;
+      display: inline-block;
+      margin-right: 15px; }
+      #rightPop .perMessage ul li.elseLogin ul li a {
+        display: block;
+        width: 45px;
+        height: 45px;
+        background: url(../img/third.png) left top;
+        background-size: auto 45px; }
+    #rightPop .perMessage ul li.elseLogin ul li:nth-child(2) a {
+      background-position-x: -45px;
+      -ms-background-position-x: -45px; }
+    #rightPop .perMessage ul li.elseLogin ul li:nth-child(3) a {
+      background-position-x: -90px;
+      -ms-background-position-x: -90px; }
+    #rightPop .perMessage ul li.elseLogin ul li:nth-child(4) a {
+      background-position-x: -135px;
+      -ms-background-position-x: -135px; }
+    #rightPop .perMessage ul li.elseLogin ul li:nth-child(5) a {
+      background-position-x: -180px;
+      -ms-background-position-x: -180px; }
 
-@media (max-width: 1440px) {
+#rightPop .forget {
+  margin-top: -225px; }
+
+@media (max-width: 1660px) {
   header .nav ul li a {
     font-size: 18px; }
 
@@ -496,6 +534,78 @@ header {
 
   header .nav ul li .pCenter {
     width: 43.5px;
-    margin: 55px 0px 35px 36px; } }
+    margin: 55px 0px 35px 36px; }
+
+  #rightPop .rpBox ul li:nth-child(1) .rpHead {
+    width: 110px;
+    height: 110px; }
+
+  #rightPop .rpBox ul li:nth-child(1) {
+    margin-bottom: 25px; }
+
+  #rightPop .perMessage .rpScore ul li p {
+    font-size: 16px; }
+
+  #rightPop .perMessage ul li.moreFuns ul li a {
+    font-size: 18px;
+    line-height: 30px !important; }
+
+  #rightPop .perMessage ul li.phoneCheck ul li p {
+    font-size: 20px !important;
+    line-height: 30px !important; }
+
+  #rightPop .perMessage ul li.phoneCheck {
+    margin-top: 30px;
+    margin-bottom: 20px; }
+
+  #rightPop .perMessage ul li.rpExist {
+    margin-bottom: 25px; }
+
+  #rightPop .perMessage {
+    margin-top: -302px; }
+
+  #rightPop .popClose {
+    width: 36px; }
+
+  #rightPop .rpBox ul li.rpInput button {
+    font-size: 20px; }
+
+  #rightPop .rpBox ul li p {
+    font-size: 28px; }
+
+  #rightPop .rpBox ul li.rpInput input {
+    font-size: 18px; }
+
+  #rightPop .login .forgetA a {
+    font-size: 16px; }
+
+  #rightPop .rpBox ul li.rpInput {
+    height: 50px; }
+
+  #rightPop .login .wxLogin a {
+    width: 26%;
+    font-size: 20px; }
+
+  #rightPop .login ul li.and {
+    font-size: 24px;
+    margin: 30px auto 15px; }
+
+  #rightPop .login ul li.and span::before {
+    top: 16.8px; }
+
+  #rightPop .login ul li.and span::after {
+    top: 16.8px; }
+
+  #rightPop .login {
+    margin-top: -307px; }
+
+  #rightPop .forget {
+    margin-top: -197.5px; }
+
+  #rightPop .rpBox ul li.sentCode button {
+    font-size: 18px; }
+
+  #rightPop .register {
+    margin-top: -207px; } }
 
 /*# sourceMappingURL=public.css.map */

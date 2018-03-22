@@ -23,7 +23,7 @@
     position: absolute;
     width: 100%;
     left: 0;
-    top: 45%;
+    bottom: 43%;
     .ns1 {
         width: 100%;
         height: 60px;
@@ -306,6 +306,58 @@
         border-color: #55c891;
     }
 }
+.ns3{
+    width: 100%;
+    height: 43%;
+    position: absolute;
+    left: 0;
+    bottom: -43%;
+    .container{
+        height: 100%;
+        .row{
+            height: 100%;
+            >div{
+                height: 100%;
+            }
+        }
+    }
+    .nsBoxes{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin-left: -15px;
+        >div{
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            left: 0;
+            margin-top: -151.6px;
+            ul:nth-child(2){
+                margin-top: 10px;
+            }
+        }
+        ul{
+            margin-left: 15px;
+        }
+        
+        background-color: rgba(0,0,0,0.6);
+        ul li:nth-child(1){
+            font-size: 22px;
+            color: #55c891;
+            line-height: 30px;
+            margin: 6px 0;
+            text-indent: 10px;
+            border-left: 4px solid #55c891;
+        }
+        ul li{
+            a{
+                font-size: 16px;
+                line-height: 36px;
+                color: white;
+            }
+        }
+    }
+}
 #mainBottom{
     width: 100%;
     background:url(../img/index15.png) no-repeat left bottom;
@@ -357,7 +409,7 @@
         }
     }
 }
-@media(max-width:1440px)
+@media(max-width:1660px)
 {
     .nsSearch .ns1 p{
         font-size: 18px;

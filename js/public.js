@@ -50,4 +50,23 @@ $(function(){
 			}
 		},1000);
 	});
+	//切换
+	$('.pCenter').click(function(){
+		$('#rightPop').stop().animate({'right':'0px'},500);
+	});
+	$('.popClose').click(function(){
+		$('#rightPop').stop().animate({'right':'-496px'},500);
+	});
+	$('.login .registerBtn').click(function(){
+		$('.login').hide();
+		$('.register').show();
+	});
+	$('.login .forgetA').click(function(){
+		$('.login').hide();
+		$('.forget').show();
+	});
+	$('.loginBtn').click(function(){
+		$('.login').hide();
+		$('.perMessage').show();
+	});
 });

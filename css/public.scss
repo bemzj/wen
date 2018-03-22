@@ -1,6 +1,8 @@
 body{
     font-size: 62.5%;
     font-family: "microsoft yahei";
+    overflow-x: hidden;
+    -ms-overflow-x: hidden;
 }
 header{
    width: 100%;
@@ -161,6 +163,7 @@ footer{
         color: #55c891;
     }
 }
+
 .footMiddle{
     width: 100%;
     
@@ -225,6 +228,9 @@ footer{
                 color: #535566;
                 text-align: center;
             }
+            a:hover{
+                color: #55c891;
+            }
         }
     }
 }
@@ -239,7 +245,7 @@ footer{
 #rightPop{
     position: absolute;
     top: 0;
-    right: 0;
+    right: -496px;
     width: 496px;
     height: 100%;
     background: rgba(28,30,40,0.9);
@@ -249,6 +255,9 @@ footer{
         top: 25px;
         right: 25px;
         display: block;
+        >img{
+            width: 100%;
+        }
     }
     .rpBox{
         width: 100%;
@@ -266,6 +275,9 @@ footer{
                 height: 129px;
                 border-radius: 50%;
                 margin: 0 auto;
+                >img{
+                    width: 100%;
+                }
             }
         }
         ul li{
@@ -479,6 +491,7 @@ footer{
     margin-top: -332px;
 }
 #rightPop .perMessage{
+    margin-top: -383px;
     ul li.moreFuns{
         width: 66%;
         margin: 0 auto;
@@ -529,6 +542,7 @@ footer{
         
         width: 32%;
         height: 45px;
+        margin-bottom: 40px;
     }
     ul li.rpGrade{
         margin-bottom: 30px!important;
@@ -632,8 +646,50 @@ footer{
         
         
     }
+    ul li.elseLogin{
+        margin-bottom: 0px;
+        ul li{
+            margin-bottom: 0px;
+            display: inline-block;
+            margin-right: 15px;
+            a{
+                display: block;
+                width: 45px;
+                height: 45px;
+                background: url(../img/third.png) left top;
+                background-size: auto 45px;
+            }
+        }
+        ul li:nth-child(2){
+            a{
+                background-position-x: -45px;
+                -ms-background-position-x: -45px;
+            }
+        }
+        ul li:nth-child(3){
+            a{
+                background-position-x: -90px;
+                -ms-background-position-x: -90px;
+            }
+        }
+        ul li:nth-child(4){
+            a{
+                background-position-x: -135px;
+                -ms-background-position-x: -135px;
+            }
+        }
+        ul li:nth-child(5){
+            a{
+                background-position-x: -180px;
+                -ms-background-position-x: -180px;
+            }
+        }
+    }
 }
-@media(max-width:1440px)
+#rightPop .forget{
+    margin-top: -225px;
+}
+@media(max-width:1660px)
 {
     header .nav ul li a{
         font-size: 18px;
@@ -645,5 +701,79 @@ footer{
     header .nav ul li .pCenter {
         width: 43.5px;
         margin: 55px 0px 35px 36px;
+    }
+    #rightPop .rpBox ul li:nth-child(1) .rpHead{
+        width: 110px;
+        height: 110px;
+    }
+    #rightPop .rpBox ul li:nth-child(1){
+        margin-bottom: 25px;
+    }
+    #rightPop .perMessage .rpScore ul li p{
+        font-size: 16px;
+    }
+    #rightPop .perMessage ul li.moreFuns ul li a {
+        font-size: 18px;
+        line-height: 30px !important;
+    }
+    #rightPop .perMessage ul li.phoneCheck ul li p {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+    #rightPop .perMessage ul li.phoneCheck {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    #rightPop .perMessage ul li.rpExist {
+        margin-bottom: 25px;
+    }
+    #rightPop .perMessage{
+        margin-top: -302px;
+    }
+    #rightPop .popClose{
+        width: 36px;
+    }
+    #rightPop .rpBox ul li.rpInput button{
+        font-size: 20px;
+    }
+    #rightPop .rpBox ul li p{
+        font-size: 28px;
+    }
+    #rightPop .rpBox ul li.rpInput input{
+        font-size: 18px;
+    }
+    #rightPop .login .forgetA a{
+        font-size: 16px;
+    }
+    #rightPop .rpBox ul li.rpInput{
+        height: 50px;
+    }
+    #rightPop .login .wxLogin a {
+        width: 26%;
+        font-size: 20px;
+    }
+    #rightPop .login ul li.and {
+        font-size: 24px;
+        margin: 30px auto 15px;
+    }
+    #rightPop .login ul li.and span::before{
+        top: 16.8px;
+    }
+    #rightPop .login ul li.and span::after{
+        top: 16.8px;
+    }
+    #rightPop .login {
+        margin-top: -307px;
+    }
+    #rightPop .forget{
+        margin-top: -197.5px;
+    }
+    #rightPop .rpBox ul li.sentCode{
+        button{
+            font-size: 18px;
+        }
+    }
+    #rightPop .register{
+        margin-top: -207px;
     }
 }
