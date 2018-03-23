@@ -1,0 +1,61 @@
+header .banner {
+  position: relative;
+  width: 100%; }
+  header .banner img {
+    width: 100%; }
+  header .banner .bannerDetails {
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.15); }
+    header .banner .bannerDetails > div {
+      width: 810px;
+      margin: 0 auto;
+      text-align: center; }
+    header .banner .bannerDetails .bdTitle {
+      font-size: 36px;
+      color: white;
+      font-weight: bold;
+      line-height: 115px;
+      margin-top: 20px; }
+    header .banner .bannerDetails .bdcContent {
+      font-size: 18px;
+      line-height: 36px;
+      color: white;
+      letter-spacing: 1px; }
+  header .banner .swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #9ea2a8;
+    background-color: transparent; }
+  header .banner .swiper-pagination-bullet-active {
+    background-color: #9ea2a8; }
+  header .banner .swiper-container-horizontal > .swiper-pagination-bullets, header .banner .swiper-pagination-custom, header .banner .swiper-pagination-fraction {
+    bottom: 10%; }
+
+#town .townList {
+  padding: 40px 0;
+  display: block;
+  border-bottom: 1px dashed #a0a0a0; }
+  #town .townList .col-sm-4, #town .townList .col-md-4 {
+    padding-left: 0px; }
+  #town .townList .col-sm-8, #town .townList .col-md-8 {
+    padding-right: 0px; }
+#town .tlRight ul li:nth-child(1) {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #55c891; }
+#town .tlRight ul li:nth-child(2) {
+  margin-top: 25px;
+  color: #1c2e36;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify; }
+
+/*# sourceMappingURL=smallTown.css.map */

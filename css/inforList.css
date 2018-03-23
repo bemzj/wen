@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'hlh';
+  src: 'HelveticaExtObl-Heavy.ttf'; }
+body {
+  background-color: #fbfbfb; }
+
+section {
+  margin-top: 100px; }
+
+.sc-list3 {
+  margin-bottom: 80px; }
+
+.sc-list3:nth-last-child(1) {
+  margin-bottom: 0px; }
+
+.sc-list3 .list3-col .list3-img {
+  width: 100%; }
+
+.sc-list3 .list3-col a {
+  display: block; }
+
+.sc-list3 .list3-col .list3-wrap span {
+  text-align: center;
+  display: block; }
+
+.sc-list3 .list3-col .list3-wrap .list3-title {
+  font-size: 20px;
+  color: #626262;
+  font-weight: bold;
+  padding: 14px 13px; }
+
+.sc-list3 .list3-col .list3-wrap .list3-cont {
+  font-size: 14px;
+  color: #626262;
+  font-weight: lighter;
+  padding: 0 9px; }
+
+/*# sourceMappingURL=inforList.css.map */
