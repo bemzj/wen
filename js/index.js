@@ -11,4 +11,12 @@ $(function(){
 		prevButton:'.swiper-button-prev',
 		nextButton:'.swiper-button-next',
 	});
+	$('.ns2 input').focusin(function(){
+		$('.ns3').stop().animate({'bottom':'0%'},500);
+		
+	});
+	$('.ns2 input').focusout(function(){
+		$('.ns3').stop().animate({'bottom':'-43%'},500);
+		
+	});
 });
