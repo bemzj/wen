@@ -4,6 +4,7 @@ var qz = $('#right-newQz').height();
 var fp = $('#right-newFapiao').height();
 var dz = $('#right-newAdd').height();
 var ry = $('#right-newPeo').height();
+console.log(qz,fp,dz,ry);
 function newHeigth() {
     var hl = $('.con-left').outerHeight(true);
     var hr = $('.con-right').outerHeight(true);
@@ -48,8 +49,9 @@ $(function () {
         $('.right-newFapiao').show();
     })
     $('#addQz').click(function () {
-        $('.con-left').css({"height":qz})
-        // $('.con-right').css({"height":qz})
+        $('.con-left').css({"height":fp})
+        $('.con-right').css({"height":fp})
+        // newHeigth();
         $('.qianzhen').hide();
         $('.list2-lan').hide();
         $('.right-newQz').show();
