@@ -38,6 +38,9 @@ body {
   float: left;
   font-size: 14px;
 }
+#con-wrap .row .con-left .left-list1 .perGrade .span1 {
+  color: #55c891;
+}
 #con-wrap .row .con-left .left-list1 .perGrade .line {
   float: left;
   background-color: #6b6d72;
@@ -119,6 +122,5 @@ body {
 #con-wrap .row .con-right {
   background-color: #fff;
   color: #686868;
-  padding: 20px;
   border: 1px solid #dddfe3;
 }

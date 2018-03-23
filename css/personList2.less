@@ -1,153 +1,99 @@
 #con-wrap{
   .row{
     .con-right{
-      .right-list1{
-        div{
-          font-size: 18px;
-          div{
-            border-bottom: 3px solid #55c891;
-            width: 72px;
-            padding: 5px 0;
+      .right-wrap{
+        .wrap-list1{
+          .list1-top{
+            color: #55c891;
+            font-size: 18px;
+            border-bottom: 5px solid #55c891;
+            position: relative;
+            .l1top2{
+              text-align: right;
+              font-size: 14px;
+              padding: 5px;
+            }
+            .sanjiao{
+              padding: 0;
+              margin: 0;
+              border: 7px solid transparent;
+              border-bottom: 7px solid #55c891;
+              width: 7px;
+              position: absolute;
+              left: 20px;
+              bottom: 0;
+            }
           }
-        }
-      }
-      .right-list2{
-        font-size: 14px;
-        background-color: #f5f5f5;
-        margin: 20px 0px;
-        .container{
-          width: 55%;
-          margin-left: 0;
-          .list2-db{
-            div{
-              text-align: center;
+          .list1-middle{
+            position: relative;
+            margin: 15px 0px;
+            border-bottom: 1px dotted #eeeeee;
+            .l1mid1{
+              display: inline-block;
+              font-size: 18px;
+              margin: 20px;
+              .fen{
+                color: #ff6d00;
+                font-size: 30px;
+              }
+            }
+            .l1mid2{
+              background-color: #55c891;
+              width: 20%;
+              font-size: 18px;
+              color: #fff;
               padding: 10px;
+              float: right;
+              margin: 30px 30px;
+              text-align: center;
+              -webkit-border-radius: 5px;
+              -moz-border-radius: 5px;
+              border-radius: 5px;
               cursor: pointer;
             }
-            div.sel{
-              background-color: #dcdcdc;
+          }
+          .list1-bottom{
+            color: #55c891;
+            font-size: 18px;
+            border-bottom: 5px solid #55c891;
+            position: relative;
+            .l1top2{
+              text-align: right;
+              font-size: 14px;
+              padding: 5px;
+            }
+            .sanjiao{
+              padding: 0;
+              margin: 0;
+              border: 7px solid transparent;
+              border-bottom: 7px solid #55c891;
+              width: 7px;
+              position: absolute;
+              left: 20px;
+              bottom: 0;
+            }
+            :first-child{
+              margin: 0 0 27px 0;
+            }
+
+          }
+        }
+        .wrap-list2{
+          table{
+            margin-top: 20px;
+            thead{
+              th{
+                font-size: 14px;
+                color: #a1a1a1;
+              }
+            }
+            th{
+              text-align: center;
+              font-size: 14px;
+              color: #a1a1a1;
             }
           }
         }
-      }
-      .right-list4{
-        .addressTab{
-          margin-bottom: 20px;
-          border: 1px dashed #dedede;
-          padding: 25px;
-          position: relative;
-          div{
-            margin: 5px 0;
-            font-size: 14px;
-            color: #696969;
-          }
-          .add-list1{
-            .list1-sp1{
-              margin-right: 100px;
-            }
-            .guojia{
-              display: inline-block;
-              background-color: #55c891;
-              font-size: 12px;
-              -webkit-border-radius: 8px;
-              -moz-border-radius: 8px;
-              border-radius: 8px;
-              margin-left: 5px;
-              padding: 0 5px;
-              color: #fff;
-            }
-            .qiye{
-              color: #55c891;
-              font-size: 12px;
-            }
-          }
-          .add-list2{
-            .list2-sp2{
-              margin: 0 5px;
-            }
-          }
-          .add-pen,.add-del{
-            position: absolute;
-            right: 80px;
-            top: 50%;
-            margin-top: -10px;
-            cursor: pointer;
-          }
-          .add-pen{
-            right: 150px;
-          }
-        }
-        .add-btn{
-          background-color: #55c891;
-          float: right;
-          width: 140px;
-          font-size: 16px;
-          -webkit-border-radius: 5px;
-          -moz-border-radius: 5px;
-          border-radius: 5px;
-        }
-      }
-      .dizhi{
-        display: none;
-      }
-      .qianzhen{
-        display: none;
-      }
-      .renyuan{
-        display: block;
-      }
-      .fapiao{
-        display: none;
-      }
-    }
-  }
-}
-.delete{
-  display: none;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 100;
-  .del-wrap{
-    background-color: #fff;
-    width: 450px;
-    height: 250px;
-    text-align: center;
-    font-size: 18.08px;
-    padding: 35px 60px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-left: -225px;
-    margin-top: -125px;
-    .wrap-list1{
-      font-size: 27.11px;
-      color: #383737;
-      margin-bottom: 40px;
-    }
-    .wrap-list2{
-      font-size: 18.08px;
-      color: #626262;
-    }
-    .wrap-list3{
-      margin-top: 35px;
-      div{
-        display: inline-block;
-        border: 1px solid #909090;
-        background-color: #ededed;
-        padding: 5px 50px;
-        color: #646464;
-        float: left;
-        cursor: pointer;
-      }
-      .canc{
-        border: 1px solid #fb986d;
-        background-color: #feece2;
-        color: #fa7a43;
-      }
-      .dele{
-        float: right;
       }
     }
   }

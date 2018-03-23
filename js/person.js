@@ -1,32 +1,55 @@
+var btns = $('#list2-db div');
+var clients = $('.ziliao,.mima,.shouji,.shimin')
+console.log(clients)
 $(function () {
     var hl = $('.con-left').outerHeight(true);
     var hr = $('.con-right').outerHeight(true);
-    if(hl>hr){
-        hr=hl;
-        $('.con-right').css({"height":hr})
-    }else{
-        hl=hr
-        $('.con-left').css({"height":hl})
-    }
-    if($('#con-wrap').height()<700){
-        $('#con-wrap').css({"height":700})
-    }
-    // $('#chinese').click(function () {
-    //     $(this).addClass("sel")
-    //     $("#other").removeClass("sel")
-    // })
-    var btns = $(".list5-d1 div")
-    var wraps = $(".chinese,.other")
-    var cliens = $(".con-left,.con-right")
-    console.log(wraps)
-    for(let i = 0;i<btns.length;i++){
-            btns.eq(i).click(function () {
-                for(let j = 0;j<btns.length;j++){
-                    btns.eq(j).removeClass("sel");
-                    wraps.eq(j).hide();
-                }
-                $(this).addClass('sel')
-                wraps.eq(i).show()
-            })
+    console.log(hl,hr)
+    // if(hl>hr){
+    //     $('.con-right').css({"height":hl})
+    // }else{
+    //     $('.con-left').css({"height":hr})
+    // }
+    $('#list2-db').find('div').click(function () {
+        var hl = $('.con-left').outerHeight(true);
+        var hr = $('.con-right').outerHeight(true);
+        if(hl>hr){
+            $('.con-right').css({"height":hl})
+        }else{
+            $('.con-left').css({"height":hr})
         }
+        console.log(1)
+        $(this).addClass('sel');
+        $(this).siblings('div').removeClass('sel');
+        var index = $(this).index();
+        $('.ry').hide();
+        console.log(index);
+        clients.eq(index).show()
+    })
+    $('.add-del').click(function () {
+        $('#del').show()
+    })
+    $('#canc').click(function () {
+        $('#del').hide()
+    })
+    $('#chinese').click(function () {
+        $('.chinese').show();
+        $('.other').hide();
+    })
+    $('#other').click(function () {
+        $('.other').show();
+        $('.chinese').hide();
+    })
+    $('#sc-btn').click(function () {
+        $('#content').show();
+        $('#content1').hide();
+        $(this).addClass("sel")
+        $('#fk-btn').removeClass("sel")
+    })
+    $('#fk-btn').click(function () {
+        $('#content1').show();
+        $('#content').hide();
+        $(this).addClass("sel")
+        $('#sc-btn').removeClass("sel")
+    })
 })

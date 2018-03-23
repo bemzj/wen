@@ -46,6 +46,9 @@ body{
                             float: left;
                             font-size: 14px;
                         }
+                        .span1{
+                            color: #55c891;
+                        }
                         .line{
                             float: left;
                             background-color: #6b6d72;
@@ -179,6 +182,7 @@ body{
     }
 }
 #content{
+    display: block;
     width: 1200px;
     margin: auto;
     #shoucang{
@@ -204,10 +208,12 @@ body{
             .list2-wrap{
                 background-color: #fff;
                 padding: 1px;
+                cursor: pointer;
                 .list2-name{
                     display: block;
                     font-size: 25.26px;
                     margin: 10px 10px;
+                    color: #333;
                 }
                 .list2-bottom{
                     font-size: 17.49px;
@@ -241,7 +247,9 @@ body{
                 font-size: 18px;
                 padding: 4px 13px;
                 background-color: rgba(0,0,0,0.4);
-                color: #55c891;
+                a{
+                    color: #55c891;
+                }
             }
         }
         .sc-list3{
@@ -259,11 +267,13 @@ body{
                         color: #626262;
                         font-weight: bold;
                         padding: 14px 13px;
+                        text-align: center;
                     }
                     .list3-cont{
                         font-size: 15.85px;
                         color: #939292;
                         padding: 0 9px;
+                        text-align: center;
                     }
                 }
                 .topRight{
@@ -273,7 +283,51 @@ body{
                     font-size: 18px;
                     padding: 4px 13px;
                     background-color: rgba(0,0,0,0.4);
-                    color: #55c891;
+                    a{
+                        color: #55c891;
+                    }
+                }
+            }
+        }
+    }
+}
+#content1{
+    display: none;
+    width: 1200px;
+    margin: auto;
+    .con-wrap{
+        height: 800px;
+        .layui-form{
+            text-align: center;
+            margin-top: 100px;
+            .layui-form-item{
+                display: inline-block;
+                width: 80%;
+                text-align: center;
+                margin: 20px 0;
+                .layui-input-block{
+                    margin-left: 0;
+                    input{
+                        padding: 30px 20px;
+                        color: #221717;
+                        font-size: 18px;
+                        width: 100%;
+                        border: 1px solid #;
+                    }
+                    textarea{
+                        height: 300px;
+                        padding: 20px;
+                        color: #221717;
+                        font-size: 18px;
+                        width: 100%;
+                    }
+                    button{
+                        width: 15%;
+                        font-size: 24px;
+                        height: 50px;
+                        background-color: #55c891;
+                        color: #fff;
+                    }
                 }
             }
         }

@@ -227,7 +227,6 @@ header .whiteNavLong{
         color: #55c891;
     }
 }
-
 .footMiddle{
     width: 100%;
     
@@ -561,44 +560,44 @@ header .whiteNavLong{
 #rightPop .forget, #rightPop .login{
     margin-top: -332px;
 }
-#rightPop .perMessage{
+#rightPop .perMessage {
     margin-top: -383px;
-    ul li.moreFuns{
+    ul li.moreFuns {
         width: 66%;
         margin: 0 auto;
         border-bottom: 1px solid #3e3f45;
         border-top: 1px solid #3e3f45;
-        div:nth-child(1){
+        div:nth-child(1) {
             margin-top: 10px;
         }
-        div:nth-last-child(1){
+        div:nth-last-child(1) {
             margin-bottom: 10px;
         }
-        ul li{
-            
+        ul li {
+
             display: inline-block;
-            margin-bottom: 0px!important;
-            a{
+            margin-bottom: 0px !important;
+            a {
                 font-size: 22px;
                 color: #c8c9ca;
-                line-height: 40px!important;
+                line-height: 40px !important;
             }
         }
     }
-    ul li.phoneCheck{
+    ul li.phoneCheck {
         margin-top: 60px;
         margin-bottom: 40px;
-        ul li{
+        ul li {
             display: inline-block;
-            margin-bottom: 0px!important;
-            
-            p{
+            margin-bottom: 0px !important;
+
+            p {
                 position: relative;
-                font-size: 24px!important;
+                font-size: 24px !important;
                 color: #55c891;
-                line-height: 40px!important;
+                line-height: 40px !important;
             }
-            p::after{
+            p::after {
                 position: absolute;
                 bottom: 0px;
                 content: "";
@@ -608,22 +607,21 @@ header .whiteNavLong{
             }
         }
     }
-    
-    ul li.rpExist{
-        
+
+    ul li.rpExist {
         width: 32%;
         height: 45px;
         margin-bottom: 40px;
     }
-    ul li.rpGrade{
-        margin-bottom: 30px!important;
-        .rpgOut{
+    ul li.rpGrade {
+        margin-bottom: 30px !important;
+        .rpgOut {
             position: relative;
             margin: 0 auto;
             width: 264px;
             height: 2px;
             background: #6b6d72;
-            span{
+            span {
                 position: absolute;
                 top: 50%;
                 margin-top: -7px;
@@ -632,13 +630,13 @@ header .whiteNavLong{
                 line-height: 14px;
                 display: inline-block;
             }
-            span:nth-child(1){
+            span:nth-child(1) {
                 right: 270px;
             }
-            span:nth-child(2){
+            span:nth-child(2) {
                 left: 270px;
             }
-            >div.cir{
+            > div.cir {
                 width: 8px;
                 height: 8px;
                 position: absolute;
@@ -647,76 +645,77 @@ header .whiteNavLong{
                 border-radius: 50%;
                 margin-top: -4px;
                 background: #6b6d72;
-                p{
+                p {
                     position: absolute;
                     top: 16px;
-                    color: #939498!important;
-                    font-size: 14px!important;
+                    color: #939498 !important;
+                    font-size: 14px !important;
                     width: 32px;
                     z-index: 10;
                     left: 0;
                 }
             }
-            >div:nth-child(4){
+            > div:nth-child(4) {
                 left: 85px;
-                p{
-                  margin-left: -16px;  
-                  left: 50%;
+                p {
+                    margin-left: -16px;
+                    left: 50%;
                 }
-                
+
             }
-            >div:nth-child(5){
+            > div:nth-child(5) {
                 left: 172px;
-                p{
-                  margin-left: -16px;  
-                  left: 50%;
+                p {
+                    margin-left: -16px;
+                    left: 50%;
                 }
             }
-            >div:nth-child(6){
+            > div:nth-child(6) {
                 right: 0px;
                 left: auto;
-                p{
+                p {
                     right: 0;
                     left: auto;
                 }
             }
-            >div.circleHas{
+            > div.circleHas {
                 background-color: #55c891;
-                p{
-                    color: #aaaaac!important;
+                p {
+                    color: #aaaaac !important;
                 }
             }
-            .gradeHas{
+            .gradeHas {
                 color: #55c891;
             }
-            .rpgIn{
+            .rpgIn {
                 width: 65px;
                 height: 100%;
                 background-color: #55c891;
             }
         }
     }
-    .rpScore{
-        
-        ul li{
+    .rpScore {
+
+        ul li {
             display: inline-block;
-            margin: 12px 0 0!important;
-            p{
-                
+            margin: 12px 0 0 !important;
+            p {
+
                 color: #55c891;
-                font-size: 17px!important;
+                font-size: 17px !important;
                 border: 1px solid #55c891;
                 border-radius: 5px;
-                span{
-                    display:block;
-                    padding: 6px 8px!important; 
+                span {
+                    display: block;
+                    padding: 6px 8px !important;
                 }
-                 
+
             }
         }
-        
-        
+
     }
+
+
     ul li.elseLogin{
         margin-bottom: 0px;
         ul li{
