@@ -48,16 +48,29 @@ header{
            .shopBuy{
                width: 58px;
                margin: 50px 0px 35px 73px;
- 
+               background: url(../img/navBtn01.png) no-repeat left top;
+               background-size: 100% 100%;
+               -webkit-background-size: 100% 100%;
                >img{
                    width: 100%;
+                   opacity: 0;
+                   -moz-opacity: 0;
+                   -webkit-opacity: 0;
+                   filter:alpha(opacity=0);
                }
            }
            .pCenter{
                width: 58px;
                margin: 50px 0px 35px 36px;
+               background: url(../img/navBtn02.png) no-repeat left top;
+               background-size: 100% 100%;
+               -webkit-background-size: 100% 100%;
                >img{
                    width: 100%;
+                   opacity: 0;
+                   -moz-opacity: 0;
+                   -webkit-opacity: 0;
+                   filter:alpha(opacity=0);
                }
            }
        }
@@ -67,10 +80,39 @@ header{
     position: absolute;
     z-index: 4;
 }
+header .whiteNavLong{
+    .logo{
+        height:80px;
+        width: auto;
+        margin-top: 0px;
+        img{
+            height: 100%;
+            width: auto;
+        }
+    }
+    .nav ul li a{
+        color: #626262;
+        margin: 30px 30px 25px;
+        font-size:18px ;
+    }
+    .nav ul li .shopBuy{
+        width: 41px;
+        background-image: url(../img/navBtn011.png);
+        margin: 22px 30px 15px;
+    }
+    .nav ul li .pCenter{
+        width: 41px;
+        background-image: url(../img/navBtn022.png);
+        margin: 22px 30px 16px;
+    }
+    .nav ul li .navActive{
+        color: #66a885;
+    }
+} 
 
 .blackTitle{
     width: 100%;
-    margin: 85px 0 50px; 
+    margin: 85px 0 30px; 
     text-align: center;
     ul li:nth-child(1){
         color: #060606;
@@ -94,8 +136,30 @@ header{
     }
 }
 
-footer{
-    
+.page{
+    margin: 40px;
+    ul li{
+        display: inline-block;
+        a{
+            display: block;
+            width: 44px;
+            height: 44px;
+            border: 1px solid #D5D5D5;
+            border-radius: 5px; 
+            color: #7e7e7e;
+            line-height: 44px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .pageNow{
+            border-color: #55c891;
+            background: #55c891;
+            color: #f7f6f6;
+        }
+        .pagew{
+            width: 95px;
+        }
+    }
 }
 .footTop{ 
     width: 100%;
@@ -214,6 +278,9 @@ footer{
               a{
                   color: #535566;
               }
+              a:hover{
+                  color: #55c891;
+              }
             }
         }
     }
@@ -241,6 +308,10 @@ footer{
     color: #535566;
     line-height: 70px;
     background-color: #000000;
+}
+.headBord{
+    border-bottom: 1px solid #f1f1f1;
+    background-color: white;
 }
 #rightPop{
     position: absolute;
@@ -776,4 +847,7 @@ footer{
     #rightPop .register{
         margin-top: -207px;
     }
+}
+.rightPop{
+    height: 800px!important;
 }

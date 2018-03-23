@@ -112,7 +112,7 @@
     }
     .mtTop{
         position: absolute;
-        top: 4.8%;
+        top: 3%;
         left: 0;
         width: 100%;
         img{
@@ -225,7 +225,7 @@
 .mtBottom{
     position: absolute;
     left: 0;
-    bottom: 3.5%;
+    bottom: 3%;
     width: 100%;
     .row{
         position: relative;
@@ -311,7 +311,8 @@
     height: 43%;
     position: absolute;
     left: 0;
-    bottom: -43%;
+    bottom: 0%;
+    display: none;
     .container{
         height: 100%;
         .row{
