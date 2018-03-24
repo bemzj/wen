@@ -12,8 +12,15 @@ body{
         height: 345px;
         position: absolute;
         top: 105px;
+        z-index: 1;
+    }
+    .bg{
+        background: url("../img/bg.png") no-repeat;
+        background-size: 100% 69%;
+        background-position: 0 68%;
     }
     .wrap{
+        z-index: 2;
         overflow: hidden;
         width: 1200px;
         margin: 0 auto;
@@ -115,14 +122,16 @@ body{
                     }
                     .edit{
                         font-size: 18px;
-                        padding: 10px 6px;
-                        width: 30%;
+                        padding: 9px 6px;
+                        width: 130px;
+                        height: 40px;
                         text-align: center;
                         background-color: #e5e5e5;
                         color: #55c891;
                         -webkit-border-radius: 8px;
                         -moz-border-radius: 8px;
                         border-radius: 8px;
+                        cursor: pointer;
                     }
                 }
             }
@@ -136,6 +145,7 @@ body{
                     div{
                         margin-right: 40px;
                         color: #b2b2b2;
+                        font-size: 15.77px;
                         img{
                             display: inline;
                             margin-right: 5px;
@@ -177,6 +187,7 @@ body{
             a.sel{
                 border-bottom: 4px solid #55c891;
                 padding: 9px 8px;
+                color: #55c891;
             }
         }
     }
@@ -189,13 +200,18 @@ body{
         .sc-list1{
             font-size: 18px;
             margin: 50px 0;
+            color: #fff;
             div{
                 padding: 7px 10px;
                 border: 1px solid #55c891;
                 text-align: center;
+                background-color: #fff;
+                color: #55c891;
+                cursor: pointer;
             }
             div.sel{
                 background-color: #55c891;
+                color: #fff;
             }
         }
         .sc-list2{
@@ -217,7 +233,7 @@ body{
                 }
                 .list2-bottom{
                     font-size: 17.49px;
-                    padding: 0 10px;
+                    padding: 10px 10px;
                     div{
                         display: inline-block;
                     }
@@ -238,21 +254,18 @@ body{
                     display: block;
                     margin: -53px 0 0 9px;
                     font-size: 23.32px;
+                    color: #fff;
+                    text-shadow: 1px 1px  #383d4b;
                 }
             }
             .topRight{
                 position: absolute;
                 top: 0;
                 right: 15px;
-                font-size: 18px;
-                padding: 4px 13px;
-                background-color: rgba(0,0,0,0.4);
-                a{
-                    color: #55c891;
-                }
             }
         }
         .sc-list3{
+            display: none;
             .list3-col{
                 .list3-img{
                     width: 100%;
@@ -280,12 +293,6 @@ body{
                     position: absolute;
                     top: 0;
                     right: 15px;
-                    font-size: 18px;
-                    padding: 4px 13px;
-                    background-color: rgba(0,0,0,0.4);
-                    a{
-                        color: #55c891;
-                    }
                 }
             }
         }

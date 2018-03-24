@@ -26,6 +26,14 @@ $(function () {
         console.log(index);
         clients.eq(index).show()
     })
+    $('#sc-list1').find('div').click(function () {
+        console.log(1)
+        $(this).addClass('sel');
+        $(this).siblings('div').removeClass('sel');
+        var index = $(this).index();
+        $('.clien').hide();
+        $('.sc-list2,.sc-list3').eq(index).show()
+    })
     $('.add-del').click(function () {
         $('#del').show()
     })
