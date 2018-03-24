@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53223fb1-4eeb-466c-a7b8-c7a4dbd44b80" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/personHomePage.css" afterPath="$PROJECT_DIR$/css/personHomePage.css" />
-      <change beforePath="$PROJECT_DIR$/css/personHomePage.less" afterPath="$PROJECT_DIR$/css/personHomePage.less" />
-      <change beforePath="$PROJECT_DIR$/css/personList6.css" afterPath="$PROJECT_DIR$/css/personList6.css" />
-      <change beforePath="$PROJECT_DIR$/css/personList6.less" afterPath="$PROJECT_DIR$/css/personList6.less" />
       <change beforePath="$PROJECT_DIR$/css/personWrap.css" afterPath="$PROJECT_DIR$/css/personWrap.css" />
       <change beforePath="$PROJECT_DIR$/css/personWrap.less" afterPath="$PROJECT_DIR$/css/personWrap.less" />
-      <change beforePath="$PROJECT_DIR$/js/person.js" afterPath="$PROJECT_DIR$/js/person.js" />
-      <change beforePath="$PROJECT_DIR$/personHomePage.html" afterPath="$PROJECT_DIR$/personHomePage.html" />
-      <change beforePath="$PROJECT_DIR$/个人中心-我的订单.html" afterPath="$PROJECT_DIR$/个人中心-我的订单.html" />
+      <change beforePath="$PROJECT_DIR$/个人中心-商城订单.html" afterPath="$PROJECT_DIR$/个人中心-商城订单.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,11 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="个人中心-我的订单.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="个人中心-我的订单.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/个人中心-我的订单.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="390" selection-end-column="7" />
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -110,29 +103,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="个人中心-商城订单.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="个人中心-商城订单.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/个人中心-商城订单.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="631">
-              <caret line="183" column="54" lean-forward="false" selection-start-line="183" selection-start-column="54" selection-end-line="183" selection-end-column="54" />
+            <state relative-caret-position="133">
+              <caret line="165" column="37" lean-forward="true" selection-start-line="165" selection-start-column="37" selection-end-line="165" selection-end-column="37" />
               <folding>
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#8902#8908#0" expanded="true" />
-                <element signature="e#8908#8914#0" expanded="true" />
-                <element signature="e#8914#8920#0" expanded="true" />
-                <element signature="e#8920#8926#0" expanded="true" />
-                <element signature="e#9568#9574#0" expanded="true" />
-                <element signature="e#9574#9580#0" expanded="true" />
-                <element signature="e#9580#9586#0" expanded="true" />
-                <element signature="e#9586#9592#0" expanded="true" />
-                <element signature="e#10526#10532#0" expanded="true" />
-                <element signature="e#10532#10538#0" expanded="true" />
-                <element signature="e#10538#10544#0" expanded="true" />
-                <element signature="e#10544#10550#0" expanded="true" />
+                <element signature="e#9056#9062#0" expanded="true" />
+                <element signature="e#9062#9068#0" expanded="true" />
+                <element signature="e#9068#9074#0" expanded="true" />
+                <element signature="e#9074#9080#0" expanded="true" />
+                <element signature="e#9722#9728#0" expanded="true" />
+                <element signature="e#9728#9734#0" expanded="true" />
+                <element signature="e#9734#9740#0" expanded="true" />
+                <element signature="e#9740#9746#0" expanded="true" />
+                <element signature="e#10680#10686#0" expanded="true" />
+                <element signature="e#10686#10692#0" expanded="true" />
+                <element signature="e#10692#10698#0" expanded="true" />
+                <element signature="e#10698#10704#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -243,7 +236,6 @@
         <option value="$PROJECT_DIR$/css/public.scss" />
         <option value="$PROJECT_DIR$/css/index.scss" />
         <option value="$PROJECT_DIR$/js/personList9.js" />
-        <option value="$PROJECT_DIR$/css/personWrap.less" />
         <option value="$PROJECT_DIR$/css/personList6.css" />
         <option value="$PROJECT_DIR$/personHomePage.html" />
         <option value="$PROJECT_DIR$/css/personHomePage.less" />
@@ -252,6 +244,7 @@
         <option value="$PROJECT_DIR$/css/personList6.less" />
         <option value="$PROJECT_DIR$/js/personList6.js" />
         <option value="$PROJECT_DIR$/个人中心-商城订单.html" />
+        <option value="$PROJECT_DIR$/css/personWrap.less" />
       </list>
     </option>
   </component>
@@ -290,6 +283,11 @@
             <path>
               <item name="wen" type="b2602c69:ProjectViewProjectNode" />
               <item name="wen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wen" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,12 +333,12 @@
       <workItem from="1521679553164" duration="3298000" />
       <workItem from="1521683218825" duration="29891000" />
       <workItem from="1521765745260" duration="33821000" />
-      <workItem from="1521852188080" duration="24957000" />
+      <workItem from="1521852188080" duration="25941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119771000" />
+    <option name="totallyTimeSpent" value="120755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1008" y="26" width="960" height="1040" extended-state="0" />
@@ -641,14 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/personWrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="103" column="9" lean-forward="true" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/personWrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -681,11 +671,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1007">
           <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -730,18 +716,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/personList6.js">
+    <entry file="file://$PROJECT_DIR$/js/person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="247">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="19" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/personList9.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="101" column="26" lean-forward="false" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/个人中心-商城订单.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="165" column="37" lean-forward="true" selection-start-line="165" selection-start-column="37" selection-end-line="165" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#9056#9062#0" expanded="true" />
+            <element signature="e#9062#9068#0" expanded="true" />
+            <element signature="e#9068#9074#0" expanded="true" />
+            <element signature="e#9074#9080#0" expanded="true" />
+            <element signature="e#9722#9728#0" expanded="true" />
+            <element signature="e#9728#9734#0" expanded="true" />
+            <element signature="e#9734#9740#0" expanded="true" />
+            <element signature="e#9740#9746#0" expanded="true" />
+            <element signature="e#10680#10686#0" expanded="true" />
+            <element signature="e#10686#10692#0" expanded="true" />
+            <element signature="e#10692#10698#0" expanded="true" />
+            <element signature="e#10698#10704#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/个人中心-我的订单.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="390" selection-end-column="7" />
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -765,18 +785,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/person.js">
+    <entry file="file://$PROJECT_DIR$/css/personWrap.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/personList9.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="101" column="26" lean-forward="false" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+        <state relative-caret-position="470">
+          <caret line="128" column="21" lean-forward="false" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -794,29 +806,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/个人中心-商城订单.html">
+    <entry file="file://$PROJECT_DIR$/js/personList6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="183" column="54" lean-forward="false" selection-start-line="183" selection-start-column="54" selection-end-line="183" selection-end-column="54" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#8902#8908#0" expanded="true" />
-            <element signature="e#8908#8914#0" expanded="true" />
-            <element signature="e#8914#8920#0" expanded="true" />
-            <element signature="e#8920#8926#0" expanded="true" />
-            <element signature="e#9568#9574#0" expanded="true" />
-            <element signature="e#9574#9580#0" expanded="true" />
-            <element signature="e#9580#9586#0" expanded="true" />
-            <element signature="e#9586#9592#0" expanded="true" />
-            <element signature="e#10526#10532#0" expanded="true" />
-            <element signature="e#10532#10538#0" expanded="true" />
-            <element signature="e#10538#10544#0" expanded="true" />
-            <element signature="e#10544#10550#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
