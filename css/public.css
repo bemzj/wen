@@ -76,7 +76,8 @@ header .whiteNavLong .logo {
 header .whiteNavLong .nav ul li a {
   color: #626262;
   margin: 30px 30px 25px;
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: lighter; }
 header .whiteNavLong .nav ul li .shopBuy {
   width: 41px;
   background-image: url(../img/navBtn011.png);
@@ -84,7 +85,7 @@ header .whiteNavLong .nav ul li .shopBuy {
 header .whiteNavLong .nav ul li .pCenter {
   width: 41px;
   background-image: url(../img/navBtn022.png);
-  margin: 22px 30px 16px; }
+  margin: 22px 30px 16px 0px; }
 header .whiteNavLong .nav ul li .navActive {
   color: #66a885; }
 
