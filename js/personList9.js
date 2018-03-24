@@ -1,34 +1,33 @@
-var btns = $('#list2-db div');
-var clients = $('.renyuan,.dizhi,.fapiao,.qianzhen')
-var qz = $('#right-newQz').height();
-var fp = $('#right-newFapiao').height();
-var dz = $('#right-newAdd').height();
-var ry = $('#right-newPeo').height();
-console.log(qz,fp,dz,ry);
-function newHeigth() {
-    var hl = $('.con-left').outerHeight(true);
-    var hr = $('.con-right').outerHeight(true);
-    if(hl>hr){
-        $('.con-right').css({"height":hl})
-    }else{
-        $('.con-left').css({"height":hr})
-    }
-}
 $(function () {
-    newHeigth();
+	//获取高度
+	var hs = $('.con-left').height();
+
+	var h; 
+	//初始化高度
+	if(hs>($('.wrap').height()+80))
+	{
+		h = hs;
+	}else{
+		h = $('.wrap').height()+80;
+	}
+	$('.con-left').height(h);
+	$('.con-right').height(h);
+
     $('#list2-db').find('div').click(function () {
-        var hl = $('.con-left').outerHeight(true);
-        var hr = $('.con-right').outerHeight(true);
-        if(hl>hr){
-            $('.con-right').css({"height":hl})
-        }else{
-            $('.con-left').css({"height":hr})
-        }
+
         $(this).addClass('sel');
         $(this).siblings('div').removeClass('sel');
         var index = $(this).index();
-        $('.ry').hide();
-        clients.eq(index).show()
+        $('.same').hide()
+        $('.same'+(index+1)).show();
+        if(hs>($('.wrap').height()+80))
+		{
+			h = hs;
+		}else{
+			h = $('.wrap').height()+80;
+		}
+		$('.con-left').height(h);
+		$('.con-right').height(h);
     })
     $('.add-del').click(function () {
         $('#del').show()
@@ -37,29 +36,62 @@ $(function () {
         $('#del').hide()
     })
     $('#addman').click(function () {
+  
         $('.renyuan').hide();
         $('.list2-lan').hide();
         $('.list2-lanRy').show();
         $('.right-newPeo').show();
+        if(hs>($('.wrap').height()+80))
+		{
+			h = hs;
+		}else{
+			h = $('.wrap').height()+80;
+		}
+		$('.con-left').height(h);
+		$('.con-right').height(h);
     })
     $('#addFp').click(function () {
+
         $('.fapiao').hide();
         $('.list2-lan').hide();
         $('.list2-lanFp').show();
         $('.right-newFapiao').show();
+        if(hs>($('.wrap').height()+80))
+		{
+			h = hs;
+		}else{
+			h = $('.wrap').height()+80;
+		}
+		$('.con-left').height(h);
+		$('.con-right').height(h);
     })
     $('#addQz').click(function () {
-        $('.con-left').css({"height":fp})
-        $('.con-right').css({"height":fp})
-        // newHeigth();
+
         $('.qianzhen').hide();
         $('.list2-lan').hide();
         $('.right-newQz').show();
+        if(hs>($('.wrap').height()+80))
+		{
+			h = hs;
+		}else{
+			h = $('.wrap').height()+80;
+		}
+		$('.con-left').height(h);
+		$('.con-right').height(h);
     })
     $('#addDz').click(function () {
+    	
         $('.dizhi').hide();
         $('.list2-lan').hide();
         $('.list2-lanAdd').show();
         $('#right-newAdd').show();
+        if(hs>($('.wrap').height()+80))
+		{
+			h = hs;
+		}else{
+			h = $('.wrap').height()+80;
+		}
+		$('.con-left').height(h);
+		$('.con-right').height(h);
     })
 })
