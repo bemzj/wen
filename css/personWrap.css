@@ -108,12 +108,15 @@ body {
   margin-bottom: 160px;
 }
 #con-wrap .row .con-left .left-list2 li {
-  color: #9fa2ac;
+
+}
+#con-wrap .row .con-left .left-list2 li a{
+	color: #9fa2ac;
   font-size: 14px;
   padding: 13px 20px;
   cursor: pointer;
 }
-#con-wrap .row .con-left .left-list2 li span {
+#con-wrap .row .con-left .left-list2 li a span {
   float: right;
 }
 #con-wrap .row .con-left .left-list2 li.sel {
@@ -144,4 +147,7 @@ body {
 }
 .clearfloat {
   zoom: 1;
+}
+#con-wrap{
+	margin: 90px auto 150px;
 }

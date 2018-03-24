@@ -10,7 +10,7 @@
 }
 #con-wrap .row .con-right .right-wrap .right-list1 {
   border-bottom: 1px dotted #eeeeee;
-  padding: 40px 0;
+  padding: 115px 60px 40px 20px;
 }
 #con-wrap .row .con-right .right-wrap .right-list1 table {
   margin: 0;
@@ -35,6 +35,7 @@
 #con-wrap .row .con-right .right-wrap .right-list1 .table2 .col-boo3 {
   font-size: 14px;
   color: #626262;
+  padding: 9px 0;
 }
 #con-wrap .row .con-right .right-wrap .right-list1 .title1 {
   font-size: 24px;
@@ -44,6 +45,7 @@
 }
 #con-wrap .row .con-right .right-wrap .right-list2 {
   border-bottom: 0;
+  padding: 36px 60px 0 20px;
 }
 #con-wrap .row .con-right .right-wrap .right-list2 p {
   font-size: 18px;

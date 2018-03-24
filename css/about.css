@@ -66,7 +66,8 @@ header .banner {
     #aboutMain .littleTitle ul li:nth-child(2) {
       font-size: 18px;
       color: #595959;
-      line-height: 18px; }
+      line-height: 18px;
+      font-weight: lighter; }
   #aboutMain .amContent {
     width: 860px;
     border-top: 1px solid #d2d2d2; }

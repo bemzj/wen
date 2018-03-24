@@ -41,7 +41,7 @@ header .banner {
 #town .townList {
   padding: 40px 0;
   display: block;
-  border-bottom: 1px dashed #a0a0a0; }
+  border-bottom: 1px dashed #dddddd; }
   #town .townList .col-sm-4, #town .townList .col-md-4 {
     padding-left: 0px; }
   #town .townList .col-sm-8, #town .townList .col-md-8 {
