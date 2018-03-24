@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <title>个人信息-商城订单</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="lib/css/layui.css">
@@ -10,8 +13,6 @@
     <link rel="stylesheet" type="text/css" href="css/personList6.css"/>
     <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="lib/layui.js"></script>
-    <script src="js/select.js"></script>
 </head>
 <body>
 <!--弹窗背景蒙板-->
@@ -131,16 +132,16 @@
                 <li>会员升级标准<span>></span></li>
                 <li>文晟积分规则<span>></span></li>
                 <li>个人信息<span>></span></li>
-                <li>我的订单<span>></span></li>
+                <li class="sel">我的订单<span>></span></li>
                 <li>积分商城<span>></span></li>
                 <li>我的钱包<span>></span></li>
-                <li class="sel">常用信息<span>></span></li>
+                <li>常用信息<span>></span></li>
             </ul>
         </div>
         <!--右内容区-->
         <div class="col-sm-10 col-md-10 col-lg-10 container con-right">
             <!--主内容-->
-            <div class="right-wrap">
+            <div class="right-wrap sc">
                 <div class="row right-list1">
                     <div class="col-sm-2 col-md-2 col-lg-2">
                         <div>我的订单</div>
@@ -161,32 +162,170 @@
                 <!--内容-->
                 <div class="right-list3">
                     <div class="list3-wrap">
-                        <div>
-                            <div>
-                                <div>
+                        <div class="wrap3">
+                            <div class="wrap3-list1 clearfloat">
+                                <div class="w3L1-1">
                                     <span>订单编号：</span>
                                     <span>20170202100001</span>
-                                    <span>（待兑换）</span>
+                                    <span class="L1-sp3">（待兑换）</span>
                                 </div>
-                                <div>
+                                <div class="w3L1-2">
                                     <span>时间:</span>
                                     <span>2018-01-12</span>
                                 </div>
                             </div>
-                            <div>
-                                <div>
-                                    <div>
-                                        <img src="" alt="">
+                            <div class="wrap3-list2">
+                                <div class="clearfloat">
+                                    <div class="w3L2-1">
+                                        <img src="img/shoes.png" alt="">
                                     </div>
-                                    <div>
-                                        <div></div>
-                                        <div>
-                                            <span>所需积分:</span>
-                                            <span>2000积分</span>
+                                    <div CLASS="w3L2-2">
+                                        <div class="L2-name">探路者徒步鞋男鞋高帮反毛皮户外休闲徒步登山鞋</div>
+                                        <div class="L2-con">
+                                            <span>所需积分&nbsp;:</span>
+                                            <span class="con-sp2">2000积分</span>
+                                        </div>
+                                        <div class="L2-3">
+                                            <div>
+                                                <a href="###">兑换</a>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div>
-                                        <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list3-wrap">
+                        <div class="wrap3">
+                            <div class="wrap3-list1 clearfloat">
+                                <div class="w3L1-1">
+                                    <span>订单编号：</span>
+                                    <span>20170202100001</span>
+                                    <span class="L1-sp4">（已完成）</span>
+                                </div>
+                                <div class="w3L1-2">
+                                    <span>时间:</span>
+                                    <span>2018-01-12</span>
+                                </div>
+                            </div>
+                            <div class="wrap3-list2">
+                                <div class="clearfloat">
+                                    <div class="w3L2-1">
+                                        <img src="img/shoes.png" alt="">
+                                    </div>
+                                    <div CLASS="w3L2-2">
+                                        <div class="L2-name">探路者徒步鞋男鞋高帮反毛皮户外休闲徒步登山鞋</div>
+                                        <div class="L2-con">
+                                            <span>所需积分&nbsp;:</span>
+                                            <span class="con-sp2">2000积分</span>
+                                        </div>
+                                        <div class="L2-3">
+                                            <div>
+                                                <a class="chakan" href="###">查看详情</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list3-wrap">
+                        <div class="wrap3">
+                            <div class="wrap3-list1 clearfloat">
+                                <div class="w3L1-1">
+                                    <span>订单编号：</span>
+                                    <span>20170202100001</span>
+                                    <span class="L1-sp3">（待兑换）</span>
+                                </div>
+                                <div class="w3L1-2">
+                                    <span>时间:</span>
+                                    <span>2018-01-12</span>
+                                </div>
+                            </div>
+                            <div class="wrap3-list2">
+                                <div class="clearfloat">
+                                    <div class="w3L2-1">
+                                        <img src="img/shoes.png" alt="">
+                                    </div>
+                                    <div CLASS="w3L2-2">
+                                        <div class="L2-name">探路者徒步鞋男鞋高帮反毛皮户外休闲徒步登山鞋</div>
+                                        <div class="L2-con">
+                                            <span>所需积分&nbsp;:</span>
+                                            <span class="con-sp2">2000积分</span>
+                                        </div>
+                                        <div class="L2-3">
+                                            <div>
+                                                <a href="###">兑换</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list3-wrap">
+                        <div class="wrap3">
+                            <div class="wrap3-list1 clearfloat">
+                                <div class="w3L1-1">
+                                    <span>订单编号：</span>
+                                    <span>20170202100001</span>
+                                    <span class="L1-sp4">（已完成）</span>
+                                </div>
+                                <div class="w3L1-2">
+                                    <span>时间:</span>
+                                    <span>2018-01-12</span>
+                                </div>
+                            </div>
+                            <div class="wrap3-list2">
+                                <div class="clearfloat">
+                                    <div class="w3L2-1">
+                                        <img src="img/shoes.png" alt="">
+                                    </div>
+                                    <div CLASS="w3L2-2">
+                                        <div class="L2-name">探路者徒步鞋男鞋高帮反毛皮户外休闲徒步登山鞋</div>
+                                        <div class="L2-con">
+                                            <span>所需积分&nbsp;:</span>
+                                            <span class="con-sp2">2000积分</span>
+                                        </div>
+                                        <div class="L2-3">
+                                            <div>
+                                                <a class="chakan" href="###">查看详情</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list3-wrap">
+                        <div class="wrap3">
+                            <div class="wrap3-list1 clearfloat">
+                                <div class="w3L1-1">
+                                    <span>订单编号：</span>
+                                    <span>20170202100001</span>
+                                    <span class="L1-sp4">（已完成）</span>
+                                </div>
+                                <div class="w3L1-2">
+                                    <span>时间:</span>
+                                    <span>2018-01-12</span>
+                                </div>
+                            </div>
+                            <div class="wrap3-list2">
+                                <div class="clearfloat">
+                                    <div class="w3L2-1">
+                                        <img src="img/shoes.png" alt="">
+                                    </div>
+                                    <div CLASS="w3L2-2">
+                                        <div class="L2-name">探路者徒步鞋男鞋高帮反毛皮户外休闲徒步登山鞋</div>
+                                        <div class="L2-con">
+                                            <span>所需积分&nbsp;:</span>
+                                            <span class="con-sp2">2000积分</span>
+                                        </div>
+                                        <div class="L2-3">
+                                            <div>
+                                                <a class="chakan" href="###">查看详情</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -195,7 +334,7 @@
                 </div>
             </div>
             <!--订单详情-->
-            <div class="right-wrap2">
+            <div class="right-wrap2 sc-detail">
                 <div>
                     <div class="wrap2-list1 clearfloat">
                         <div class="list1-1">
@@ -204,90 +343,30 @@
                         </div>
                         <div class="list1-2">
                             <span>状态：</span>
-                            <span class="list1-sp2">订单完成</span>
+                            <span class="list1-sp2">待付款</span>
+                        </div>
+                        <div class="list1-2">
+                            <span>支付方式：</span>
                         </div>
                     </div>
                     <div class="wrap2-list2">
                         <div>订单信息</div>
                     </div>
-                    <div class="wrap2-list3">
-                        <div>
-                            <span>出行日期：</span><span>2018-01-20</span>
+                    <div class="wrap2-list7">
+                        <div class="list7-1 clearfloat">
+                            <div class="L7-1">商品</div>
+                            <div class="L7-2">状态</div>
+                            <div class="L7-3">单价</div>
+                            <div class="L7-4">数量</div>
+                            <div class="L7-5">小计</div>
                         </div>
-                        <div>
-                            <span>出发城市：</span><span>北京</span>
-                        </div>
-                        <div>
-                            <span>目的地：</span><span>老挝,云南边境</span>
-                        </div>
-                    </div>
-                    <div class="wrap2-list4">
-                        <div class="list4-title">出行人信息</div>
-                        <div class="list4-con">
-                            <ul>
-                                <li class="clearfloat">
-                                    <div class="con-list1">
-                                        <span>姓&nbsp;&nbsp;&nbsp;&nbsp;名：</span><span>郝红旭</span>
-                                    </div>
-                                    <div class="con-list2">
-                                        <span> 证件类型：</span><span>身份证</span>
-                                    </div>
-                                    <div class="con-list3">
-                                        <span>证件号码：</span><span>23**************1X</span>
-                                    </div>
-                                </li>
-                                <li class="clearfloat">
-                                    <div class="con-list1">
-                                        <span>姓&nbsp;&nbsp;&nbsp;&nbsp;名：</span><span>郝红旭</span>
-                                    </div>
-                                    <div class="con-list2">
-                                        <span> 证件类型：</span><span>身份证</span>
-                                    </div>
-                                    <div class="con-list3">
-                                        <span>证件号码：</span><span>23**************1X</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="wrap2-list5 wrap2-list4">
-                        <div class="list4-title">联系人信息</div>
-                        <div class="list4-con">
-                            <ul>
-                                <li class="clearfloat">
-                                    <div class="con-list1">
-                                        <span>姓&nbsp;&nbsp;&nbsp;&nbsp;名：</span><span>郝红旭</span>
-                                    </div>
-                                    <div class="con-list2">
-                                        <span>手机号：</span><span>13678478745</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="wrap2-list6 wrap2-list4">
-                        <div class="list4-title">保险信息</div>
-                        <div class="list4-con">
-                            <ul>
-                                <li class="clearfloat">
-                                    <div class="con-list1">
-                                        <span>保险公司：</span><span>君龙人寿</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="con-list2">
-                                        <span>保险产品：</span><span>君龙列车乘客意外伤害保险组合计划六</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                        <div></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<script src="js/personList6.js"></script>
-<script src="js/layuiStart.js"></script>
+<script src="js/personList6_sc.js"></script>
 </body>
 </html>

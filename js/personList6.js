@@ -22,6 +22,10 @@ $(function () {
         $('.right-wrap').hide();
         $('.right-wrap2').show();
     })
+    $('#list2-db').find('div').click(function () {
+        $(this).addClass('sel');
+        $(this).siblings('div').removeClass('sel')
+    })
     //选中判断
     var che = true;
     $('#awesome').click(function () {
