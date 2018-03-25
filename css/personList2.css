@@ -1,18 +1,8 @@
-.layui-table thead tr:nth-child(1){
-	border-bottom:0px;
-}
-.layui-table tr{
-	border-bottom: 1px dashed #e4e4e4;
-}
-.wrap-list2{
-	margin-bottom: 50px;
-}
 #con-wrap .row .con-right .right-wrap .wrap-list1 .list1-top {
   color: #55c891;
   font-size: 18px;
   border-bottom: 5px solid #55c891;
   position: relative;
-  margin-top: 50px;
 }
 #con-wrap .row .con-right .right-wrap .wrap-list1 .list1-top .l1top2 {
   text-align: right;
