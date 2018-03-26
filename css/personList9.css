@@ -1,3 +1,6 @@
+#con-wrap .row .con-right .right-list1 {
+  margin-top: 40px;
+}
 #con-wrap .row .con-right .right-list1 div {
   font-size: 18px;
 }
@@ -102,13 +105,13 @@
   background-color: #fff;
 }
 #con-wrap .row .con-right .right-newFapiao .qiye {
-  display: none;
+  display: block ;
 }
 #con-wrap .row .con-right .right-newFapiao .qiye div {
   margin: 20px 0;
 }
 #con-wrap .row .con-right .right-newFapiao .geren {
-  display: block;
+  display: none;
 }
 #con-wrap .row .con-right .right-newPeo {
   display: none;
@@ -253,4 +256,11 @@
 }
 .delete .del-wrap .wrap-list3 .dele {
   float: right;
+}
+.layui-form-label {
+  width: 90px;
+}
+.wrap {
+  width: 96%;
+  margin: 0 auto;
 }

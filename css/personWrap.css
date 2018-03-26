@@ -2,6 +2,9 @@ body {
   background-color: #f7f6f6!important;
   font-size: 62.5%;
 }
+#con-wrap {
+  margin: 40px auto 60px;
+}
 #con-wrap .row .con-left {
   background-color: #ebeef5;
   padding: 0;
@@ -44,7 +47,7 @@ body {
 #con-wrap .row .con-left .left-list1 .perGrade .line {
   float: left;
   background-color: #6b6d72;
-  width: 68%;
+  width: 66%;
   height: 2px;
   position: relative;
   top: 8px;
