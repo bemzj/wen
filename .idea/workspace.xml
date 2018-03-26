@@ -4,27 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/个人中心-我的订单.html" line="25" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53223fb1-4eeb-466c-a7b8-c7a4dbd44b80" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/personList2.css" afterPath="$PROJECT_DIR$/css/personList2.css" />
-      <change beforePath="$PROJECT_DIR$/css/personList2.less" afterPath="$PROJECT_DIR$/css/personList2.less" />
-      <change beforePath="$PROJECT_DIR$/css/personList4.css" afterPath="$PROJECT_DIR$/css/personList4.css" />
-      <change beforePath="$PROJECT_DIR$/css/personList4.less" afterPath="$PROJECT_DIR$/css/personList4.less" />
-      <change beforePath="$PROJECT_DIR$/css/personList9.css" afterPath="$PROJECT_DIR$/css/personList9.css" />
-      <change beforePath="$PROJECT_DIR$/css/personList9.less" afterPath="$PROJECT_DIR$/css/personList9.less" />
-      <change beforePath="$PROJECT_DIR$/css/personMessage.css" afterPath="$PROJECT_DIR$/css/personMessage.css" />
-      <change beforePath="$PROJECT_DIR$/css/personMessage.less" afterPath="$PROJECT_DIR$/css/personMessage.less" />
-      <change beforePath="$PROJECT_DIR$/css/personWrap.css" afterPath="$PROJECT_DIR$/css/personWrap.css" />
-      <change beforePath="$PROJECT_DIR$/css/personWrap.less" afterPath="$PROJECT_DIR$/css/personWrap.less" />
-      <change beforePath="$PROJECT_DIR$/js/person.js" afterPath="$PROJECT_DIR$/js/person.js" />
-      <change beforePath="$PROJECT_DIR$/js/personList9.js" afterPath="$PROJECT_DIR$/js/personList9.js" />
-      <change beforePath="$PROJECT_DIR$/lib/css/layui.css" afterPath="$PROJECT_DIR$/lib/css/layui.css" />
-      <change beforePath="$PROJECT_DIR$/lib/css/modules/laydate/default/laydate.css" afterPath="$PROJECT_DIR$/lib/css/modules/laydate/default/laydate.css" />
-      <change beforePath="$PROJECT_DIR$/个人信息-修改资料.html" afterPath="$PROJECT_DIR$/个人信息-修改资料.html" />
-      <change beforePath="$PROJECT_DIR$/个人信息-反馈.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/个人信息-实名认证.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/个人信息-常用信息.html" afterPath="$PROJECT_DIR$/个人信息-常用信息.html" />
-    </list>
+    <list default="true" id="53223fb1-4eeb-466c-a7b8-c7a4dbd44b80" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,68 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="个人信息-修改资料.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/个人信息-修改资料.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="211" column="28" lean-forward="true" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personList9.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/personList9.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="个人信息-常用信息.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/个人信息-常用信息.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
-              <caret line="621" column="38" lean-forward="true" selection-start-line="618" selection-start-column="32" selection-end-line="621" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="person.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/person.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="smallTown.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smallTown.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personMessage.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/personMessage.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="121" column="33" lean-forward="false" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,8 +35,8 @@
       <find>.right-list1</find>
       <find>.cont-list2</find>
       <find>.list3-cont</find>
-      <find>suc</find>
       <find>.cont-list4</find>
+      <find>suc</find>
     </findStrings>
     <dirStrings>
       <dir>E:\HE\new\wen</dir>
@@ -256,18 +175,17 @@
       <workItem from="1521996399055" duration="850000" />
       <workItem from="1522026099761" duration="11859000" />
       <workItem from="1522043269073" duration="45000" />
-      <workItem from="1522043991895" duration="14302000" />
+      <workItem from="1522043991895" duration="14630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160499000" />
+    <option name="totallyTimeSpent" value="160827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -691,8 +609,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/个人信息-修改资料.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="211" column="28" lean-forward="true" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        <state relative-caret-position="557">
+          <caret line="280" column="22" lean-forward="true" selection-start-line="280" selection-start-column="22" selection-end-line="280" selection-end-column="22" />
           <folding />
         </state>
       </provider>
