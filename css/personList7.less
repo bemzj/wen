@@ -54,12 +54,191 @@ body{
     margin: 20px auto;
     .wrap-list1{
       width: 100%;
+      position: relative;
+      text-align: center;
+      margin: 30px 0;
       .shu{
         display: inline-block;
         width: 5px;
-        height: 10px;
+        height: 40px;
         background-color: #ff9242;
+        position: relative;
+        top: 7px;
+        left: -5px;
       }
+      .L1-title{
+        font-size: 36px;
+        color: #333333;
+      }
+    }
+    .wrap-list2{
+      position: relative;
+      margin-bottom: 60px;
+      #swiper2{
+        width: 1200px;
+        height: 440px;
+        padding: 20px 0;
+        .swiper-wrapper{
+          .swiper-slide{
+            background-color: #fff;
+            cursor: pointer;
+            .slide-top{
+              width: 100%;
+              text-align: center;
+              padding: 20px;
+              img{
+                display: inline-block;
+                width: 225px;
+                height: 215px;
+              }
+            }
+            .slide-bottom{
+              text-align: center;
+              font-size: 16px;
+              >div{
+                margin: 10px 0;
+              }
+              .bottom-1{
+                font-weight: bold;
+                color: #383838;
+              }
+              .bottom-2{
+                color: #707070;
+              }
+              .bottom-3{
+                color: #b2b2b2;
+                span{
+                  display: inline-block;
+                  border: 1px solid #e0e0e0;
+                  padding: 2px 10px;
+                  -webkit-border-radius: 5px;
+                  -moz-border-radius: 5px;
+                  border-radius: 5px;
+                }
+              }
+              .bottom-4{
+                color: #e3a142;
+              }
+            }
+          }
+          .swiper-slide:hover{
+            -webkit-box-shadow: 0px 0px 20px gray;
+            -moz-box-shadow: 0px 0px 20px gray;
+            box-shadow: 0px 0px 20px gray;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
+          }
+        }
+      }
+      .page1{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 220px;
+        left: -90px;
+      }
+      .page2{
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: 220px;
+        right: -90px;
+        transform: rotateZ(180deg);
+      }
+    }
+    .wrap-list3{
+      width: 1170px;
+      position: relative;
+      margin-bottom: 50px;
+      .list-left{
+        position: relative;
+        width: 23%;
+        display: inline-block;
+        >div{
+          position: absolute;
+        }
+        .left-1{
+          top: 0;
+          font-size: 36px;
+          color: #333333;
+          width: 100%;
+          text-align: center;
+          padding: 35px 0;
+        }
+        .left-2{
+          bottom: 0;
+          width: 98%;
+          background-color: rgba(255,255,255,0.5);
+          text-align: center;
+          a{
+            font-size: 18px;
+            color: #333333;
+            padding: 15px;
+          }
+        }
+      }
+      .list-right{
+        position: absolute;
+        right: 5px;
+        width: 77%;
+        height: 100%;
+        top: 0;
+        background-color: #fff;
+        >div{
+          width: 100%;
+          height: 50%;
+          text-align: center;
+          font-size: 16px;
+          color: #606060;
+          .r1-1{
+            float: left; 
+            width: 33.3%;
+            height: 100%;
+            padding-top: 50px;
+            .r1-top{
+              width: 100%;
+              height: 147px;
+              text-align: center;
+              img{
+                display: inline-block;
+                height: 90%;
+              }
+            }
+            .r1-bottom{
+              .bt-1{
+                  padding: 20px 47px;
+              }
+              .bt-2{
+                  font-size: 18px;
+                  color: #606060;
+              }
+            }
+          }
+        }
+      }
+    }
+    .right-list{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        >div{
+            padding: 20px;
+            a{
+                text-align: center;
+                font-size: 16px;
+                color: #333333;
+            }
+        }
+        >div:hover{
+            background-color: #55C891;
+            a{
+                color: #fff;
+            }
+        }
     }
   }
 }
