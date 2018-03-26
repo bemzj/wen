@@ -10,6 +10,22 @@ body {
 .header .header-1 .swiper-container .swiper-wrapper .swiper-slide img {
   width: 100%;
 }
+.header .header-1 .swiper-container .swiper-pagination {
+  bottom: 30px;
+}
+.header .header-1 .swiper-container .swiper-pagination-bullet {
+  width: 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #55c891;
+  opacity: 1;
+  margin: 0 10px;
+}
+.header .header-1 .swiper-container .swiper-pagination-bullet-active {
+  background-color: #55c891;
+}
 .header .header-2 {
   background-color: #fff;
 }
@@ -45,7 +61,7 @@ body {
 }
 .con-wrap .wrap {
   width: 1200px;
-  margin: 20px auto;
+  margin: 20px auto 150px;
 }
 .con-wrap .wrap .wrap-list1 {
   width: 100%;
@@ -218,9 +234,9 @@ body {
   border: 1px solid #bdbdbd;
 }
 .con-wrap .wrap .right-list {
-  position: fixed;
-  top: 200px;
-  right: 535px;
+  position: absolute;
+  top: 140%;
+  right: 15%;
   background-color: #fff;
 }
 .con-wrap .wrap .right-list > div {
@@ -236,4 +252,9 @@ body {
 }
 .con-wrap .wrap .right-list > div:hover a {
   color: #fff;
+}
+.con-wrap .wrap .toTop {
+  position: absolute;
+  top: 220%;
+  right: 15%;
 }

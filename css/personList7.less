@@ -13,6 +13,22 @@ body{
           }
         }
       }
+      .swiper-pagination{
+        bottom: 30px;
+      }
+      .swiper-pagination-bullet{
+        width: 40px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background-color: transparent;
+        border: 1px solid #55c891;
+        opacity: 1;
+        margin: 0 10px;
+      }
+      .swiper-pagination-bullet-active{
+        background-color: #55c891;
+      }
     }
   }
   .header-2{
@@ -52,7 +68,7 @@ body{
 .con-wrap{
   .wrap{
     width: 1200px;
-    margin: 20px auto;
+    margin: 20px auto 150px;
     .wrap-list1{
       width: 100%;
       position: relative;
@@ -228,9 +244,9 @@ body{
       }
     }
     .right-list{
-        position: fixed;
-        top: 200px;
-        right: 535px;
+        position: absolute;
+        top: 140%;
+        right: 15%;
         background-color: #fff;
         >div{
             padding: 20px;
@@ -246,6 +262,11 @@ body{
                 color: #fff;
             }
         }
+    }
+    .toTop{
+      position: absolute;
+      top: 220%;
+      right: 15%;
     }
   }
 }
