@@ -1,0 +1,128 @@
+#pay{
+    margin: 100px auto;
+    .payMethod{
+        margin-bottom: 68px;
+        p{
+            font-size: 22px;
+            color: #626262;
+        }
+    }
+    .payThree{
+        width: 100%;
+        position: relative;
+        a{
+            width: 28%;
+            line-height: 100px;
+            margin: 0 auto;
+            border-radius: 5px;
+            border: 1px solid #e0e0e0;
+            text-align: center;
+            color: #999999;
+            font-size: 26px;
+            background: url(../img/pay02.png) no-repeat 18px center;
+            text-indent:80px ;
+        }
+        a:nth-child(2n+1)
+        {
+            position: absolute;
+            top: 0;
+        }
+        a:nth-child(3)
+        {
+            right: 0;
+            background-image: url(../img/pay03.png);
+        }
+        a:nth-child(1)
+        {
+            background-image: url(../img/pay01.png);
+        }
+        .payChoice{
+            border-color: #55c891;
+            color: #55c891;
+        }
+    }
+    .payBtn{
+        width: 100%;
+        margin-top: 120px;
+        button{
+            display: block;
+            width: 250px;
+            height: 60px;
+            color: white;
+            background-color: #55c891;
+            font-size: 22px;
+        }
+    }
+}
+.payStatus{
+    margin-top: 60px;
+}
+.psImg{
+    ul li{
+        p{
+            font-size: 18px;
+            line-height: 36px;
+            color: #837f7f;
+            text-align: center;
+            margin: 10px 0;
+            span{
+                color: #ff4040;
+            }
+            span:nth-child(1){
+                display: inline-block;
+                width: 28px;
+                height: 28px;
+                margin-bottom: -8px;
+                margin-right: 5px;
+                
+                background: url(../img/pay06.png) no-repeat left top;
+                background-size: 100% 100%;
+            }
+        }
+        
+        .money{
+            span:nth-child(1){
+                background-image: url(../img/pay07.png);
+            }
+        }
+    }
+    ul li:nth-child(2){
+            margin-top: 20px;
+        }
+}
+.payTwoBtn{
+    margin-top: 60px;
+    a{
+        width: 32%;
+        display: block;
+        text-align: center;
+        line-height: 66px;
+        border: 1px solid #b4b4b4;
+        font-size: 20px;
+        color: #837f7f;
+    }
+    a:nth-child(1){
+        margin-left: 11%;
+    }
+    a:nth-child(2){
+        margin-right: 11%;
+    }
+}
+.payTips{
+    width: 100%;
+    margin: 30px auto 70px;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 36px;
+    color: #837f7f;
+    ul li:nth-child(1){
+        p{
+            text-indent: 30px;
+            background: url(../img/pay08.png) no-repeat left center;
+        }
+    }
+    
+}
+#payStatus2 .payTwoBtn{
+    margin-top: 30px;
+}

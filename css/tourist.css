@@ -1,0 +1,156 @@
+body {
+  background: #f7f6f6; }
+
+header .banner img {
+  width: 100%; }
+header .banner .bannerIntro {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 27%; }
+  header .banner .bannerIntro .biIn {
+    width: 100%;
+    height: 260px;
+    background-color: rgba(255, 255, 255, 0.18);
+    text-align: center;
+    color: white; }
+    header .banner .bannerIntro .biIn p {
+      width: 88%;
+      margin: 0 auto; }
+    header .banner .bannerIntro .biIn .biiTitle {
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 114px;
+      padding-top: 16px; }
+    header .banner .bannerIntro .biIn .biiContent {
+      font-size: 18px;
+      line-height: 36px; }
+
+section .typeBox {
+  width: 100%;
+  margin: 34px 0;
+  height: 144px;
+  overflow: hidden;
+  position: relative; }
+  section .typeBox .typeBoxIn {
+    width: 100%; }
+    section .typeBox .typeBoxIn button {
+      width: 13%;
+      margin-right: 3%;
+      height: 55px;
+      display: block;
+      color: #979797;
+      font-weight: lighter;
+      font-size: 18px;
+      border: 1px solid #d5d5d5;
+      border-radius: 5px;
+      background: transparent;
+      margin-bottom: 34px; }
+    section .typeBox .typeBoxIn .hasBtn {
+      background-color: #55c891;
+      border-color: #55c891;
+      color: white; }
+    section .typeBox .typeBoxIn a {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      font-size: 18px;
+      color: #55c891; }
+section .bourn .bournTitle {
+  width: 100%;
+  padding: 0px 0px 16px 0;
+  border-bottom: 1px solid #d2d2d2; }
+section .bourn p {
+  font-size: 30px;
+  color: #151515;
+  text-indent: 20px;
+  border-left: 3px solid #55c891; }
+  section .bourn p span {
+    display: inline-block;
+    font-size: 24px;
+    color: #55c891;
+    margin-left: 50px; }
+
+.sc-list2 .list2-col {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 10px;
+  margin-top: 20px; }
+
+.sc-list2 .list2-img {
+  width: 100%; }
+
+.sc-list2 .list2-wrap {
+  background-color: #fff;
+  padding: 1px;
+  cursor: pointer; }
+
+.sc-list2 .list2-wrap .list2-name {
+  display: block;
+  font-size: 25.26px;
+  margin: 10px 10px;
+  color: #333; }
+
+.sc-list2 .list2-wrap .list2-bottom {
+  font-size: 17.49px;
+  padding: 10px 10px; }
+
+.sc-list2 .list2-wrap .list2-bottom div {
+  display: inline-block; }
+
+.sc-list2 .list2-wrap .list2-bottom img {
+  display: inline; }
+
+.sc-list2 .list2-wrap .list2-bottom .l2-bt-right {
+  float: right; }
+
+.sc-list2 .cebian {
+  position: absolute;
+  top: 60px;
+  left: 12px; }
+
+.sc-list2 .cebian span {
+  display: block;
+  margin: -53px 0 0 9px;
+  font-size: 23.32px;
+  color: #fff;
+  text-shadow: 1px 1px #383d4b; }
+
+.sc-list2 .topRight {
+  position: absolute;
+  top: 0;
+  right: 15px; }
+
+header .whiteNavLong.container .logo {
+  margin-left: -2.8%; }
+
+header .whiteNavLong.container .nav {
+  margin-right: 0; }
+
+header .whiteNavLong.container .nav ul li .pCenter {
+  margin-right: -15px; }
+
+.moreType {
+  background-color: white;
+  border: 1px solid #efefef; }
+  .moreType .row {
+    border-bottom: 1px dashed #ebebeb; }
+  .moreType .col-title {
+    line-height: 52px;
+    font-size: 16px;
+    color: #5c5c5c; }
+  .moreType p {
+    font-size: 14px;
+    color: #848484;
+    line-height: 46px;
+    font-weight: lighter; }
+  .moreType a {
+    line-height: 46px;
+    font-size: 14px;
+    color: #444444;
+    margin-right: 30px; }
+
+#tourDetails {
+  margin-top: 40px; }
+
+/*# sourceMappingURL=tourist.css.map */
