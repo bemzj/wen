@@ -1,63 +1,53 @@
-var btns = $('#list2-db div');
-var clients = $('.ziliao,.mima,.shouji,.shimin')
-console.log(clients)
 $(function () {
-    var hl = $('.con-left').outerHeight(true);
-    var hr = $('.con-right').outerHeight(true);
-    console.log(hl,hr)
-    // if(hl>hr){
-    //     $('.con-right').css({"height":hl})
-    // }else{
-    //     $('.con-left').css({"height":hr})
-    // }
-    $('#list2-db').find('div').click(function () {
-        var hl = $('.con-left').outerHeight(true);
-        var hr = $('.con-right').outerHeight(true);
-        if(hl>hr){
-            $('.con-right').css({"height":hl})
+    var starth = $('.con-left').height();
+    var firsth = $('.list2-db div').eq(0).parents('.wrap').height();
+    if(starth>=firsth)
+    {
+        $('.con-right').height(starth);
+        $('.con-left').height(starth);
+    }else{
+        $('.con-right').height(firsth);
+        $('.con-left').height(firsth);
+    }
+    $('.list2-db div').click(function () {
+        $(this).addClass('sel');
+        $(this).siblings('div').removeClass('sel');
+        var index = $(this).index();
+        $('.wrap-list2').children('div').eq(index).show();
+        $('.wrap-list2').children('div').eq(index).siblings('div').hide();
+        var h = $(this).parents('.wrap').height();
+        if(h>starth)
+        {
+            $('.con-right').height(h);
+            $('.con-left').height(h);
         }else{
-            $('.con-left').css({"height":hr})
+            $('.con-right').height(starth);
+            $('.con-left').height(starth);
         }
-        console.log(1)
-        $(this).addClass('sel');
-        $(this).siblings('div').removeClass('sel');
-        var index = $(this).index();
-        $('.ry').hide();
-        console.log(index);
-        clients.eq(index).show()
-    })
-    $('#sc-list1').find('div').click(function () {
-        console.log(1)
-        $(this).addClass('sel');
-        $(this).siblings('div').removeClass('sel');
-        var index = $(this).index();
-        $('.clien').hide();
-        $('.sc-list2,.sc-list3').eq(index).show()
-    })
-    $('.add-del').click(function () {
-        $('#del').show()
-    })
-    $('#canc').click(function () {
-        $('#del').hide()
-    })
-    $('#chinese').click(function () {
-        $('.chinese').show();
-        $('.other').hide();
-    })
-    $('#other').click(function () {
-        $('.other').show();
-        $('.chinese').hide();
-    })
-    $('#sc-btn').click(function () {
-        $('#content').show();
-        $('#content1').hide();
-        $(this).addClass("sel")
-        $('#fk-btn').removeClass("sel")
-    })
-    $('#fk-btn').click(function () {
-        $('#content1').show();
-        $('#content').hide();
-        $(this).addClass("sel")
-        $('#sc-btn').removeClass("sel")
-    })
+    });
+    //日期
+    layui.use('laydate', function(){
+        var laydate = layui.laydate;
+
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#date' //指定元素
+        });
+    });
+    //上传图片
+    layui.use('upload', function(){
+        var upload = layui.upload;
+
+        //执行实例
+        var uploadInst = upload.render({
+            elem: 'upImg' //绑定元素
+            ,url: '/upload/' //上传接口
+            ,done: function(res){
+                //上传完毕回调
+            }
+            ,error: function(){
+                //请求异常回调
+            }
+        });
+    });
 })

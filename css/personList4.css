@@ -4,6 +4,9 @@
   font-weight: bold;
   margin: 80px 0 20px 0;
 }
+#con-wrap .row .con-right .right-wrap .wrap-list2 {
+  margin-bottom: 40px;
+}
 #con-wrap .row .con-right .right-wrap .wrap-list2 table {
   color: #626262;
   margin: 0;

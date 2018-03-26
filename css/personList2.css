@@ -1,8 +1,13 @@
+#con-wrap .row .con-right .right-wrap {
+  width: 95%;
+  margin: 0 auto;
+}
 #con-wrap .row .con-right .right-wrap .wrap-list1 .list1-top {
   color: #55c891;
   font-size: 18px;
   border-bottom: 5px solid #55c891;
   position: relative;
+  margin-top: 50px;
 }
 #con-wrap .row .con-right .right-wrap .wrap-list1 .list1-top .l1top2 {
   text-align: right;
@@ -82,4 +87,10 @@
   text-align: center;
   font-size: 14px;
   color: #a1a1a1;
+}
+.layui-table tbody tr {
+  border-bottom: 1px dashed #e3e3e3;
+}
+.layui-table tbody tr:nth-last-child(1) {
+  border: 0px;
 }

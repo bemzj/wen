@@ -5,6 +5,7 @@
   border-bottom: 3px solid #55c891;
   width: 72px;
   padding: 5px 0;
+  margin-top: 40px;
 }
 #con-wrap .row .con-right .right-list2 {
   font-size: 14px;
@@ -27,7 +28,8 @@
   display: none;
 }
 #con-wrap .row .con-right .right-list3 div .list3-cont {
-  width: 60%;
+  width: 70%;
+  margin-right: 10px;
   float: right;
   margin-top: 80px;
   margin-bottom: 100px;
@@ -40,7 +42,7 @@
 #con-wrap .row .con-right .right-list3 div .list3-cont .cont-list2 {
   border: 1px solid #d5d5d5;
   padding: 8px 5px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 #con-wrap .row .con-right .right-list3 div .list3-cont .cont-list2 input {
   border: 0;
@@ -58,7 +60,7 @@
   width: 100%;
   border: 1px solid #d5d5d5;
   padding: 8px 5px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 #con-wrap .row .con-right .right-list3 div .list3-cont .suc {
   width: 50%;
@@ -75,10 +77,11 @@
   display: none;
 }
 #con-wrap .row .con-right .right-list6 div .list3-cont {
-  width: 60%;
+  width: 70%;
   float: right;
   margin-top: 80px;
   margin-bottom: 100px;
+  margin-right: 10px;
   position: relative;
 }
 #con-wrap .row .con-right .right-list6 div .list3-cont .cont-title {
@@ -88,7 +91,7 @@
 #con-wrap .row .con-right .right-list6 div .list3-cont .cont-list2 {
   border: 1px solid #d5d5d5;
   padding: 8px 5px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 #con-wrap .row .con-right .right-list6 div .list3-cont .cont-list2 input {
   border: 0;
@@ -105,18 +108,16 @@
   width: 100%;
   border: 1px solid #d5d5d5;
   padding: 8px 5px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 #con-wrap .row .con-right .right-list6 div .list3-cont .suc {
-  width: 50%;
+  width: 146px;
+  height: 50px;
   font-size: 24px;
-  padding: 5px 30px;
   background-color: #55c891;
-  text-align: center;
   color: #fff;
   float: right;
-  margin: 30px 50px;
-  cursor: pointer;
+  margin-right: 80px;
 }
 #con-wrap .row .con-right .right-list4 .layui-form .layui-form-label {
   padding: 9px 0px;
@@ -274,4 +275,14 @@
   height: 40px;
   font-size: 24px;
   background-color: #55c891;
+}
+.wrap-list2 {
+  padding-bottom: 40px;
+}
+.layui-textarea {
+  resize: none;
+}
+.wrap {
+  width: 96%;
+  margin: 0 auto;
 }
