@@ -4,7 +4,40 @@
     <bookmark url="file://$PROJECT_DIR$/个人中心-我的订单.html" line="25" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="53223fb1-4eeb-466c-a7b8-c7a4dbd44b80" name="Default" comment="" />
+=======
+    <list default="true" id="53223fb1-4eeb-466c-a7b8-c7a4dbd44b80" name="Default" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/css/personList6.css" afterPath="$PROJECT_DIR$/css/personList6.css" />
+      <change beforePath="$PROJECT_DIR$/css/personList6.less" afterPath="$PROJECT_DIR$/css/personList6.less" />
+      <change beforePath="$PROJECT_DIR$/css/personList7.css" afterPath="$PROJECT_DIR$/css/personList7.css" />
+      <change beforePath="$PROJECT_DIR$/css/personList7.less" afterPath="$PROJECT_DIR$/css/personList7.less" />
+      <change beforePath="$PROJECT_DIR$/js/personList6.js" afterPath="$PROJECT_DIR$/js/personList6.js" />
+      <change beforePath="$PROJECT_DIR$/个人中心-积分商城.html" afterPath="$PROJECT_DIR$/个人中心-积分商城.html" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/css/personList2.css" afterPath="$PROJECT_DIR$/css/personList2.css" />
+      <change beforePath="$PROJECT_DIR$/css/personList2.less" afterPath="$PROJECT_DIR$/css/personList2.less" />
+      <change beforePath="$PROJECT_DIR$/css/personList4.css" afterPath="$PROJECT_DIR$/css/personList4.css" />
+      <change beforePath="$PROJECT_DIR$/css/personList4.less" afterPath="$PROJECT_DIR$/css/personList4.less" />
+      <change beforePath="$PROJECT_DIR$/css/personList9.css" afterPath="$PROJECT_DIR$/css/personList9.css" />
+      <change beforePath="$PROJECT_DIR$/css/personList9.less" afterPath="$PROJECT_DIR$/css/personList9.less" />
+      <change beforePath="$PROJECT_DIR$/css/personMessage.css" afterPath="$PROJECT_DIR$/css/personMessage.css" />
+      <change beforePath="$PROJECT_DIR$/css/personMessage.less" afterPath="$PROJECT_DIR$/css/personMessage.less" />
+      <change beforePath="$PROJECT_DIR$/css/personWrap.css" afterPath="$PROJECT_DIR$/css/personWrap.css" />
+      <change beforePath="$PROJECT_DIR$/css/personWrap.less" afterPath="$PROJECT_DIR$/css/personWrap.less" />
+      <change beforePath="$PROJECT_DIR$/js/person.js" afterPath="$PROJECT_DIR$/js/person.js" />
+      <change beforePath="$PROJECT_DIR$/js/personList9.js" afterPath="$PROJECT_DIR$/js/personList9.js" />
+      <change beforePath="$PROJECT_DIR$/lib/css/layui.css" afterPath="$PROJECT_DIR$/lib/css/layui.css" />
+      <change beforePath="$PROJECT_DIR$/lib/css/modules/laydate/default/laydate.css" afterPath="$PROJECT_DIR$/lib/css/modules/laydate/default/laydate.css" />
+      <change beforePath="$PROJECT_DIR$/个人信息-修改资料.html" afterPath="$PROJECT_DIR$/个人信息-修改资料.html" />
+      <change beforePath="$PROJECT_DIR$/个人信息-反馈.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/个人信息-实名认证.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/个人信息-常用信息.html" afterPath="$PROJECT_DIR$/个人信息-常用信息.html" />
+>>>>>>> 2a0b969df8de1912f13363b793d37a6b6216c79e
+    </list>
+>>>>>>> f718e054b37cdc769bef5ae91f545fc4c6c3f961
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,7 +49,103 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="个人信息-修改资料.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/个人信息-修改资料.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="211" column="28" lean-forward="true" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="personList9.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/personList9.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="个人信息-常用信息.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/个人信息-常用信息.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="664">
+              <caret line="621" column="38" lean-forward="true" selection-start-line="618" selection-start-column="32" selection-end-line="621" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="person.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/person.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="smallTown.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smallTown.html">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="506">
+              <caret line="192" column="33" lean-forward="true" selection-start-line="192" selection-start-column="33" selection-end-line="192" selection-end-column="33" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+=======
+            <state relative-caret-position="95">
+              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="personMessage.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/personMessage.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="121" column="33" lean-forward="false" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
+              <folding />
+>>>>>>> 2a0b969df8de1912f13363b793d37a6b6216c79e
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="个人中心-积分.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/个人中心-积分.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="84" column="24" lean-forward="true" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="personList2.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/personList2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> f718e054b37cdc769bef5ae91f545fc4c6c3f961
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,10 +196,10 @@
         <option value="$PROJECT_DIR$/个人中心-我的订单.html" />
         <option value="$PROJECT_DIR$/个人中心-商城订单.html" />
         <option value="$PROJECT_DIR$/js/personList6_sc.js" />
-        <option value="$PROJECT_DIR$/js/personList6.js" />
-        <option value="$PROJECT_DIR$/css/personList6.less" />
         <option value="$PROJECT_DIR$/css/personHomePage.less" />
         <option value="$PROJECT_DIR$/personHomePage.html" />
+        <option value="$PROJECT_DIR$/js/personList6.js" />
+        <option value="$PROJECT_DIR$/css/personList6.less" />
         <option value="$PROJECT_DIR$/个人中心-积分商城.html" />
         <option value="$PROJECT_DIR$/css/personList7.less" />
         <option value="$PROJECT_DIR$/css/personWrap.less" />
@@ -94,9 +223,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds">
+    <option name="x" value="832" />
+=======
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="83" />
     <option name="y" value="15" />
+>>>>>>> 2a0b969df8de1912f13363b793d37a6b6216c79e
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -115,6 +249,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,12 +257,24 @@
               <item name="wen" type="b2602c69:ProjectViewProjectNode" />
               <item name="wen" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+            <path>
+              <item name="wen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wen" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wen" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+=======
+>>>>>>> 2a0b969df8de1912f13363b793d37a6b6216c79e
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,12 +327,29 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="160827000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="156031000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="832" y="0" width="974" height="1047" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21901709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="160499000" />
+>>>>>>> f718e054b37cdc769bef5ae91f545fc4c6c3f961
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10885417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 2a0b969df8de1912f13363b793d37a6b6216c79e
+>>>>>>> f718e054b37cdc769bef5ae91f545fc4c6c3f961
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -197,11 +361,25 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21816283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> 2a0b969df8de1912f13363b793d37a6b6216c79e
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,6 +539,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/个人中心-文晟积分规则.html">
+=======
     <entry file="file://$PROJECT_DIR$/个人中心-商城订单.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -390,6 +571,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/个人信息-实名认证.html">
+>>>>>>> 2a0b969df8de1912f13363b793d37a6b6216c79e
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="46" />
@@ -495,6 +677,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/个人信息-修改资料.html">
+=======
     <entry file="file://$PROJECT_DIR$/css/personList4.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -504,6 +689,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/css/layui.css">
+>>>>>>> 2a0b969df8de1912f13363b793d37a6b6216c79e
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="1" column="22926" lean-forward="false" selection-start-line="1" selection-start-column="22920" selection-end-line="1" selection-end-column="22926" />
@@ -535,6 +721,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/personHomePage.html">
+=======
     <entry file="file://$PROJECT_DIR$/townDetial.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -568,6 +757,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/layuiStart.js">
+>>>>>>> 2a0b969df8de1912f13363b793d37a6b6216c79e
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
@@ -575,6 +765,19 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/个人中心-我的订单.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="304" column="5" lean-forward="true" selection-start-line="304" selection-start-column="5" selection-end-line="304" selection-end-column="5" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+=======
     <entry file="file://$PROJECT_DIR$/js/person.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -588,11 +791,95 @@
         <state relative-caret-position="19">
           <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="8" selection-end-column="7" />
           <folding />
+>>>>>>> 2a0b969df8de1912f13363b793d37a6b6216c79e
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/个人信息-常用信息.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="506">
+          <caret line="106" column="10" lean-forward="true" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#2;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#2;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/personList6_sc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/personList6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/personList6.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="509" column="30" lean-forward="false" selection-start-line="509" selection-start-column="30" selection-end-line="509" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/个人信息-常用信息.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="288" column="30" lean-forward="true" selection-start-line="288" selection-start-column="30" selection-end-line="288" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/personHomePage.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="188" column="33" lean-forward="false" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/personList2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/个人中心-积分.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="84" column="24" lean-forward="true" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/personList7.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="182" column="19" lean-forward="true" selection-start-line="182" selection-start-column="19" selection-end-line="182" selection-end-column="19" />
+=======
         <state relative-caret-position="664">
           <caret line="621" column="38" lean-forward="true" selection-start-line="618" selection-start-column="32" selection-end-line="621" selection-end-column="38" />
           <folding />
@@ -603,15 +890,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="121" column="33" lean-forward="false" selection-start-line="121" selection-start-column="33" selection-end-line="121" selection-end-column="33" />
+>>>>>>> 2a0b969df8de1912f13363b793d37a6b6216c79e
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/个人信息-修改资料.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="557">
           <caret line="280" column="22" lean-forward="true" selection-start-line="280" selection-start-column="22" selection-end-line="280" selection-end-column="22" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="506">
+          <caret line="192" column="33" lean-forward="true" selection-start-line="192" selection-start-column="33" selection-end-line="192" selection-end-column="33" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+=======
+        <state relative-caret-position="116">
+          <caret line="211" column="28" lean-forward="true" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+>>>>>>> f718e054b37cdc769bef5ae91f545fc4c6c3f961
           <folding />
+>>>>>>> 2a0b969df8de1912f13363b793d37a6b6216c79e
         </state>
       </provider>
     </entry>

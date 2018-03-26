@@ -7,7 +7,7 @@ function newHeigth() {
         $('.con-left').css({"height":hr})
     }
 }
-
+newHeigth();
 $(function () {
     newHeigth();
     $('.pay').click(function () {

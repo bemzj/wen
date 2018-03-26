@@ -365,7 +365,7 @@
   z-index: 100;
 }
 #con-wrap .row .con-right .sc {
-  display: block;
+  display: none;
 }
 #con-wrap .row .con-right .sc .right-list3 .list3-wrap {
   margin-bottom: 20px;
@@ -446,7 +446,7 @@
   font-size: 14.31px;
 }
 #con-wrap .row .con-right .sc-detail {
-  display: none;
+  display: block;
 }
 #con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-1 {
   padding: 0 20px;
@@ -470,6 +470,7 @@
 }
 #con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-1 .L7-1 .L71-2 {
   width: 72%;
+  padding: 0 20px;
 }
 #con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .list7-1 {
   padding: 40px 15px;
