@@ -18,9 +18,12 @@ $(function () {
     //     $('#cancel').show();
     //     $('#mask').show();
     // })
+
+    //订单详情按钮
     $('.btn1').click(function () {
         $('.right-wrap').hide();
         $('.right-wrap2').show();
+        newHeigth();
     })
     $('#list2-db').find('div').click(function () {
         $(this).addClass('sel');

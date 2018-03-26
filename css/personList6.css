@@ -1,3 +1,6 @@
+#con-wrap {
+  margin: 60px auto;
+}
 #con-wrap .row .con-right {
   padding: 0;
 }
@@ -362,7 +365,7 @@
   z-index: 100;
 }
 #con-wrap .row .con-right .sc {
-  display: none;
+  display: block;
 }
 #con-wrap .row .con-right .sc .right-list3 .list3-wrap {
   margin-bottom: 20px;
@@ -443,8 +446,73 @@
   font-size: 14.31px;
 }
 #con-wrap .row .con-right .sc-detail {
-  display: block;
+  display: none;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-1 {
+  padding: 0 20px;
 }
 #con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-1 > div {
   float: left;
+  padding: 15px;
+  font-size: 16px;
+  color: #626262;
+  width: 15%;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-1 .L7-1 {
+  width: 40%;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-1 .L7-1 div,
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-1 .L7-1 img {
+  float: left;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-1 .L7-1 .L71-1 {
+  width: 28%;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-1 .L7-1 .L71-2 {
+  width: 72%;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .list7-1 {
+  padding: 40px 15px;
+  border: 1px solid #f3f3f3;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .list7-1 div {
+  padding: 0;
+  font-size: 16px;
+  color: #2a2a2a;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .all {
+  font-size: 16px;
+  color: #2a2a2a;
+  border-bottom: 1px solid #f3f3f3 ;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .all > div {
+  width: 20%;
+  float: right;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .all .all-sp2 {
+  color: #ff2740;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .all .all-sp1 {
+  font-weight: bold;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .all .all-1 {
+  border-bottom: 1px solid #f3f3f3;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .all .all-1 > div {
+  margin: 20px 0;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .all .all-2 {
+  margin: 20px 0;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .info {
+  font-size: 18px;
+  color: #626262;
+  margin: 0 15px;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .info > div div {
+  margin: 15px 0;
+}
+#con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .info > div .info-1 {
+  font-weight: bold;
+  margin: 15px 0;
 }

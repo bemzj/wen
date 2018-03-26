@@ -191,7 +191,7 @@ body {
 #content {
   display: block;
   width: 1200px;
-  margin: auto;
+  margin: 50px auto;
 }
 #content #shoucang .sc-list1 {
   font-size: 18px;
