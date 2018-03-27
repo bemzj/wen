@@ -1,0 +1,266 @@
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+body{
+  background-color: #f2f2f2;
+  position: relative;
+}
+.content{
+  position: relative;
+  .wrap{
+    width: 1200px;
+    margin: 100px auto 170px;
+    .wrap-top{
+      -webkit-box-shadow: -20px -20px 1px #eaeaea ;
+      -moz-box-shadow: -20px -20px 1px #eaeaea ;
+      box-shadow: -20px -20px 1px #eaeaea ;
+    }
+    .wrap-bottom{
+      -webkit-box-shadow: -20px 20px 1px #eaeaea ;
+      -moz-box-shadow: -20px 20px 1px #eaeaea ;
+      box-shadow: -20px 20px 1px #eaeaea,-20px -30px 1px #eaeaea ;
+    }
+    .list1{
+      background-color: #fff;
+      padding: 20px 40px;
+      font-size: 16px;
+      color: #333333;
+      border-bottom: 1px solid #ededed;
+      .L3-1{
+        .L1-head{
+          float: left;
+        }
+        .d-2{
+          width: 29%;
+          height: 100%;
+          float: right;
+          >div{
+            float: left;
+            font-size: 14px;
+            color: #808080;
+            width: 33.3%;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .list2{
+      background-color: #fff;
+      font-size: 14px;
+      color: #808080;
+      position: relative;
+      margin-bottom: 10px;
+      .L2-1{
+        padding: 15px 0 15px 40px;
+        >div{
+          float: left;
+          width: 16%;
+        }
+      }
+      .L2-2{
+        form{
+          margin-left: 35px;
+          padding-bottom: 20px;
+          border-bottom: 1px dashed #ededed;
+          .layui-input-block{
+            margin-left: 0;
+            width: 14%;
+            float: left;
+            margin-right: 23px;
+          }
+          select{
+            display: block;
+            width: 100%;
+            height: 37px;
+            margin-left: 5px;
+            text-align: right;
+            border: 1px solid #ededed;
+          }
+          .select{
+            margin-right: 5px;
+          }
+          .dizhi{
+            margin-left: 5px;
+            width: 22%;
+          }
+        }
+      }
+      .L2-3{
+        margin-left: 40px;
+        a{
+          padding: 15px 0;
+          font-size: 14px;
+          color: #55c891;
+          display: inline-block;
+          img{
+            display: inline-block;
+          }
+        }
+      }
+    }
+    .list3{
+      background-color: #fff;
+      .L3-2{
+        padding: 1px;
+        .slide{
+          position: relative;
+          margin: 20px 0 0px 50px;
+          padding-bottom: 20px;
+          border-bottom: 1px solid #ededed;
+          >img{
+            float: left;
+            width: 10%;
+          }
+          >div{
+            width: 88%;
+            position: absolute;
+            top: 0px;
+            left: 135px;
+            >div{
+              float: left;
+              font-size: 16px;
+              color: #333333;
+              a{
+                font-size: 16px;
+                color: #333333;
+                font-weight: bold;
+                margin-bottom: 10px;
+              }
+            }
+            .con-title{
+              width: 67%;
+              div{
+                font-size: 14px;
+                color: #808080;
+              }
+            }
+            .con-danjia{
+              width: 12%;
+            }
+            .con-num{
+              width: 9%;
+            }
+          }
+        }
+      }
+      .L3-3{
+        margin-left: 50px;
+        position: relative;
+        div{
+          font-size: 16px;
+          color: #808080;
+          padding: 20px 0 40px 0;
+        }
+        button{
+          display: block;
+          position: absolute;
+          right: 100px;
+          bottom: 15px;
+          font-size: 16px;
+          background-color: #ff4d3a;
+          color: #fff;
+          width: 150px;
+          padding: 15px 0;
+          -webkit-border-radius: 7px;
+          -moz-border-radius: 7px;
+          border-radius: 7px;
+        }
+      }
+    }
+  }
+}
+#mask{
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  .qhdz{
+    z-index: 101;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -500px;
+    width: 50%;
+    .dz-title{
+      font-size: 16px;
+      color: #333333;
+      padding: 15px 30px;
+      border-bottom: 1px solid #ededed;
+    }
+    .dz-cont{
+      font-size: 14px;
+      .cont-title{
+        color: #808080;
+        border-bottom: 1px solid #ededed;
+        >div{
+          float: left;
+          padding: 10px 0;
+          text-align: center;
+          width: 20%;
+        }
+        .dz{
+          width: 30%;
+        }
+      }
+      .cont-wrap{
+        margin-left: 40px;
+        padding-bottom: 40px;
+        .slide1{
+          border-bottom: 1px solid #ededed;
+          color: #141414;
+          position: relative;
+          >div{
+            float: left;
+            padding: 10px 0;
+            text-align: center;
+            width: 12%;
+          }
+          .phone1{
+            width: 30%;
+          }
+          .dz1{
+            width: 25%;
+          }
+          .list3-2{
+            position: relative;
+            input{
+              position: absolute;
+              top: 7px;
+              left: 135px;
+              width: 18px;
+              height: 18px;
+              opacity: 0;
+              z-index: 1;
+              cursor: pointer;
+            }
+            div{
+              position: absolute;
+              top: 11px;
+              left: 137px;
+              width: 18px;
+              height: 18px;
+              -webkit-border-radius: 4px;
+              -moz-border-radius: 4px;
+              border-radius: 4px;
+              //border: 1px solid #383d4b;
+              background: url("../img/gx02.png") no-repeat;
+              overflow: hidden;
+            }
+            .check{
+              background: url("../img/gx01.png") no-repeat;
+              background-size: 100% 100%;
+              width: 18px;
+              height: 18px;
+              //background-color: #55c891;
+              border-color: #55c891;
+            }
+          }
+        }
+      }
+    }
+  }
+}
