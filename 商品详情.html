@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="lib/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/public.css" />
+    <link rel="stylesheet" type="text/css" href="css/spDetail.css"/>
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-3.4.2.min.js"></script>
+</head>
+<body>
+<header class="headBord">
+    <nav class="whiteNavLong">
+        <div class="logo floatl">
+            <img src="img/logo.gif" />
+        </div>
+        <div class="nav floatr">
+            <ul>
+                <li>
+                    <a href="###">首页</a>
+                </li>
+                <li>
+                    <a href="###">探险旅行</a>
+                </li>
+                <li>
+                    <a href="###">资讯</a>
+                </li>
+                <li>
+                    <a href="###">小镇</a>
+                </li>
+                <li>
+                    <a href="###">关于我们</a>
+                </li>
+                <li>
+                    <a href="###" class="shopBuy"><img src="img/navBtn01.png" /></a>
+                </li>
+                <li>
+                    <a href="###" class="pCenter"><img src="img/navBtn02.png" /></a>
+                </li>
+            </ul>
+            <div class="clearl"></div>
+        </div>
+        <div class="clearBoth"></div>
+    </nav>
+    <div class="banner">
+        <div id="rightPop" class="rightPop">
+            <a href="###" class="popClose"><img src="img/indexClose.png"/></a>
+            <div class="register rpBox"  style="display: none;">
+                <form action="">
+                    <ul>
+                        <li>
+                            <p>注册</p>
+                        </li>
+                        <li class="rpInput">
+                            <input type="text" placeholder="邮箱/手机" />
+                        </li>
+                        <li class="rpInput sentCode">
+                            <input type="text" placeholder="验证码" />
+                            <button>发送验证码</button>
+                        </li>
+                        <li class="rpInput">
+                            <input type="password" placeholder="密码" />
+                        </li>
+                        <li class="rpCheck">
+                            <div></div>
+                            <input type="checkbox" />
+                            <label>已阅读并同意<a href="###">《用户服务协议》</a></label>
+                        </li>
+                        <li class="rpInput rpBtn">
+                            <button>注册</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="rpBox forget" style="display: none;">
+                <form action="">
+                    <ul>
+                        <li>
+                            <div class="rpHead">
+                                <img src="img/indexHead.png" />
+                            </div>
+                        </li>
+                        <li class="rpInput">
+                            <input type="text" placeholder="邮箱/手机" />
+                        </li>
+                        <li class="rpInput sentCode">
+                            <input type="text" placeholder="验证码" />
+                            <button>发送验证码</button>
+                        </li>
+                        <li class="rpInput">
+                            <input type="password" placeholder="新密码" />
+                        </li>
+                        <li class="rpInput rpBtn">
+                            <button>确定</button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="rpBox login">
+                <form action="">
+                    <ul>
+                        <li>
+                            <div class="rpHead">
+                                <img src="img/indexHead.png" />
+                            </div>
+                        </li>
+                        <li>
+                            <p>登录</p>
+                        </li>
+                        <li class="rpInput">
+                            <input type="text" placeholder="邮箱/手机" />
+                        </li>
+                        <li class="rpInput pwd">
+                            <input type="password" placeholder="新密码" />
+                        </li>
+                        <li class="forgetA">
+                            <a href="###">忘记密码</a>
+                        </li>
+                        <li class="rpInput rpBtn">
+                            <button class="loginBtn">登陆</button>
+                        </li>
+                        <li class="rpInput rpBtn rpBtn1">
+                            <button class="registerBtn">注册</button>
+                        </li>
+                        <li class="rpInput and">
+                            <span>or</span>
+                        </li>
+                        <li class="wxLogin">
+                            <a href="###">微信登录</a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <div class="perMessage rpBox" style="display: none;">
+                <form action="">
+                    <ul>
+                        <li>
+                            <div class="rpHead">
+                                <img src="img/indexHead.png" />
+                            </div>
+                        </li>
+                        <li class="rpGrade">
+                            <div class="rpgOut">
+                                <span class="gradeHas"><i>Lv1</i></span>
+                                <span><i>Lv7</i></span>
+                                <div class="cir circleHas">
+                                    <p>普通</p>
+                                </div>
+                                <div class="cir">
+                                    <p>金牌</p>
+                                </div>
+                                <div class="cir">
+                                    <p>白金</p>
+                                </div>
+                                <div class="cir">
+                                    <p>钻石</p>
+                                </div>
+                                <div class="rpgIn"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="rpScore" align="center">
+                                <ul>
+                                    <li>
+                                        <p>
+                                            <span>积分：300</span>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="moreFuns">
+                            <div align="center">
+                                <ul>
+                                    <li>
+                                        <a href="###">我的订单</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div align="center">
+                                <ul>
+                                    <li>
+                                        <a href="###">常用信息</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div align="center">
+                                <ul>
+                                    <li>
+                                        <a href="###">积分商城</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div align="center">
+                                <ul>
+                                    <li>
+                                        <a href="###">我的钱包</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div align="center">
+                                <ul>
+                                    <li>
+                                        <a href="###">消息通知</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="phoneCheck">
+                            <div align="center">
+                                <ul>
+                                    <li>
+                                        <p><i>客服电话：400-58556121</i></p>
+
+                                    </li>
+                                </ul>
+                            </div>
+                        <li>
+                        <li class="rpInput rpBtn rpExist">
+                            <button>退出</button>
+                        </li>
+                        <li class="elseLogin">
+                            <div align="center">
+                                <ul>
+                                    <li>
+                                        <a href="###"></a>
+                                    </li>
+                                    <li>
+                                        <a href="###"></a>
+                                    </li>
+                                    <li>
+                                        <a href="###"></a>
+                                    </li>
+                                    <li>
+                                        <a href="###"></a>
+                                    </li>
+                                    <li>
+                                        <a href="###"></a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="contant">
+    <div class="sp-detail">
+        <div class="sp-list1">
+            <div class="list1-left">
+                <div class="bigImg">
+                    <img id="big" src="img/beibao.png" alt="">
+                </div>
+                <div class="swiper-bottom">
+                    <div class="swiper-container" id="swiper3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide sw">
+                                <a href="###">
+                                    <img src="img/beibao.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide sw">
+                                <a href="###">
+                                    <img src="img/beibao.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide sw">
+                                <a href="###">
+                                    <img src="img/beibao.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide sw">
+                                <a href="###">
+                                    <img src="img/beibao.png" alt="">
+                                </a>
+                            </div>
+                            <div class="swiper-slide sw">
+                                <a href="###">
+                                    <img src="img/beibao.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="ziti"><span>图片仅供参考，实际兑换礼品请以具体以实物或具体服务为准。</span></div>
+            </div>
+            <div class="list1-right">
+                <div class="L1-r1">
+                    <div class="r1-1">香港马莎兰缇韩版旅行休闲女包</div>
+                    <div class="r1-2">香港马莎兰缇韩版旅行休闲女包香港马莎兰缇韩版旅行休闲女包香港马莎兰缇韩版旅行休闲 包香港马莎兰缇韩版旅行休闲女包香港马莎兰</div>
+                </div>
+                <div class="L1-r2">
+                    <div>
+                        <span>积&nbsp;&nbsp;&nbsp;&nbsp;分：</span>
+                        <div class="jifen">
+                            <div class="sel">5000积分
+                                <img src="img/sanjiao.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="L1-r3 clearfloat">
+                    <div class="r3-1">选择规格：</div>
+                    <div class="r3-2 clearfloat">
+                        <div class="sel">棕色
+                            <img src="img/sanjiao.png" alt="">
+                        </div>
+                        <div>白色
+                            <img src="img/sanjiao.png" alt="">
+                        </div>
+                        <div>红色
+                            <img src="img/sanjiao.png" alt="">
+                        </div>
+                        <div>黑色
+                            <img src="img/sanjiao.png" alt="">
+                        </div>
+                        <div>黑色
+                            <img src="img/sanjiao.png" alt="">
+                        </div>
+                        <div>黑色
+                            <img src="img/sanjiao.png" alt="">
+                        </div>
+                        <div>黑色
+                            <img src="img/sanjiao.png" alt="">
+                        </div>
+                        <div>黑色
+                            <img src="img/sanjiao.png" alt="">
+                        </div>
+                        <div>黑色
+                            <img src="img/sanjiao.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="L1-r4 clearfloat">
+                    <div class="r4-1">选择数量：</div>
+                    <div class="r4-2 clearfloat">
+                        <!--<button>-</button>-->
+                        <button class="prevNum">-</button>
+                        <div class="num">1</div>
+                        <button class="nextNum">+</button>
+                        <!--<button>+</button>-->
+                    </div>
+                </div>
+                <div class="L1-r5">
+                    <button>立即兑换</button>
+                </div>
+            </div>
+        </div>
+        <div class="sp-list2">
+            <div>
+                <div class="list2-tab clearfloat">
+                    <div class="sel">产品介绍</div>
+                    <div>产品详情</div>
+                </div>
+                <div class="list2-con">
+                    <div class="con-list1 clearfloat">
+                        <div class="con-left">礼品概述</div>
+                        <div class="con-right">休闲女包/pu</div>
+                    </div>
+                    <div class="con-list1 clearfloat">
+                        <div class="con-left">
+                            <p>礼品概述</p>
+                        </div>
+                        <div class="con-right">商品有质量问题，可在收到货后72小时内联系客服退换，运费由商家承担，无理由退换运费由买家承担。商品有质量问题，可在收到货后72小时 内联系客服退换，运费由商家承担，无理由退换运费由买家承担。</div>
+                    </div>
+                    <div class="con-list1 clearfloat">
+                        <div class="con-left">产地</div>
+                        <div class="con-right">广东省广东省</div>
+                    </div>
+                    <div class="con-list1 clearfloat">
+                        <div class="con-left">包装清单</div>
+                        <div class="con-right">以客户收到实物为准</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sp-list3">
+            <div>
+                <img src="img/bg03.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="sp-list4">
+        <div class="L4-title">
+            <div>
+                <img src="img/yun01.png" alt="">
+                <span>推荐商</span>
+                <img src="img/yun02.png" alt="">
+            </div>
+        </div>
+        <div class="L4-con clearfloat">
+            <div class="con-1 clearfloat">
+                <div class="slide">
+                    <a href="###">
+                        <div class="slide-1">
+                            <img src="img/qiyiguo.png" alt="">
+                        </div>
+                        <div class="slide-2">
+                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
+                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
+                            <div class="s3">
+                                <span>90积分兑换</span>
+                            </div>
+                            <div class="s4">180积分</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="###">
+                        <div class="slide-1">
+                            <img src="img/qiyiguo.png" alt="">
+                        </div>
+                        <div class="slide-2">
+                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
+                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
+                            <div class="s3">
+                                <span>90积分兑换</span>
+                            </div>
+                            <div class="s4">180积分</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="###">
+                        <div class="slide-1">
+                            <img src="img/qiyiguo.png" alt="">
+                        </div>
+                        <div class="slide-2">
+                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
+                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
+                            <div class="s3">
+                                <span>90积分兑换</span>
+                            </div>
+                            <div class="s4">180积分</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="###">
+                        <div class="slide-1">
+                            <img src="img/qiyiguo.png" alt="">
+                        </div>
+                        <div class="slide-2">
+                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
+                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
+                            <div class="s3">
+                                <span>90积分兑换</span>
+                            </div>
+                            <div class="s4">180积分</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="###">
+                        <div class="slide-1">
+                            <img src="img/qiyiguo.png" alt="">
+                        </div>
+                        <div class="slide-2">
+                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
+                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
+                            <div class="s3">
+                                <span>90积分兑换</span>
+                            </div>
+                            <div class="s4">180积分</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="con-1 clearfloat">
+                <div class="slide">
+                    <a href="###">
+                        <div class="slide-1">
+                            <img src="img/qiyiguo.png" alt="">
+                        </div>
+                        <div class="slide-2">
+                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
+                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
+                            <div class="s3">
+                                <span>90积分兑换</span>
+                            </div>
+                            <div class="s4">180积分</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="###">
+                        <div class="slide-1">
+                            <img src="img/qiyiguo.png" alt="">
+                        </div>
+                        <div class="slide-2">
+                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
+                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
+                            <div class="s3">
+                                <span>90积分兑换</span>
+                            </div>
+                            <div class="s4">180积分</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="###">
+                        <div class="slide-1">
+                            <img src="img/qiyiguo.png" alt="">
+                        </div>
+                        <div class="slide-2">
+                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
+                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
+                            <div class="s3">
+                                <span>90积分兑换</span>
+                            </div>
+                            <div class="s4">180积分</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="###">
+                        <div class="slide-1">
+                            <img src="img/qiyiguo.png" alt="">
+                        </div>
+                        <div class="slide-2">
+                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
+                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
+                            <div class="s3">
+                                <span>90积分兑换</span>
+                            </div>
+                            <div class="s4">180积分</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="slide">
+                    <a href="###">
+                        <div class="slide-1">
+                            <img src="img/qiyiguo.png" alt="">
+                        </div>
+                        <div class="slide-2">
+                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
+                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
+                            <div class="s3">
+                                <span>90积分兑换</span>
+                            </div>
+                            <div class="s4">180积分</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="page-1 clearfloat">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+                <div>4</div>
+                <div>5</div>
+                <div class="more">...</div>
+                <div>1</div>
+                <div>></div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footTop">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col-md-2">
+                    <a href="###">
+                        <div class="ftImg"></div>
+                        <p>精选供应商</p>
+                    </a>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                    <a href="###">
+                        <div class="ftImg ftImg2"></div>
+                        <p>安全支付</p>
+                    </a>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                    <a href="###">
+                        <div class="ftImg ftImg3"></div>
+                        <p>消费透明</p>
+                    </a>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                    <a href="###">
+                        <div class="ftImg ftImg4"></div>
+                        <p>免费代订服务</p>
+                    </a>
+                </div>
+                <div class="col-sm-2 col-md-2">
+                    <a href="###">
+                        <div class="ftImg ftImg5"></div>
+                        <p>退订保证</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footMiddle">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 fm1">
+                    <ul>
+                        <li>
+                            <p><i>400-888-8888</i></p>
+                        </li>
+                        <li>
+                            <p>境外电话：+86 888888888</p>
+                        </li>
+                        <li>
+                            <p>客服工作日时间：</p>
+                        </li>
+                        <li>
+                            <p>周一至周五9：00-23:00</p>
+                        </li>
+                        <li>
+                            <p>客户反馈邮箱：</p>
+                        </li>
+                        <li>
+                            <p>sahdhh@wensheng.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-4 fm2">
+                    <div class="floatl">
+                        <ul>
+                            <li>
+                                <p>官方微信</p>
+                            </li>
+                            <li>
+                                <div class="fmCode">
+                                    <img src="img/foot02.png" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatl">
+                        <ul>
+                            <li>
+                                <p>官方微博</p>
+                            </li>
+                            <li>
+                                <div class="fmCode">
+                                    <img src="img/foot02.png" />
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearl"></div>
+                    <div class="fmfLink">
+                        <ul>
+                            <li>
+                                <p>友情链接：</p>
+                            </li>
+                            <li>
+                                <a href="http://www.baidu.com">新加坡旅游网</a>
+                            </li>
+                            <li>
+                                <a href="http://www.baidu.com">台湾旅游局</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4 fm3">
+                    <div class="floatl">
+                        <ul>
+                            <li>
+                                <a href="###">关于文晟</a>
+                            </li>
+                            <li>
+                                <a href="###">关于我们</a>
+                            </li>
+                            <li>
+                                <a href="###">联系我们</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="floatl">
+                        <ul>
+                            <li>
+                                <a href="###">服务支持</a>
+                            </li>
+                            <li>
+                                <a href="###">常见问题</a>
+                            </li>
+                            <li>
+                                <a href="###">网站地图</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatl">
+                        <ul>
+                            <li>
+                                <a href="###">网站条款</a>
+                            </li>
+
+                            <li>
+                                <a href="###">用户协议</a>
+                            </li>
+                            <li>
+                                <a href="###">隐私条款</a>
+                            </li>
+                            <li>
+                                <a href="###">法律声明</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="floatl">
+                        <ul>
+                            <li>
+                                <a href="###">网站合作</a>
+                            </li>
+                            <li>
+                                <a href="###">商务合作</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearl"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footBottm">
+        <p>Copyright 2013-2014, 7doufeng.com.All Rights Reserved .文晟旅游 | Powered by 蜀ICP备14025136号-1</p>
+    </div>
+</footer>
+<script type="text/javascript" src="js/public.js" ></script>
+<script src="js/spDetail.js"></script>
+</body>
+</html>
