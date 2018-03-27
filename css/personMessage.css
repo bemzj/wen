@@ -148,6 +148,7 @@
   z-index: 100;
   display: none;
   background: white;
+  overflow: hidden;
 }
 #con-wrap .row .con-right .right-list4 .layui-form .list4-d2 > div > div > img {
   width: 100%;
