@@ -590,7 +590,8 @@ header .whiteNavLong .nav ul li .navActive {
 
 @media (max-width: 1660px) {
   header .nav ul li a {
-    font-size: 18px; }
+    font-size: 18px;
+    font-weight: lighter; }
 
   header .nav ul li .shopBuy {
     width: 43.5px;

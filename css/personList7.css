@@ -234,27 +234,48 @@ body {
   border: 1px solid #bdbdbd;
 }
 .con-wrap .wrap .right-list {
-  position: absolute;
-  top: 140%;
+  position: fixed;
+  top: 50%;
+  margin-top: -380px;
   right: 15%;
+  z-index: 100;
+}
+.con-wrap .wrap .right-list > div > div {
+  box-shadow: 0 2px 4px rgba(51, 51, 51, 0.1);
+  padding: 20px;
   background-color: #fff;
 }
-.con-wrap .wrap .right-list > div {
-  padding: 20px;
-}
-.con-wrap .wrap .right-list > div a {
+.con-wrap .wrap .right-list > div > div a {
   text-align: center;
   font-size: 16px;
   color: #333333;
 }
-.con-wrap .wrap .right-list > div:hover {
+.con-wrap .wrap .right-list > div > div:hover {
   background-color: #55C891;
 }
-.con-wrap .wrap .right-list > div:hover a {
+.con-wrap .wrap .right-list > div > div:hover a {
   color: #fff;
 }
-.con-wrap .wrap .toTop {
-  position: absolute;
-  top: 220%;
-  right: 15%;
+.con-wrap .wrap .right-list .toTop {
+  padding: 0;
+  margin: 19px 9px 0;
+  background-color: transparent;
+}
+.con-wrap .wrap .right-list .toTop a {
+  display: block;
+}
+@media (max-width: 1660px) {
+  .con-wrap .wrap .right-list {
+    right: 9%;
+  }
+}
+@media (max-width: 1440px) {
+  .con-wrap .wrap .right-list {
+    right: 3%;
+  }
+}
+@media (max-width: 1336px) {
+  .con-wrap .wrap .right-list {
+    right: 0.2%;
+  }
 }

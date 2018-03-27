@@ -244,29 +244,55 @@ body{
       }
     }
     .right-list{
-        position: absolute;
-        top: 140%;
+        position: fixed;
+        top: 50%;
+        margin-top: -380px;
         right: 15%;
-        background-color: #fff;
-        >div{
+        
+        z-index: 100;
+        >div>div{
+            box-shadow: 0 2px 4px rgba(51,51,51,0.1);
             padding: 20px;
+            background-color: #fff;
             a{
                 text-align: center;
                 font-size: 16px;
                 color: #333333;
             }
         }
-        >div:hover{
+        >div>div:hover{
             background-color: #55C891;
             a{
                 color: #fff;
             }
         }
+        .toTop{
+            padding: 0;
+            margin: 19px 9px 0;
+            background-color: transparent;
+            a{
+                display: block;
+            }
+        }
     }
-    .toTop{
-      position: absolute;
-      top: 220%;
-      right: 15%;
-    }
+    
   }
+}
+@media(max-width:1660px)
+{
+    .con-wrap .wrap .right-list{
+        right: 9%;
+    }
+}
+@media(max-width:1440px)
+{
+    .con-wrap .wrap .right-list{
+        right: 3%;
+    }
+}
+@media(max-width:1336px)
+{
+    .con-wrap .wrap .right-list{
+        right: 0.2%;
+    }
 }

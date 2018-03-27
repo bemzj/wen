@@ -10,17 +10,25 @@ function newHeigth() {
 newHeigth();
 $(function () {
     newHeigth();
-    $('.pay').click(function () {
+    $('.pay').click(function (event) {
+    	
         $('#pay').show();
         $('#mask').show();
-    })
+    });
+    $('#mask').click(function(){
+    	var e = event||window.event;
+    	e.stopPropagation();
+    	$('#mask').hide();
+    	$('#pay').hide();
+    	$('#cancel').hide();
+    });
     // $('.tuikuan').click(function () {
     //     $('#cancel').show();
     //     $('#mask').show();
     // })
 
     //订单详情按钮
-    $('.btn1').click(function () {
+    $('.orderBtn').click(function () {
         $('.right-wrap').hide();
         $('.right-wrap2').show();
         newHeigth();
@@ -92,5 +100,10 @@ $(function () {
             fx3 = true;
             $('.li1 div').removeClass("check");
         }
-    })
+    });
+    //取消订单
+    $('.cancelBtn').click(function(){
+    	$('#cancel').show();
+    	$('#mask').show();
+    });
 })

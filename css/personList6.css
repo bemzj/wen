@@ -34,7 +34,6 @@
 }
 #con-wrap .row .con-right .right-wrap .right-list3 .list3-wrap table th {
   font-size: 18px;
-  font-weight: bold;
 }
 #con-wrap .row .con-right .right-wrap .right-list3 .list3-wrap table th span {
   font-weight: normal;
@@ -204,7 +203,8 @@
 #pay .wrap .wrap1 .wrap-list3 .list3-2 .check {
   background: url("../img/indexYes.png") no-repeat;
   background-size: 100% 100%;
-  background-color: transparent;
+  background-color: #55c891;
+  border-color: #55c891;
 }
 #pay .wrap .wrap2 div {
   float: left;
@@ -365,7 +365,7 @@
   z-index: 100;
 }
 #con-wrap .row .con-right .sc {
-  display: none;
+  display: block;
 }
 #con-wrap .row .con-right .sc .right-list3 .list3-wrap {
   margin-bottom: 20px;
@@ -446,7 +446,7 @@
   font-size: 14.31px;
 }
 #con-wrap .row .con-right .sc-detail {
-  display: block;
+  display: none;
 }
 #con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-1 {
   padding: 0 20px;
