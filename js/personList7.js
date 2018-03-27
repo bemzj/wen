@@ -36,7 +36,19 @@ $(function () {
     var t = 0
     //返回顶部
     $('.toTop').click(function () {
-        $('body,html').animate({ scrollTop: 0 }, 800);
+        $('body,html').animate({ scrollTop: 0 }, 800,function(){
+        	$('.right-list').fadeOut();
+        });
+        
+    })
+    $(window).scroll(function (e) {
+    	if(   $('.con-wrap .wrap').offset().top-$(window).scrollTop()<=30)
+    	{
+    		$('.right-list').fadeIn();
+    	}else{
+    		$('.right-list').fadeOut();
+    	}
+        
     })
     $(window).scrollTop(function (e) {
         console.log(e)

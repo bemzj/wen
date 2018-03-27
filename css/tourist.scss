@@ -162,10 +162,18 @@ header .whiteNavLong.container .nav ul li .pCenter{
     margin-right: -15px;
 }
 .moreType{
+    padding: 0 25px;
     background-color: white;
     border: 1px solid #efefef;
     .row{
         border-bottom: 1px dashed #ebebeb;
+    }
+    .row:nth-last-child(1){
+        border: 0px;
+    }
+    .row1{
+        height: 46px;
+        overflow: hidden;
     }
     .col-title{
         line-height: 52px;
@@ -184,7 +192,268 @@ header .whiteNavLong.container .nav ul li .pCenter{
         color: #444444;
         margin-right: 30px;
     }
+    .ahasChoice{
+        color: #55c891;
+    }
+    button{
+        display: block;
+        height: 46px;
+        color: #55c891;
+        font-size: 14px;
+        font-weight: lighter;
+        background: transparent;
+    }
+    button.floatl{
+        height: 28px;
+        color: #9b9b9b;
+        border: 1px solid #ababab;
+        border-radius: 4px;
+        padding: 0 12px;
+        margin: 12px 12px 12px 0;
+    }
+    button.btnHas{
+        background-color:#55c891 ;
+        color: white; 
+        border-color: #55C891;;
+    }
 }
 #tourDetails{
     margin-top: 40px;
+}
+.yearMonth{
+    margin: 5px auto 40px;
+    background-color: white;
+    border: 1px solid #efefef;
+    a{
+        line-height: 42px;
+        margin: 10px 30px 10px 0;
+        display: block;
+        color: #363636;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+    .aChoice{
+        color: #55c891;
+    }
+    .layui-form-item{
+        margin-bottom: 0px;
+    }
+    .layui-form-label {
+        float: left;
+        display: block;
+        padding: 0;
+        line-height: 62px;
+        width: 50px;
+        font-weight: lighter;
+        color: #9b9b9b;
+        margin-bottom: 0px;
+        margin-left: 15px;
+        font-size: 14px;
+        text-align: left;
+    }
+    .layui-input-block {
+        margin-left: 70px;
+        min-height: 36px;
+        padding-top: 18px;
+    }
+    .layui-input{
+       height: 28px; 
+    }
+}
+#touristIndex{
+    margin-top: 50px;
+}
+header .banner{
+    .swiper-pagination-bullet {
+        width: 18px;
+        height: 18px;
+        border: 2px solid #eef1f3;
+        background-color: transparent;
+    }
+    
+    .swiper-pagination-bullet-active {
+        background-color: #eef1f3;
+    }
+    
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 10%;
+    }
+}
+header .banner .bannerIntro1{
+    top: 26%;
+    bottom: auto;
+    z-index: 10;
+    .biIn{
+        width: 675px;
+        margin: 0 auto;  
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    .biIn .biiTitle {
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 80px;
+        
+    }
+    .biIn .biiContent{
+        line-height: 40px;
+    }
+    
+} 
+.threeChoice{
+    margin-top: 40px;
+    width: 100%;
+    .tcTop{
+        background-color: rgba(255,255,255,0.66);
+        >div{
+            text-align: center;
+            display: block;
+            width: 33.33%;
+            cursor: pointer;
+            cursor: -ms-pointer;
+            line-height: 75px;
+            font-size: 22px;
+            color: #1d1d1d;
+            position: relative;
+            span{
+                position: relative;
+            }
+            span::after{
+                content: "";
+                position: absolute;
+                top: 50%;
+                width: 14px;
+                height: 14px;
+                margin-top: -7px;
+                right: -25px;
+                background:url(../img/tourist03.png) no-repeat left top;
+                background-size: 100% 100%;
+                -webkit-background-size: 100% 100%;
+            }
+        }
+        >div::after{
+            content: "";
+            position: absolute;
+            top: 50%;
+            height: 54px;
+            margin-top: -27px;
+            right: 0px;
+            border-right: 1px solid #b5b5b5;
+        }
+        >div:nth-last-child(1)::after{
+            border: 0;
+        }
+        >div:nth-last-child(2)::after{
+            border: 0;
+        }
+    }
+}
+.tcBottom{
+    width: 100%;
+    background-color: #fbfbfb;
+    .tcbTitle{
+        width: 92%;
+        margin: 0 auto;
+        font-size: 24px;
+        color: #212121;
+        line-height: 64px;
+        padding-top: 16px;
+        border-bottom: 1px dashed #dcdcdc;
+    }
+    .tcbBtn{     
+         width: 92%;
+        margin: 30px auto 0; 
+        button{
+            width: 18%;
+            border: 1px solid #d5d5d5;
+            border-radius: 5px;
+            height: 53px;
+            display: block;
+            color: 979797;
+            font-size: 18px;
+            font-weight: lighter;
+            background-color: transparent;
+            margin-bottom: 30px;
+            margin-right: 2.5%;
+        } 
+        button:nth-child(5n){
+            margin-right: 0;
+        }
+        .btnHas{
+            background-color:#55c891 ;
+            color: white;
+            border-color: #55c891;
+        }
+    }
+    .tcBottom{
+        background: url();
+    }
+    .tcb02,.tcb03{
+        .tcbBtn{
+            margin-top: 50px;
+        }
+        .tcbBtn button{
+            margin-bottom: 50px;
+        }
+    }
+}
+@media(max-width:1660px){
+    header .banner .bannerIntro1 .biIn .biiTitle {
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 50px;
+    }
+    header .banner .bannerIntro .biIn .biiContent {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .threeChoice {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .threeChoice .tcTop > div{
+        font-size: 18px;
+        line-height: 60px;
+    }
+    .tcBottom .tcbTitle {
+        line-height: 50px;
+        padding-top: 8px;
+        font-size: 20px;
+    }
+    .tcBottom .tcbBtn button{
+        margin-bottom: 20px;
+            height: 50px;
+    }
+    .tcBottom .tcbBtn {
+        width: 92%;
+        margin: 20px auto 0;
+    }
+    .tcBottom .tcb02 .tcbBtn, .tcBottom .tcb03 .tcbBtn {
+        margin-top: 40px;
+    }
+    .tcBottom .tcb02 .tcbBtn button, .tcBottom .tcb03 .tcbBtn button {
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:1365px){
+    header .banner .bannerIntro1 .biIn .biiTitle {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+    header .banner .bannerIntro .biIn .biiContent {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    header .banner .bannerIntro1 .biIn{
+        padding-bottom: 22px;
+    }
+    .tcBottom .tcbBtn button {
+        margin-bottom: 20px;
+        height: 46px;
+    }
+
 }

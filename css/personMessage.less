@@ -152,11 +152,25 @@
             height: 270px;
             text-align: center;
             margin-left: 80px;
-            div{
+           >div{
               width: 100%;
               height: 70%;
               position: relative;
-              img{
+              >div{
+                 position: absolute;
+                top: 50%;
+                margin-top: -70px;
+                left: 50%;
+                margin-left: -70px;
+                width: 140px;
+                height: 140px;
+                z-index: 100;
+                display: none;
+                background: white;
+                  >img{
+                      width: 100%;                  }
+              }
+              >img{
                 position: absolute;
                 top: 50%;
                 margin-top: -50px;
