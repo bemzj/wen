@@ -181,63 +181,64 @@ body {
   top: 0;
   z-index: 100;
 }
-#mask .qhdz {
+.qhdz {
   z-index: 101;
   background-color: #fff;
-  position: absolute;
+  position: fixed;
   top: 50%;
-  margin-top: -100px;
+  margin-top: -106px;
   left: 50%;
   margin-left: -500px;
   width: 50%;
+  display: none;
 }
-#mask .qhdz .dz-title {
+.qhdz .dz-title {
   font-size: 16px;
   color: #333333;
   padding: 15px 30px;
   border-bottom: 1px solid #ededed;
 }
-#mask .qhdz .dz-cont {
+.qhdz .dz-cont {
   font-size: 14px;
 }
-#mask .qhdz .dz-cont .cont-title {
+.qhdz .dz-cont .cont-title {
   color: #808080;
   border-bottom: 1px solid #ededed;
 }
-#mask .qhdz .dz-cont .cont-title > div {
+.qhdz .dz-cont .cont-title > div {
   float: left;
   padding: 10px 0;
   text-align: center;
   width: 20%;
 }
-#mask .qhdz .dz-cont .cont-title .dz {
+.qhdz .dz-cont .cont-title .dz {
   width: 30%;
 }
-#mask .qhdz .dz-cont .cont-wrap {
+.qhdz .dz-cont .cont-wrap {
   margin-left: 40px;
   padding-bottom: 40px;
 }
-#mask .qhdz .dz-cont .cont-wrap .slide1 {
+.qhdz .dz-cont .cont-wrap .slide1 {
   border-bottom: 1px solid #ededed;
   color: #141414;
   position: relative;
 }
-#mask .qhdz .dz-cont .cont-wrap .slide1 > div {
+.qhdz .dz-cont .cont-wrap .slide1 > div {
   float: left;
   padding: 10px 0;
   text-align: center;
   width: 12%;
 }
-#mask .qhdz .dz-cont .cont-wrap .slide1 .phone1 {
+.qhdz .dz-cont .cont-wrap .slide1 .phone1 {
   width: 30%;
 }
-#mask .qhdz .dz-cont .cont-wrap .slide1 .dz1 {
+.qhdz .dz-cont .cont-wrap .slide1 .dz1 {
   width: 25%;
 }
-#mask .qhdz .dz-cont .cont-wrap .slide1 .list3-2 {
+.qhdz .dz-cont .cont-wrap .slide1 .list3-2 {
   position: relative;
 }
-#mask .qhdz .dz-cont .cont-wrap .slide1 .list3-2 input {
+.qhdz .dz-cont .cont-wrap .slide1 .list3-2 input {
   position: absolute;
   top: 7px;
   left: 135px;
@@ -247,7 +248,7 @@ body {
   z-index: 1;
   cursor: pointer;
 }
-#mask .qhdz .dz-cont .cont-wrap .slide1 .list3-2 div {
+.qhdz .dz-cont .cont-wrap .slide1 .list3-2 div {
   position: absolute;
   top: 11px;
   left: 137px;
@@ -257,12 +258,14 @@ body {
   -moz-border-radius: 4px;
   border-radius: 4px;
   background: url("../img/gx02.png") no-repeat;
+  background-size: 18px 18px;
   overflow: hidden;
 }
-#mask .qhdz .dz-cont .cont-wrap .slide1 .list3-2 .check {
+.qhdz .dz-cont .cont-wrap .slide1 .list3-2 .check {
   background: url("../img/gx01.png") no-repeat;
   background-size: 100% 100%;
   width: 18px;
   height: 18px;
+  background-size: 18px 18px;
   border-color: #55c891;
 }

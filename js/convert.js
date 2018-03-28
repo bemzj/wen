@@ -1,10 +1,11 @@
 $(function () {
     $('#qh').click(function () {
         $('#mask').show();
+        $('.qhdz').show();
     })
     $('#mask').click(function () {
-
-        $(this).stop().hide();
+        $('.qhdz').hide();
+        $(this).hide();
     })
     //切换地址复选
     var fx = true;
