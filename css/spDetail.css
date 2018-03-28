@@ -338,21 +338,14 @@ body {
   width: 19%;
   background-color: #fff;
   text-align: center;
-  margin-right: 14px;
+  margin-right: 1.25%;
 }
 .contant .sp-list4 .L4-con .con-1 .slide .slide-1 {
   width: 100%;
-  height: 220px;
-  position: relative;
 }
 .contant .sp-list4 .L4-con .con-1 .slide .slide-1 img {
-  position: absolute;
-  top: 50%;
-  margin-top: -90px;
-  left: 50%;
-  margin-left: -110px;
-  width: 80%;
-  height: 80%;
+  padding: 20px;
+  width: 100%;
 }
 .contant .sp-list4 .L4-con .con-1 .slide .slide-2 {
   font-size: 16px;
@@ -362,10 +355,26 @@ body {
   margin-bottom: 10px;
 }
 .contant .sp-list4 .L4-con .con-1 .slide .slide-2 .s1 {
+  width: 92%;
+  margin: 0 auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
   font-weight: bold;
+  line-height: 30px;
 }
 .contant .sp-list4 .L4-con .con-1 .slide .slide-2 .s2 {
   color: #707070;
+  width: 84%;
+  margin: 0 auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: bold;
+  line-height: 30px;
+}
+.contant .sp-list4 .L4-con .con-1 .slide .slide-2 .s3 {
+  margin-top: 10px;
 }
 .contant .sp-list4 .L4-con .con-1 .slide .slide-2 .s3 span {
   display: inline-block;
@@ -381,17 +390,20 @@ body {
   color: #e3a142;
   padding: 8px 0;
 }
+.contant .sp-list4 .L4-con .con-1 .slide:nth-child(5n) {
+  margin-right: 0%;
+}
 .contant .sp-list4 .L4-con .page-1 {
-  width: 32%;
   float: right;
   margin: 20px 0 100px 0;
 }
 .contant .sp-list4 .L4-con .page-1 > div {
   float: left;
-  width: 10%;
-  padding: 10px;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
   border: 1px solid #e0e0e0;
-  margin-right: 10px;
+  margin-left: 10px;
   font-size: 20px;
   text-align: center;
   color: #666666;
@@ -399,4 +411,9 @@ body {
 }
 .contant .sp-list4 .L4-con .page-1 .more {
   border: 0;
+}
+@media (max-width: 1660px) {
+  .contant .sp-list4 {
+    width: 1200px;
+  }
 }

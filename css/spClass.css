@@ -1,6 +1,9 @@
 body {
   background-color: #f2f2f2;
 }
+.content {
+  margin-top: 70px;
+}
 .clearfloat:after {
   display: block;
   clear: both;

@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>商品详情</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>个人信息-我的钱包</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
     <link rel="stylesheet" href="lib/css/layui.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
     <link rel="stylesheet" href="css/public.css" />
-    <link rel="stylesheet" type="text/css" href="css/spDetail.css"/>
-    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/personWrap.css">
+    <link rel="stylesheet" type="text/css" href="css/personList8.css"/>
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/swiper-3.4.2.min.js"></script>
+    <script src="js/select.js"></script>
 </head>
 <body>
 <header class="headBord">
@@ -52,8 +51,8 @@
     </nav>
     <div class="banner">
         <div id="rightPop" class="rightPop">
-            <a href="###" class="popClose"><img src="img/indexClose.png"/></a>
-            <div class="register rpBox"  style="display: none;">
+            <a href="###" class="popClose"><img src="img/indexClose.png" /></a>
+            <div class="register rpBox" style="display: none;">
                 <form action="">
                     <ul>
                         <li>
@@ -255,318 +254,412 @@
         </div>
     </div>
 </header>
-<div class="contant">
-    <div class="sp-detail">
-        <div class="sp-list1">
-            <div class="list1-left">
-                <div class="bigImg">
-                    <img id="big" src="img/beibao.png" alt="">
-                </div>
-                <div class="swiper-bottom">
-                    <div class="swiper-container" id="swiper3">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide sw">
-                                <a href="###">
-                                    <img src="img/beibao.png" alt="">
-                                </a>
-                            </div>
-                            <div class="swiper-slide sw">
-                                <a href="###">
-                                    <img src="img/beibao.png" alt="">
-                                </a>
-                            </div>
-                            <div class="swiper-slide sw">
-                                <a href="###">
-                                    <img src="img/beibao.png" alt="">
-                                </a>
-                            </div>
-                            <div class="swiper-slide sw">
-                                <a href="###">
-                                    <img src="img/beibao.png" alt="">
-                                </a>
-                            </div>
-                            <div class="swiper-slide sw">
-                                <a href="###">
-                                    <img src="img/beibao.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
-                <div class="ziti"><span>图片仅供参考，实际兑换礼品请以具体以实物或具体服务为准。</span></div>
-            </div>
-            <div class="list1-right">
-                <div class="L1-r1">
-                    <div class="r1-1">香港马莎兰缇韩版旅行休闲女包</div>
-                    <div class="r1-2">香港马莎兰缇韩版旅行休闲女包香港马莎兰缇韩版旅行休闲女包香港马莎兰缇韩版旅行休闲 包香港马莎兰缇韩版旅行休闲女包香港马莎兰</div>
-                </div>
-                <div class="L1-r2">
-                    <div>
-                        <span>积&nbsp;&nbsp;&nbsp;&nbsp;分：</span>
-                        <div class="jifen">
-                            <div class="sel">5000积分
-                                <img src="img/sanjiao.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="L1-r3 clearfloat">
-                    <div class="r3-1">选择规格：</div>
-                    <div class="r3-2 clearfloat">
-                        <div class="sel">棕色
-                            <img src="img/sanjiao.png" alt="">
-                        </div>
-                        <div>白色
-                            <img src="img/sanjiao.png" alt="">
-                        </div>
-                        <div>红色
-                            <img src="img/sanjiao.png" alt="">
-                        </div>
-                        <div>黑色
-                            <img src="img/sanjiao.png" alt="">
-                        </div>
-                        <div>黑色
-                            <img src="img/sanjiao.png" alt="">
-                        </div>
-                        <div>黑色
-                            <img src="img/sanjiao.png" alt="">
-                        </div>
-                        <div>黑色
-                            <img src="img/sanjiao.png" alt="">
-                        </div>
-                        <div>黑色
-                            <img src="img/sanjiao.png" alt="">
-                        </div>
-                        <div>黑色
-                            <img src="img/sanjiao.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="L1-r4 clearfloat">
-                    <div class="r4-1">选择数量：</div>
-                    <div class="r4-2 clearfloat">
-                        <!--<button>-</button>-->
-                        <button class="prevNum">-</button>
-                        <div class="num">1</div>
-                        <button class="nextNum">+</button>
-                        <!--<button>+</button>-->
-                    </div>
-                </div>
-                <div class="L1-r5">
-                    <button>立即兑换</button>
-                </div>
-            </div>
+<!--内容区-->
+<!--提示弹窗-->
+<div id="tishi" class="tishi">
+    <div class="mask"></div>
+    <div class="wrap">
+        <div class="wrap-1">
+            <img src="img/icon12.png" alt="">
+            <div>提示</div>
         </div>
-        <div class="sp-list2">
-            <div>
-                <div class="list2-tab clearfloat">
-                    <div class="sel">产品介绍</div>
-                    <div>产品详情</div>
-                </div>
-                <div class="list2-con">
-                    <div class="con-list1 clearfloat">
-                        <div class="con-left">礼品概述</div>
-                        <div class="con-right">休闲女包/pu</div>
-                    </div>
-                    <div class="con-list1 clearfloat">
-                        <div class="con-left">
-                            <p>礼品概述</p>
-                        </div>
-                        <div class="con-right">商品有质量问题，可在收到货后72小时内联系客服退换，运费由商家承担，无理由退换运费由买家承担。商品有质量问题，可在收到货后72小时 内联系客服退换，运费由商家承担，无理由退换运费由买家承担。</div>
-                    </div>
-                    <div class="con-list1 clearfloat">
-                        <div class="con-left">产地</div>
-                        <div class="con-right">广东省广东省</div>
-                    </div>
-                    <div class="con-list1 clearfloat">
-                        <div class="con-left">包装清单</div>
-                        <div class="con-right">以客户收到实物为准</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sp-list3">
-            <div>
-                <img src="img/bg03.png" alt="">
-            </div>
+        <div class="wrap-2">最低100元可体现</div>
+        <div class="wrap-3">
+            <button>知道了</button>
         </div>
     </div>
-    <div class="sp-list4">
-        <div class="L4-title">
-            <div>
-                <img src="img/yun01.png" alt="">
-                <span>推荐商</span>
-                <img src="img/yun02.png" alt="">
-            </div>
+</div>
+<!--提现余额不足-->
+<div id="tixian" class="tishi">
+    <div class="mask"></div>
+    <div class="wrap">
+        <div class="wrap-1">
+            <img src="img/icon12.png" alt="">
+            <div>提示</div>
         </div>
-        <div class="L4-con clearfloat">
-            <div class="con-1 clearfloat">
-                <div class="slide">
-                    <a href="###">
-                        <div class="slide-1">
-                            <img src="img/qiyiguo.png" alt="">
-                        </div>
-                        <div class="slide-2">
-                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
-                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
-                            <div class="s3">
-                                <span>90积分兑换</span>
-                            </div>
-                            <div class="s4">180积分</div>
-                        </div>
-                    </a>
+        <div class="wrap-2">没有可转出的余额</div>
+        <div class="wrap-3">
+            <button>知道了</button>
+        </div>
+    </div>
+</div>
+<!--转出成功-->
+<div id="tixian-suc" class="tishi" style="display: none">
+    <div class="mask"></div>
+    <div class="wrap">
+        <div class="wrap-1">
+            <img src="img/success01.png" alt="">
+            <div>转出成功</div>
+        </div>
+        <div class="wrap-3">
+            <button>知道了</button>
+        </div>
+    </div>
+</div>
+<div id="con-wrap" class="container">
+    <div class="row">
+        <!--侧边栏-->
+        <div class="col-lg-2 con-left">
+            <div class="left-list1">
+                <div class="head-wrap">
+                    <img class="head" src="img/head.png" alt="">
                 </div>
-                <div class="slide">
-                    <a href="###">
-                        <div class="slide-1">
-                            <img src="img/qiyiguo.png" alt="">
-                        </div>
-                        <div class="slide-2">
-                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
-                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
-                            <div class="s3">
-                                <span>90积分兑换</span>
-                            </div>
-                            <div class="s4">180积分</div>
-                        </div>
-                    </a>
+                <div class="perGrade">
+                    <span class="span1">Lv1</span>
+                    <div class="line">
+                        <div class="line-ing"></div>
+                        <span class="cir cir-sel"></span>
+                        <span class="cir cir2"></span>
+                        <span class="cir cir3"></span>
+                        <span class="cir cir4"></span>
+                    </div>
+                    <span class="span2">Lv7</span>
                 </div>
-                <div class="slide">
-                    <a href="###">
-                        <div class="slide-1">
-                            <img src="img/qiyiguo.png" alt="">
-                        </div>
-                        <div class="slide-2">
-                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
-                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
-                            <div class="s3">
-                                <span>90积分兑换</span>
-                            </div>
-                            <div class="s4">180积分</div>
-                        </div>
-                    </a>
+                <div class="perInte">积分：300</div>
+            </div>
+            <ul class="left-list2">
+                <li><a href="##">个人首页<span>></span></a></li>
+                <li><a href="##">积分<span>></span></a></li>
+                <li><a href="##">会员升级标准<span>></span></a></li>
+                <li><a href="##">文晟积分规则<span>></span></a></li>
+                <li><a href="##">个人信息<span>></span></a></li>
+                <li><a href="##">我的订单<span>></span></a></li>
+                <li><a href="##">积分商城<span>></span></a></li>
+                <li class="sel"><a href="##">我的钱包<span>></span></a></li>
+                <li><a href="##">常用信息<span>></span></a></li>
+            </ul>
+        </div>
+        <!--右内容区-->
+        <div class="col-lg-10 container con-right">
+            <!--我的钱包主页-->
+            <div class="right-wrap" style="display: none">
+                <div class="wrap-title">
+                    <div>我的钱包</div>
                 </div>
-                <div class="slide">
-                    <a href="###">
-                        <div class="slide-1">
-                            <img src="img/qiyiguo.png" alt="">
+                <div class="wrap-cont">
+                    <div class="cont-1">
+                        <div class="c1-1">
+                            <img src="img/bolang.png" alt="">
+                            <div class="c1-title">我的钱包</div>
+                            <div class="c1-name">帐户名:<span>138****6688</span> </div>
                         </div>
-                        <div class="slide-2">
-                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
-                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
-                            <div class="s3">
-                                <span>90积分兑换</span>
+                        <div class="c1-2 clearfloat">
+                            <div class="c12-left">
+                                <div>
+                                    <div class="">现金余额</div>
+                                    <div><span>0.00</span>元</div>
+                                </div>
+                                <button class="chongzhi">充值</button>
+                                <button class="tixian">提现</button>
                             </div>
-                            <div class="s4">180积分</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="slide">
-                    <a href="###">
-                        <div class="slide-1">
-                            <img src="img/qiyiguo.png" alt="">
-                        </div>
-                        <div class="slide-2">
-                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
-                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
-                            <div class="s3">
-                                <span>90积分兑换</span>
+                            <div class="c12-right">
+                                <div class="r-1">
+                                    <div class="r1-list1">返现</div>
+                                    <div class="r1-list2">0.00元</div>
+                                </div>
+                                <div class="r-2">优惠券</div>
                             </div>
-                            <div class="s4">180积分</div>
                         </div>
-                    </a>
+                    </div>
+                    <div class="cont-2">
+                        <div class="c2-1">
+                            <div>小贴士</div>
+                        </div>
+                        <div class="c2-2">
+                            <div class="info clearfloat">
+                                <div class="circle"></div>
+                                <div class="mes">提现后24小时内到账提现后24小时内到账</div>
+                                <img src="img/jiantou04.png" alt="">
+                            </div>
+                            <div class="more"></div>
+                        </div>
+                        <div id="c2-3" class="c2-2 ">
+                            <div class="info clearfloat">
+                                <div class="circle"></div>
+                                <div class="mes mes2">提现后24小时内到账提现后24小时内到账提现后24小时内到账提</div>
+                                <img class="" src="img/jiantou03.png" alt="">
+                            </div>
+                            <div class="more">
+                                <p>提现后24小时内到账提现后24小时内到账提现后24小时内到账提现后24小时内到账，提现后24小时内到账提现后 24小时内到账提现后24小时内到账提现后24小时内到账。</p>
+                            </div>
+                        </div>
+                        <div class="c2-2">
+                            <div class="info clearfloat">
+                                <div class="circle"></div>
+                                <div class="mes">提现后24小时内到账提现后24小时内到账提现后24小时内到账提现后24小时内到账</div>
+                                <img src="img/jiantou03.png" alt="">
+                            </div>
+                            <div class="more"></div>
+                        </div>
+                    </div>
+                    <div class="cont-3">更多问题请拨打我们的客服电话 <span>400-60268468</span></div>
                 </div>
             </div>
-            <div class="con-1 clearfloat">
-                <div class="slide">
-                    <a href="###">
-                        <div class="slide-1">
-                            <img src="img/qiyiguo.png" alt="">
-                        </div>
-                        <div class="slide-2">
-                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
-                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
-                            <div class="s3">
-                                <span>90积分兑换</span>
-                            </div>
-                            <div class="s4">180积分</div>
-                        </div>
-                    </a>
+            <!--转出金额-->
+            <div class="right-wrap1 zhuanchu" style="display: none;">
+                <div class="wrap-title">
+                    <div>我的钱包</div>
                 </div>
-                <div class="slide">
-                    <a href="###">
-                        <div class="slide-1">
-                            <img src="img/qiyiguo.png" alt="">
-                        </div>
-                        <div class="slide-2">
-                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
-                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
-                            <div class="s3">
-                                <span>90积分兑换</span>
-                            </div>
-                            <div class="s4">180积分</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="slide">
-                    <a href="###">
-                        <div class="slide-1">
-                            <img src="img/qiyiguo.png" alt="">
-                        </div>
-                        <div class="slide-2">
-                            <div class="s1"><p>爱奇果 陕西眉县 徐香猕陕西眉县...</p></div>
-                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
-                            <div class="s3">
-                                <span>90积分兑换</span>
-                            </div>
-                            <div class="s4">180积分</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="slide">
-                    <a href="###">
-                        <div class="slide-1">
-                            <img src="img/qiyiguo.png" alt="">
-                        </div>
-                        <div class="slide-2">
-                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
-                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
-                            <div class="s3">
-                                <span>90积分兑换</span>
-                            </div>
-                            <div class="s4">180积分</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="slide">
-                    <a href="###">
-                        <div class="slide-1">
-                            <img src="img/qiyiguo.png" alt="">
-                        </div>
-                        <div class="slide-2">
-                            <div class="s1">爱奇果 陕西眉县 徐香猕陕西眉县...</div>
-                            <div class="s2">爱奇果 陕西眉县 徐香猕猴...</div>
-                            <div class="s3">
-                                <span>90积分兑换</span>
-                            </div>
-                            <div class="s4">180积分</div>
-                        </div>
-                    </a>
+                <div class="wrap-cont">
+                    <div class="cont-1">可转出金额：<span>520.00</span>元</div>
+                    <div class="cont-2">
+                        <input type="text" placeholder="请输入转出金额">
+                    </div>
+                    <div class="cont-3">
+                        <button>转出</button>
+                    </div>
                 </div>
             </div>
-            <div>
-            	<div class="page-1 clearfloat">
-	                <div>1</div>
-	                <div>2</div>
-	                <div>3</div>
-	                <div>4</div>
-	                <div>5</div>
-	                <div class="more">...</div>
-	                <div>1</div>
-	                <div>></div>
-	            </div>
+            <!--提现金额-->
+            <div class="right-wrap1 tixian" style="display: none">
+                <div class="wrap-title">
+                    <div>我的钱包</div>
+                </div>
+                <div class="wrap-cont">
+                    <div class="cont-1">可提现金额：<span>666.00</span>元</div>
+                    <div class="cont-2">
+                        <input type="text" placeholder="请输入提现金额">
+                    </div>
+                    <div class="cont-3">
+                        <button>提现</button>
+                    </div>
+                </div>
+            </div>
+            <!--交易明细-->
+            <div class="right-jymx" style="display: none">
+                <div class="wrap-title">
+                    <div>我的钱包</div>
+                </div>
+                <div class="wrap-cont">
+                    <div class="cont-title clearfloat">
+                        <div>&nbsp;</div>
+                        <div>日期</div>
+                        <div>金额（元）</div>
+                    </div>
+                    <div class="cont-list clearfloat">
+                        <div>充值</div>
+                        <div>2018-01-15</div>
+                        <div>+50</div>
+                    </div>
+                    <div class="cont-list clearfloat">
+                        <div>充值</div>
+                        <div>2018-01-15</div>
+                        <div>+50</div>
+                    </div>
+                    <div class="cont-list clearfloat">
+                        <div>充值</div>
+                        <div>2018-01-15</div>
+                        <div>+50</div>
+                    </div>
+                    <div class="cont-list clearfloat">
+                        <div>充值</div>
+                        <div>2018-01-15</div>
+                        <div>+50</div>
+                    </div>
+                    <div class="cont-list clearfloat">
+                        <div>提现</div>
+                        <div>2018-01-15</div>
+                        <div>-100</div>
+                    </div>
+                    <div class="cont-list clearfloat">
+                        <div>充值</div>
+                        <div>2018-01-15</div>
+                        <div>+50</div>
+                    </div>
+                    <div class="cont-list clearfloat">
+                        <div>提现</div>
+                        <div>2018-01-15</div>
+                        <div>-60</div>
+                    </div>
+                </div>
+            </div>
+            <!--返现-->
+            <div class="right-fx" style="display: none">
+                <div class="wrap-title">
+                    <div>我的钱包</div>
+                </div>
+                <div class="wrap-cont">
+                    <div class="cont-1 clearfloat">
+                        <div class="c1-1">返现余额：<span>0.00</span>元</div>
+                        <div class="c1-2">
+                            <button id="zhuanchu">转出到现金余额</button>
+                        </div>
+                    </div>
+                    <div class="cont-2">
+                        <div class="c2-title clearfloat">
+                            <div>返现账户明细</div>
+                            <div>
+                                <a href="###">常见问题</a>
+                            </div>
+                        </div>
+                        <div class="c2-1 clearfloat">
+                            <div class="sel">返现记录</div>
+                            <div>转出记录</div>
+                        </div>
+                        <div class="c2-2 clearfloat">
+                            <div>订单号</div>
+                            <div>金额（元）</div>
+                            <div>返现日期</div>
+                        </div>
+                        <div class="c2-3 clearfloat">
+                            <div class="c23-1">
+                                <div class="">新加坡潜水旅行计划</div>
+                                <div>订单号：12546923</div>
+                            </div>
+                            <div class="c23-2">30</div>
+                            <div class="c23-3">2018-03-03</div>
+                        </div>
+                        <div class="c2-3 clearfloat">
+                            <div class="c23-1">
+                                <div class="">新加坡潜水旅行计划</div>
+                                <div>订单号：12546923</div>
+                            </div>
+                            <div class="c23-2">30</div>
+                            <div class="c23-3">2018-03-03</div>
+                        </div>
+                        <div class="c2-3 clearfloat">
+                            <div class="c23-1">
+                                <div class="">新加坡潜水旅行计划</div>
+                                <div>订单号：12546923</div>
+                            </div>
+                            <div class="c23-2">30</div>
+                            <div class="c23-3">2018-03-03</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--现金余额-->
+            <div class="right-fx right-fx1" style="display: none;">
+                <div class="wrap-title">
+                    <div>我的钱包</div>
+                </div>
+                <div class="wrap-cont">
+                    <div class="cont-1 clearfloat">
+                        <div class="c1-1">现金余额：<span>0.00</span>元</div>
+                        <div class="c1-2">
+                            <button id="zhuanchu">提现</button>
+                        </div>
+                    </div>
+                    <div class="cont-2">
+                        <div class="c2-title clearfloat">
+                            <div>现金余额明细</div>
+                        </div>
+                        <div class="c2-1 clearfloat">
+                            <div class="sel">收支明细</div>
+                            <div>返现记录</div>
+                        </div>
+                        <div class="c2-2 clearfloat">
+                            <div>流水号</div>
+                            <div>时间</div>
+                            <div>类型</div>
+                            <div>名称</div>
+                            <div>收入（元）</div>
+                            <div>支出（元）</div>
+                            <div>资金来源</div>
+                            <div>金额（元）</div>
+                        </div>
+                        <div class="c-wrap">
+                            <div class="c2-3 clearfloat">
+                                <div class="c23-1">12546923</div>
+                                <div class="c23-2">2018-03-03</div>
+                                <div class="c23-3">提现</div>
+                                <div class="c23-4">名称</div>
+                                <div class="c23-5">30</div>
+                                <div class="c23-6">10</div>
+                                <div class="c23-7">资金来源</div>
+                                <div class="c23-8">20</div>
+                            </div>
+                        </div>
+                        <div class="c2-4">
+                            <div>您还没有任何收支明细</div>
+                            <div>收支明细仅显示现金余额消费、充值和提现等产生的收入支出记录</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--优惠券-->
+            <div class="right-yhq" style="display: none;">
+                <div class="wrap-title">
+                    <div>我的优惠券</div>
+                </div>
+                <div class="tab clearfloat">
+                    <div class="sel">未使用</div>
+                    <div>已使用</div>
+                    <div>已过期</div>
+                </div>
+                <div class="tab-wrap">
+                    <div class="tab-list">
+                        <img src="img/quan01.png" alt="">
+                        <div class="con-1">
+                            <div class="con1-1">
+                                <div class="dol">￥</div>
+                                <div class="numb">30</div>
+                                <div class="right">最高</div>
+                            </div>
+                            <div class="con1-2">满减券</div>
+                        </div>
+                        <div class="con-2">
+                            <div class="co2-1">旅游券票</div>
+                            <div class="co2-2">满500减30</div>
+                            <div class="co2-3">有效期：2018-03-20--2018-03-31</div>
+                        </div>
+                    </div>
+                    <div class="tab-list">
+                        <img src="img/quan01.png" alt="">
+                        <img class="img2" src="img/shiyong.png" alt="">
+                        <div class="con-1">
+                            <div class="con1-1">
+                                <div class="dol">￥</div>
+                                <div class="numb">30</div>
+                                <div class="right">最高</div>
+                            </div>
+                            <div class="con1-2">满减券</div>
+                        </div>
+                        <div class="con-2">
+                            <div class="co2-1">旅游券票</div>
+                            <div class="co2-2">满500减30</div>
+                            <div class="co2-3">有效期：2018-03-20--2018-03-31</div>
+                        </div>
+                    </div>
+                    <div class="tab-list">
+                        <img src="img/quan02.png" alt="">
+                        <img class="img2" src="img/shiyong.png" alt="">
+                        <div class="con-1">
+                            <div class="con1-1">
+                                <div class="dol">￥</div>
+                                <div class="numb">30</div>
+                                <div class="right">最高</div>
+                            </div>
+                            <div class="con1-2">满减券</div>
+                        </div>
+                        <div class="con-2">
+                            <div class="co2-1">旅游券票</div>
+                            <div class="co2-2">满500减30</div>
+                            <div class="co2-3">有效期：2018-03-20--2018-03-31</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--充值-->
+            <div class="right-cz">
+                <div class="wrap-title">
+                    <div>我的钱包</div>
+                </div>
+                <div class="wrap-con">
+                    <div>充值金额</div>
+                    <div>
+                        <input type="text">
+                    </div>
+                    <div class="payThree">
+                        <a href="###" class="payChoice">银行卡支付</a>
+                        <a href="###">支付宝支付</a>
+                        <a href="###">微信支付</a>
+                    </div>
+                    <div>
+                        <button>充值</button>
+                        <a href="###">交易明细</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -738,7 +831,7 @@
         <p>Copyright 2013-2014, 7doufeng.com.All Rights Reserved .文晟旅游 | Powered by 蜀ICP备14025136号-1</p>
     </div>
 </footer>
-<script type="text/javascript" src="js/public.js" ></script>
-<script src="js/spDetail.js"></script>
+<script type="text/javascript" src="js/personList8.js" ></script>
+<!--<script type="text/javascript" src="js/personList2.js" ></script>-->
 </body>
 </html>

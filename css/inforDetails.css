@@ -10,7 +10,8 @@ section {
   height: 895px;
   background: white;
   box-shadow: -10px -10px 60px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: -10px -10px 60px rgba(0, 0, 0, 0.3); }
+  -webkit-box-shadow: -10px -10px 60px rgba(0, 0, 0, 0.3);
+  z-index: 100; }
   .popContent .popBox {
     width: 600px;
     margin: 0 auto; }
