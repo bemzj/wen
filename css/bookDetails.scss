@@ -1,0 +1,582 @@
+body {
+    background-color: #f7f6f6;
+}
+
+.clearFloat::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.mainCon {
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-top: 80px;
+    padding-bottom: 140px;
+}
+
+.bottomCon {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mainCon .titleSel {
+    margin: 0 5%;
+}
+
+.mainCon .titleSel h5 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.mainCon .dataSel {
+    color: #6b6b6b;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.mainCon .tipSel {
+    color: #948787;
+    font-size: 18px;
+    background-color: #efefef;
+    margin-top: 35px;
+    padding: 10px;
+}
+
+.mainCon .amountSel {
+    margin-top: 50px;
+}
+
+.mainCon .numSpan {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+    font-size: 31px;
+    margin-left: -22px;
+}
+
+.mainCon .textSpan {
+    font-size: 22px;
+    margin-left: 3.75%;
+}
+
+.linkmanSel {
+    margin-top: 40px;
+}
+
+.linkmanSel .linkmanCon {
+    margin-left: 9.5%;
+}
+
+.linkmanSel .linkmanCon label {
+    width: 5%;
+    color: #5f5f5f;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.linkmanSel .linkmanCon {
+    margin-bottom: 30px;
+}
+
+.linkmanSel .linkmanCon p {
+    margin-top: 15px;
+}
+
+.linkmanSel .linkmanCon input {
+    width: 35.8%;
+    height: 35px;
+    margin-left: 2%;
+    border: none;
+    outline: none;
+    border: 1px solid #d5d5d5;
+    text-indent: 20px;
+    font-size: 16px;
+}
+
+.footLine {
+    border: 1px solid #e9e9e9;
+    margin: 0 5%;
+}
+.btn-numbox li {
+    float: left;
+}
+
+.btn-numbox li .number,
+.priceAll {
+    display: inline-block;
+    font-size: 18px;
+    color: #5f5f5f;
+    line-height: 30px;
+}
+
+.btn-numbox .count {
+    overflow: hidden;
+    margin: 0 10px 0 25px;
+}
+
+.btn-numbox .count .num-jian,
+.input-num,
+.num-jia {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #bfbfbf;
+    cursor: pointer;
+    border: 1px solid #eaeaea;
+}
+
+.count .num-jia {
+    color: #81d4aa;
+    background-color: transparent;
+}
+.count .num-jian{
+    background-color: transparent;
+}
+.btn-numbox .count .input-num {
+    width: 50px;
+    height: 30px;
+    color: #333;
+    border-left: 0;
+    border-right: 0;
+}
+
+.bottomCon {
+    font-size: 30px;
+}
+
+.bottomCon a {
+    display: inline-block;
+}
+
+.amountCon>ul {
+    float: left;
+}
+
+.amountCon {
+    margin-bottom: 35px;
+    margin-left: 9%;
+    margin-top: 30px;
+}
+.tripCon {
+    margin: 30px 0 40px 5%;
+    font-size: 18px;
+}
+
+.tripCon>div {
+    float: left
+}
+.layui-input-block{
+    margin-left: auto;
+}
+.layui-form-radio span {
+    font-size: 18px;
+    color: #a49d9d;
+}
+.tripPerson>div {
+    position: relative;
+    float: left;
+    margin-right: 25px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.tripCon .tripTip {
+    margin-right: 25px;
+    color: #5f5f5f;
+    line-height: 40px;
+}
+
+.tripPerson label {
+    cursor: pointer;
+    color: #a49d9d;
+    margin-left: 30px;
+    font-weight: lighter;
+}
+
+.tripPerson input {
+    z-index: 3;
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.tripPerson .user-defined {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #55c891;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tripPerson .user-defined span.circle {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-top: 4px;
+    margin-left: 4px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.tripPerson .user-defined span.active {
+    background-color: #55c891;
+}
+
+.addPerson a {
+    display: inline-block;
+    width: 140px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color: #55c891;
+    border: 1px solid #60cc98;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.tripNews {
+    margin-top: 30px;
+}
+
+.textSpan em {
+    color: #ff7a26;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.liuyan {
+    margin-left: 9%;
+    margin-bottom: 35px;
+}
+
+.liuyan label {
+    font-size: 18px;
+    margin-right: 25px;
+    float: left;
+    color: #5f5f5f;
+    font-weight: 400;
+}
+
+.liuyan textarea {
+    width: 58%;
+    height: 115px;
+    border: none;
+    outline: none;
+    border: 1px solid #d5d5d5;
+    resize: none;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.insurSel {
+    margin-top: 15px;
+}
+
+.insurSel .insurCon {
+    color: #55c891;
+    font-size: 18px;
+    margin: 20px 5% 40px 5%;
+}
+
+.otherAdd {
+    margin-top: 30px;
+}
+
+.otherAdd .otherCon1,
+.otherAdd .otherCon2 {
+    margin: 0 6% 0 6%;
+}
+
+.otherAdd .otherCon1>div,
+.otherAdd .otherCon2>div {
+    float: left;
+}
+
+.otherAdd .leftCheck label {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 40px;
+}
+
+.otherAdd .leftCheck span{
+    position: absolute;
+    top: 0;
+    left: 8px;
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid #55c891;
+    cursor: pointer;
+}
+.tripCon1{
+    margin-bottom: 30px;
+}
+.otherAdd .leftCheck{
+    position: relative;
+    input{
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 8px;
+        width: 24px;
+        height: 24px;
+        margin: 0;
+        z-index: 1;
+    }
+    .spanChoice {
+        background: url(../img/indexYes.png) no-repeat left top;
+        background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        background-color: #55c891;
+    }
+}
+.otherAdd .otherCon2 {
+    margin-top: 20px;
+}
+
+.otherAdd .otherCon2 a {
+    display: inline-block;
+}
+
+.otherAdd .otherCon2 .leftAdd span {
+    color: #5f5f5f;
+    font-size: 18px;
+}
+
+.otherAdd .rightExp a {
+    color: #78d9fb;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.otherAdd .otherCon2 .addAbtn {
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #60cc98;
+    font-size: 18px;
+    border: 1px solid #60cc98;
+    border-radius: 5px;
+    margin-left: 55px;
+}
+
+.bottomCon {
+    margin-bottom: 120px;
+}
+
+.bottomCon .allowAbtn ul li {
+    float: left;
+    height: 88px;
+    line-height: 88px;
+}
+
+.bottomCon .allowAbtn {
+    border: 1px solid #90dab6;
+    height: 90px;
+}
+
+.bottomCon .allowAbtn ul li.moneyShow {
+    width: 60%;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+
+.bottomCon .allowAbtn ul li.moneyShow span {
+    font-size: 24px;
+}
+
+.bottomCon .allowAbtn ul li.moneyShow em {
+    color: #fe3d3d;
+    font-size: 30px;
+}
+
+.bottomCon .allowAbtn ul li.termShow {
+    width: 40%;
+    background-color: #55c891;
+    text-align: center;
+}
+
+.bottomCon .allowAbtn ul li.termShow a {
+    color: white;
+    font-size: 36px;
+}
+
+.bottomCon .agreement {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #949494;
+    p{
+        width: 40%;
+        label{
+            position: relative;
+        }
+        input{
+            margin:4px 8px 0;
+            opacity:0;
+        }
+        span{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 24px;
+            height: 24px;
+            background-color: transparent;
+            border-radius: 3px;
+            border: 1px solid #55c891;
+            cursor: pointer;
+            cursor: -ms-pointer;
+        }
+        .spanChoice{
+            background: url(../img/indexYes.png) no-repeat left top;
+            background-size: 100% 100%;
+            -webkit-background-size: 100% 100%;
+            background-color: #55c891;
+        }
+    }
+}
+.otherCon4{
+    margin-right: 2%;
+}
+.bottomCon .agreement label {
+    font-weight: lighter;
+}
+
+.bottomCon .agreement a {
+    color: #5bd3fa
+}
+.ceng {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    display: none;
+
+}
+
+.cengColor {
+    width: 670px;
+    height: 610px;
+    position: absolute;
+    z-index: 5;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    border-radius: 25px 25px 5px 5px;
+    .bottomContentOut{
+        width: 605px;
+        margin: 20px auto 0;
+        overflow-x: hidden;
+    }
+    .bottomContent{
+        width:624px;
+        height: 480px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        >div{
+            position: relative;
+            padding-bottom: 10px;
+            margin-bottom: 16px;
+            ul li:nth-child(1){
+                font-size: 22px;
+                margin-bottom: 8px;
+                padding-top: 8px;
+                color: #666666;
+            }
+            ul li:nth-child(2){
+                width: 576px;
+                margin-left: 14px;
+                text-align: justify;
+                font-size: 18px;
+                color: #2e2e2e;
+                line-height: 30px;
+            }
+        }
+        >div::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -16px;
+            width: 100%;
+            height: 16px;
+            background: url(../img/book14.png) no-repeat left top;
+            background-size:100% 100%;
+            -webkit-background-size: 100% 100%;
+        }
+        >div:nth-last-child(1)::after{
+            display: none;
+        }
+        >div:nth-last-child(1){
+            margin-bottom: 0px;
+        }
+    }
+    .cengClose{
+        display: block;
+        position: absolute;
+        top: -26px;
+        right: -30px;
+    }
+}
+.baoxian {
+    .cengColor .bottomContent > div ul li:nth-child(1){
+        color: #2b2b2b;
+        font-size: 25.5px;
+        margin-bottom: 10px;
+        padding-top: 12px;
+    }
+    .cengColor .bottomContent > div ul li:nth-child(2){
+        margin-left: 0px;
+    }
+    .cengColor .bottomContent > div:nth-last-child(1) {
+        margin-bottom: 16px;
+    }
+    .cengColor .bottomContent > div:nth-last-child(1)::after{
+        display: block;
+    }
+}
+.cengColor .topTip {
+    background-color: #55c891;
+    color: white;
+    border-radius: 25px 25px 0 0;
+    text-align: center;
+    font-size: 30px;
+    height: 90px;
+    line-height: 90px;
+}

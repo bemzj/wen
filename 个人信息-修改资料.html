@@ -273,15 +273,15 @@
                 <div class="perInte">积分：300</div>
             </div>
             <ul class="left-list2">
-                <li>个人首页<span>></span></li>
-                <li>积分<span>></span></li>
-                <li>会员升级标准<span>></span></li>
-                <li>文晟积分规则<span>></span></li>
-                <li class="sel">个人信息<span>></span></li>
-                <li>我的订单<span>></span></li>
-                <li>积分商城<span>></span></li>
-                <li>我的钱包<span>></span></li>
-                <li>常用信息<span>></span></li>
+            	<li><a href="##">个人首页<span>></span></a></li>
+                <li><a href="##">积分<span>></span></a></li>
+                <li><a href="##">会员升级标准<span>></span></a></li>
+                <li><a href="##">文晟积分规则<span>></span></a></li>
+                <li  class="sel"><a href="##">个人信息<span>></span></a></li>
+                <li><a href="##">我的订单<span>></span></a></li>
+                <li><a href="##">积分商城<span>></span></a></li>
+                <li><a href="##">我的钱包<span>></span></a></li>
+                <li><a href="##">常用信息<span>></span></a></li>
             </ul>
         </div>
         <!--右内容区-->
@@ -311,16 +311,17 @@
                                 <div class="layui-form-item">
                                     <label class="layui-form-label">头像:</label>
                                     <button type="button" class="layui-btn" id="upImg">
-                                        <i class="layui-icon">&#xe67c;</i>上传图片
+                                        <i class="layui-icon">&#xe67c;</i>选择图片
                                     </button>
                                 </div>
                             </div>
                             
                             <div class="list4-d2">
+                            	<div class="specail" style="display: none;">
+                                	<img src="" />
+                                </div>
                                 <div>
-                                	<div>
-                                		<img src="" />
-                                	</div>
+                                	
                                     <img src="img/上传.png" alt="">
                                 </div>
                                 <span>只支持jpg/PNG格式，大小不能超过1M</span>
@@ -425,6 +426,9 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="list4-d6">
+                            	<button class="save">保存</button>
+                            </div>
                         </form>
                     </div>
                     <div class="row ry right-list3 shouji">
@@ -432,7 +436,7 @@
                             <div class="list3-cont">
                                 <div class="cont-title">请输入新手机号码：</div>
                                 <div class="cont-list2">
-                                    <input type="text" value="185****1235">
+                                    <input type="text" value="">
                                     <div class="list3-btn1">发送验证码</div>
                                 </div>
                                 <div class="cont-title">请输入验证码：</div>
@@ -451,11 +455,11 @@
                                     <input type="password" placeholder="输入旧密码 ">
                                 </div>
                                 <div class="cont-title">请输入新密码：</div>
-                                <div class="cont-list4">
+                                <div class="cont-list2">
                                     <input type="password" placeholder="输入新密码">
                                 </div>
                                 <div class="cont-title">请再次输入新密码：</div>
-                                <div class="cont-list4">
+                                <div class="cont-list2">
                                     <input type="password"  placeholder="请再次输入新密码">
                                 </div>
                                 <button class="suc">完成</button>
@@ -491,11 +495,14 @@
                                     <input type="text" placeholder="请输入您的邮箱地址 ">
                                 </div>
                                 <div class="form-list1">上传护照首页</div>
-                                <div class="form-list5">
+                                <div class="form-list5" id="upImg1">
                                     <div>
-                                        <img src="img/上传.png" alt="">
+                                        <img src="img/上传.png" alt="" >
                                     </div>
                                     <span>只支持jpg/PNG格式，大小不能超过1M</span>
+                                    <div class="poster" style=" display: none;">
+                                    	<img src="" />
+                                    </div>
                                 </div>
                                 <div class="layui-form-item form-list4">
                                     <div class="layui-input-block">
@@ -683,34 +690,4 @@
 <script type="text/javascript" src="js/province.js" ></script>
 <script src="js/person.js"></script>
 <script src="js/layuiStart.js"></script>
-<script>
-	layui.use('upload', function() {
-		var upload = layui.upload;
-
-		//执行实例
-		var uploadInst = upload.render({
-			elem: '#upImg' //绑定元素
-				,
-			auto:false
-			,
-			url: '' //上传接口
-			,
-			choose: function(obj){
-			    //将每次选择的文件追加到文件队列
-			    var files = obj.pushFile();
-			    
-			    //预读本地文件，如果是多文件，则会遍历。(不支持ie8/9)
-			    obj.preview(function(index, file, result){
-			      $('#con-wrap .row .con-right .right-list4 .layui-form .list4-d2 div > div').show().find('img').attr('src',result);
-			    });
-			  },
-			done: function(res) {
-				//上传完毕回调
-			},
-			error: function() {
-				
-			}
-		});
-	});
-</script>
 </html>

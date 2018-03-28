@@ -268,4 +268,33 @@ header .banner {
   top: 95%;
   z-index: 5; }
 
+.swiper-container-tour {
+  position: relative; }
+  .swiper-container-tour .tourName {
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0; }
+    .swiper-container-tour .tourName .mbTitle {
+      color: white;
+      font-size: 55px; }
+  .swiper-container-tour .tourContent {
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    left: 0; }
+    .swiper-container-tour .tourContent ul li:nth-child(1) {
+      font-size: 60px;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      line-height: 80px;
+      margin-bottom: 10px; }
+    .swiper-container-tour .tourContent ul li:nth-child(2) {
+      font-size: 30px;
+      line-height: 46px;
+      font-weight: lighter;
+      color: white;
+      text-align: center; }
+
 /*# sourceMappingURL=infor.css.map */

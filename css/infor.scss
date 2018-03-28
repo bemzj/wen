@@ -318,3 +318,37 @@ header{
     z-index: 5;
     
 }
+.swiper-container-tour{
+    position: relative;
+    .tourName{
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        .mbTitle{
+            color: white;
+            font-size: 55px;
+        }
+    }
+    .tourContent{
+        width: 100%;
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        ul li:nth-child(1){
+            font-size: 60px;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            line-height: 80px;
+            margin-bottom: 10px;
+        }
+        ul li:nth-child(2){
+            font-size: 30px;
+            line-height: 46px;
+            font-weight: lighter;
+            color: white;
+            text-align: center;
+        }
+    }
+}

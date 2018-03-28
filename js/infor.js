@@ -6,7 +6,7 @@ $(function(){
 	});
 	var tourSwiper = new Swiper('.swiper-container-tour', {
 		loop:true,
-		autoplay: 5000,
+//		autoplay: 5000,
 		prevButton:'.swiper-button-prev',
 		nextButton:'.swiper-button-next',
 	});
