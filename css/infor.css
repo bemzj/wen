@@ -1,3 +1,6 @@
+body {
+  background-color: #f7f6f6; }
+
 header .banner {
   position: relative;
   width: 100%;
@@ -227,7 +230,8 @@ header .banner {
   #whatNew1 .wnRight .wnrContent {
     font-size: 16px;
     line-height: 24px;
-    color: #626262; }
+    color: #626262;
+    font-weight: lighter; }
 
 .today {
   margin-top: 20px;

@@ -1,5 +1,6 @@
 $(function(){
-	$('.popContent .popBox .popChild > ul > li:nth-child(2) a').click(function(){
+	$('.popContent .popBox .popChild > ul > li:nth-child(2) a').click(function(event){
+		event.stopPropagation();
 		if($(this).attr('isOpen')=='false')
 		{
 			$(this).attr('isOpen','true');
@@ -20,7 +21,8 @@ $(function(){
 	});
 	//打开评论
 	var commentStatus = false;
-	$('.ridbContent .rcLeft .comment').click(function(){
+	$('.ridbContent .rcLeft .comment').click(function(event){
+		event.stopPropagation();
 		if(commentStatus==false)
 		{
 			commentStatus = true;

@@ -281,7 +281,7 @@
     .ns3 .nsBoxes ul li a {
       font-size: 16px;
       line-height: 36px;
-      color: white; }
+      color: #efefef; }
 
 #mainBottom {
   width: 100%;
@@ -386,5 +386,14 @@
     height: 40px;
     font-size: 16px;
     line-height: 38px; } }
+@media (max-width: 1440px) {
+  #mainTop .mtTop {
+    top: 1%; }
+
+  #mainTop .mtTop .blackTitle {
+    margin-bottom: 20px; }
+
+  .mtBottom {
+    bottom: 1%; } }
 
 /*# sourceMappingURL=index.css.map */

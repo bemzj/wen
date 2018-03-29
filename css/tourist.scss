@@ -14,7 +14,7 @@ header{
            .biIn{
                width: 100%;
                height: 260px;
-               background-color: rgba(255,255,255,0.18);
+               background-color: rgba(0,0,0,0.15);
                text-align: center;
                color: white;
                p{
@@ -87,7 +87,7 @@ section{
                 display: inline-block;
                 font-size: 24px;
                 color: #55c891;
-                margin-left: 50px;
+                margin-left: 30px;
             }
         }
     }
@@ -123,6 +123,7 @@ section{
 
  .sc-list2 .list2-wrap .list2-bottom div {
     display: inline-block;
+    color: #7e7e7e;
 }
 
  .sc-list2 .list2-wrap .list2-bottom img {
@@ -258,6 +259,10 @@ header .whiteNavLong.container .nav ul li .pCenter{
     }
     .layui-input{
        height: 28px; 
+       font-size: 14px;
+    }
+    .layui-form-select dl dd{
+        font-size: 14px;
     }
 }
 #touristIndex{

@@ -23,16 +23,7 @@ section{
         margin-bottom: 55px;
         position: relative;
     }
-    .tdTitle::after{
-        position: absolute;
-        left: 0;
-        bottom: -54px;
-        content: "";
-        height: 3px;
-        width: 100%;
-        border-bottom: 1px solid #e2e2e2;
-        border-top: 1px solid #e2e2e2;
-    }
+    
     .tdContent{
         padding-top: 40px;
         font-size: 18px;
@@ -45,6 +36,20 @@ section{
         }
         img{
             padding: 10px 0;
+            position: relative;
+        }
+        li:nth-child(1){
+            position: relative;
+        }
+        li:nth-child(1)::after{
+            position: absolute;
+            left: 0;
+            top: -54px;
+            content: "";
+            height: 3px;
+            width: 789px;
+            border-bottom: 1px solid #e2e2e2;
+            border-top: 1px solid #e2e2e2;
         }
     }
 }

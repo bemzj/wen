@@ -117,6 +117,7 @@
   color: #686868;
 }
 #con-wrap .row .con-right .right-wrap2 div .wrap2-list3 div {
+	font-size: 16px;
   padding: 5px 0;
 }
 #con-wrap .row .con-right .wrap2-list4 {
@@ -134,7 +135,7 @@
   float: left;
   margin-right: 120px;
   color: #686868;
-  font-size: 18px;
+  font-size: 16px;
 }
 #pay {
   display: none;
@@ -506,7 +507,7 @@
   margin: 20px 0;
 }
 #con-wrap .row .con-right .sc-detail > div .wrap2-list7 .list7-2 .info {
-  font-size: 18px;
+  font-size: 16px;
   color: #626262;
   margin: 0 15px;
 }

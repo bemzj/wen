@@ -37,16 +37,17 @@ body {
   margin: 0 5px;
 }
 #con-wrap .row .con-left .left-list1 .perGrade > span {
-  color: #535566;
+  color: #939498;
   float: left;
   font-size: 14px;
+  font-style: italic;
 }
 #con-wrap .row .con-left .left-list1 .perGrade .span1 {
   color: #55c891;
 }
 #con-wrap .row .con-left .left-list1 .perGrade .line {
   float: left;
-  background-color: #6b6d72;
+  background-color: #cfd2d8;
   width: 66%;
   height: 2px;
   position: relative;
@@ -62,7 +63,7 @@ body {
   width: 7px;
   height: 7px;
   display: block;
-  background-color: #6b6d72;
+  background-color: #b2b5bb;
   border-radius: 50%;
   -ms-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -111,13 +112,15 @@ body {
   margin-bottom: 160px;
 }
 #con-wrap .row .con-left .left-list2 li {
-  color: #9fa2ac;
   font-size: 14px;
   padding: 13px 20px;
   cursor: pointer;
 }
 #con-wrap .row .con-left .left-list2 li span {
   float: right;
+}
+#con-wrap .row .con-left .left-list2 li a {
+  color: #9fa2ac;
 }
 #con-wrap .row .con-left .left-list2 li.sel {
   background-color: #fff;

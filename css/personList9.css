@@ -53,8 +53,16 @@
   margin-right: 10px;
 }
 #con-wrap .row .con-right .right-newAdd > div input {
-  padding: 8px 15px;
-  width: 500px;
+  padding: 8px 10px;
+  width: 510px;
+  height: 38px;
+    line-height: 1.3;
+    line-height: 38px\9;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #fff;
+    border-radius: 2px;
+    border-color: rgb(230, 230, 230);
 }
 #con-wrap .row .con-right .right-newAdd .add-btn {
   position: absolute;

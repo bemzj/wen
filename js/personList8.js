@@ -11,18 +11,17 @@ function newHeigth() {
 $(function () {
     newHeigth();
     //点击显示更多
-    var a1 = true;
     $('.mes2').click(function () {
-        if(a1==true){
-            $('.more').show();
-            $(this).siblings("img").addClass("sel");
-            $('#c2-3').addClass("c2-3");
-            a1 = false;
+        if($(this).attr('isOpen')=='false'){
+        	$(this).attr('isOpen',true);
+            $(this).parent('.info').next('.more').show();
+            $(this).siblings(".img").addClass("sel");
+            $(this).parents('.c2-2').addClass("c2-3");
         }else{
-            $('.more').hide();
-            $(this).siblings("img").removeClass("sel");
-            $('#c2-3').removeClass("c2-3");
-            a1 = true;
+        	$(this).attr('isOpen',false);
+            $(this).parent('.info').next('.more').hide();
+            $(this).siblings(".img").removeClass("sel");
+            $(this).parents('.c2-2').removeClass("c2-3");
         }
     })
     //提现弹框
